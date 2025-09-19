@@ -73,7 +73,7 @@ I’m a Data Engineer based in Vancouver with over 5 years of experience across 
 🧪 **Tested On**: AWS Free Tier, Docker  
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/bashoori/data-engineering-portfolio/main/docs/images/etl31.png" alt="Cloud ETL Diagram" width="700" style="border: 1px solid #ccc; border-radius: 6px;" />
+  <img src="https://raw.githubusercontent.com/bashoori/data-engineering-portfolio/main/docs/images/CloudETLModernization.png" alt="Cloud ETL Diagram" width="700" style="border: 1px solid #ccc; border-radius: 6px;" />
 </p>
 
 ---
