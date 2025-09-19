@@ -4,7 +4,7 @@
     <h1 style="margin: 0; font-size: 2.4em; font-weight: 700; color: #222;">Bita Ashoori</h1>
     <p style="margin: 6px 0 0; font-size: 1.25em; color: #555;">💼 Data Engineering Portfolio</p>
     <p style="margin: 10px 0 0; font-size: 1em; color: #666; max-width: 560px;">
-      Designing scalable, cloud-native data pipelines that power decision-making across healthcare, gaming, retail, and public services.
+      Designing scalable, cloud-native data pipelines that power decision-making across healthcare, retail, and public services.
     </p>
   </div>
   <div style="flex-shrink: 0; margin-left: 30px;">
