@@ -39,7 +39,7 @@ I’m skilled in <strong>Python, SQL, Apache Airflow, and AWS (S3, Lambda, Redsh
   </a>
 </p>
 
-
+---
 
 ## 🔗 Quick Navigation
 - [🎮 Real-Time Player Pipeline](#real-time-player-pipeline)
@@ -50,13 +50,13 @@ I’m skilled in <strong>Python, SQL, Apache Airflow, and AWS (S3, Lambda, Redsh
 - [📈 PySpark Sales Pipeline](#pyspark-sales-pipeline)
 - [🔍 LinkedIn Scraper (Lambda)](#linkedin-scraper-lambda)
 
-
+---
 
 <!-- ====== Projects ====== -->
 <h2>Project Highlights</h2>
 
 <!-- 1. Real-Time Player Pipeline -->
-<h3>🎮 Real-Time Player Pipeline</h3>
+<h3 id="real-time-player-pipeline">🎮 Real-Time Player Pipeline</h3>
 <p><strong>Scenario:</strong> Gaming companies need real-time analytics on player activity to optimize engagement, matchmaking, and monetization.<br/>
 📎 <a href="https://github.com/bashoori/data-engineering-portfolio/tree/main/real-time-player-pipeline">View GitHub Repo</a><br/>
 <strong>Solution:</strong> Simulated streaming of player events into a data lake with transformations and aggregations to deliver analytics-ready datasets for dashboards and retention analysis.<br/>
@@ -71,7 +71,7 @@ I’m skilled in <strong>Python, SQL, Apache Airflow, and AWS (S3, Lambda, Redsh
 <hr/>
 
 <!-- 2. Airflow AWS Modernization -->
-<h3>🛠️ Airflow AWS Modernization</h3>
+<h3 id="airflow-aws-modernization">🛠️ Airflow AWS Modernization</h3>
 <p><strong>Scenario:</strong> Legacy Windows Task Scheduler jobs needed modernization for reliability and observability.<br/>
 📎 <a href="https://github.com/bashoori/data-engineering-portfolio/tree/main/airflow-aws-modernization">View GitHub Repo</a><br/>
 <strong>Solution:</strong> Migrated jobs into modular Airflow DAGs containerized with Docker, storing artifacts in S3 and standardizing logging/retries.<br/>
@@ -86,7 +86,7 @@ I’m skilled in <strong>Python, SQL, Apache Airflow, and AWS (S3, Lambda, Redsh
 <hr/>
 
 <!-- 3. Cloud ETL Modernization -->
-<h3>☁️ Cloud ETL Modernization</h3>
+<h3 id="cloud-etl-modernization">☁️ Cloud ETL Modernization</h3>
 <p><strong>Scenario:</strong> Legacy workflows lacked observability, scalability, and centralized monitoring.<br/>
 📎 <a href="https://github.com/bashoori/data-engineering-portfolio/tree/main/cloud-etl-modernization-airflow-aws">View GitHub Repo</a><br/>
 <strong>Solution:</strong> Built scalable ETL from APIs to Redshift with Airflow orchestration and CloudWatch alerting; standardized schemas and error handling.<br/>
@@ -101,7 +101,7 @@ I’m skilled in <strong>Python, SQL, Apache Airflow, and AWS (S3, Lambda, Redsh
 <hr/>
 
 <!-- 4. Real-Time Marketing Pipeline -->
-<h3>⚡ Real-Time Marketing Pipeline</h3>
+<h3 id="real-time-marketing-pipeline">⚡ Real-Time Marketing Pipeline</h3>
 <p><strong>Scenario:</strong> Marketing teams need faster feedback loops from ad campaigns to optimize spend and performance.<br/>
 📎 <a href="https://github.com/bashoori/data-engineering-portfolio/tree/main/real-time-marketing-pipeline">View GitHub Repo</a><br/>
 <strong>Solution:</strong> Simulated real-time ingestion of campaign data with PySpark + Delta patterns for incremental insights.<br/>
@@ -116,7 +116,7 @@ I’m skilled in <strong>Python, SQL, Apache Airflow, and AWS (S3, Lambda, Redsh
 <hr/>
 
 <!-- 5. FHIR Healthcare Pipeline -->
-<h3>🏥 FHIR Healthcare Pipeline</h3>
+<h3 id="fhir-healthcare-pipeline">🏥 FHIR Healthcare Pipeline</h3>
 <p><strong>Scenario:</strong> Healthcare projects using FHIR require clean, analytics-ready datasets while preserving clinical context.<br/>
 📎 <a href="https://github.com/bashoori/data-engineering-portfolio/tree/main/healthcare-FHIR-data-pipeline">View GitHub Repo</a><br/>
 <strong>Solution:</strong> Processed synthetic Synthea FHIR JSON into relational models for downstream analytics and ML.<br/>
@@ -131,7 +131,7 @@ I’m skilled in <strong>Python, SQL, Apache Airflow, and AWS (S3, Lambda, Redsh
 <hr/>
 
 <!-- 6. PySpark Sales Pipeline -->
-<h3>📈 PySpark Sales Pipeline</h3>
+<h3 id="pyspark-sales-pipeline">📈 PySpark Sales Pipeline</h3>
 <p><strong>Scenario:</strong> Enterprises need scalable ETL for large sales datasets to drive timely BI and planning.<br/>
 📎 <a href="https://github.com/bashoori/data-engineering-portfolio/tree/main/pyspark-sales-pipeline">View GitHub Repo</a><br/>
 <strong>Solution:</strong> Production-style PySpark ETL to ingest/transform into Delta Lake with partitioning and optimization.<br/>
@@ -146,7 +146,7 @@ I’m skilled in <strong>Python, SQL, Apache Airflow, and AWS (S3, Lambda, Redsh
 <hr/>
 
 <!-- 7. LinkedIn Scraper (Lambda) -->
-<h3>🔍 LinkedIn Scraper (Lambda)</h3>
+<h3 id="linkedin-scraper-lambda">🔍 LinkedIn Scraper (Lambda)</h3>
 <p><strong>Scenario:</strong> Manual job tracking is slow and error-prone for candidates and recruiters.<br/>
 📎 <a href="https://github.com/bashoori/data-engineering-portfolio/tree/main/linkedIn-job-scraper">View GitHub Repo</a><br/>
 <strong>Solution:</strong> Serverless scraping with scheduled invocations and structured S3 outputs for analysis.<br/>
