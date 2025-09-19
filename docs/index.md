@@ -39,16 +39,17 @@ I’m skilled in <strong>Python, SQL, Apache Airflow, and AWS (S3, Lambda, Redsh
   </a>
 </p>
 
-<hr />
-## 🔗 Quick Navigation  
 
-- [🎮 Real-Time Player Pipeline](#-real-time-player-pipeline)  
-- [🛠️ Airflow AWS Modernization](#-airflow-aws-modernization)  
-- [☁️ Cloud ETL Modernization](#-cloud-etl-modernization)  
-- [⚡ Real-Time Marketing Pipeline](#-real-time-marketing-pipeline)  
-- [🏥 FHIR Healthcare Pipeline](#-fhir-healthcare-pipeline)  
-- [📈 PySpark Sales Pipeline](#-pyspark-sales-pipeline)  
-- [🔍 LinkedIn Scraper (Lambda)](#-linkedin-scraper-lambda)  
+
+## 🔗 Quick Navigation
+- [🎮 Real-Time Player Pipeline](#real-time-player-pipeline)
+- [🛠️ Airflow AWS Modernization](#airflow-aws-modernization)
+- [☁️ Cloud ETL Modernization](#cloud-etl-modernization)
+- [⚡ Real-Time Marketing Pipeline](#real-time-marketing-pipeline)
+- [🏥 FHIR Healthcare Pipeline](#fhir-healthcare-pipeline)
+- [📈 PySpark Sales Pipeline](#pyspark-sales-pipeline)
+- [🔍 LinkedIn Scraper (Lambda)](#linkedin-scraper-lambda)
+
 
 
 <!-- ====== Projects ====== -->
