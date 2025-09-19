@@ -1,0 +1,3 @@
+[submodule "cloud-etl-modernization-airflow-aws"]
+	path = cloud-etl-modernization-airflow-aws
+	url = https://github.com/bashoori/cloud-etl-modernization-airflow-aws.git

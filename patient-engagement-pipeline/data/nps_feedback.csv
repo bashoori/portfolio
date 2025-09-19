@@ -1,0 +1,4 @@
+user_id,feedback_score,timestamp
+user_001,10,2025-04-01T12:10:00Z
+user_002,8,2025-04-01T13:30:00Z
+user_003,6,2025-04-02T10:15:00Z

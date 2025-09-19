@@ -1,0 +1,32 @@
+# Python bytecode
+__pycache__/
+*.py[cod]
+
+# Local environment files
+.env
+.env.*
+
+# Lambda build artifacts
+*.zip
+*.egg-info
+dist/
+build/
+
+# IDE settings
+.vscode/
+.idea/
+
+# MacOS/Linux/Windows system files
+.DS_Store
+Thumbs.db
+
+# Output & logs
+/tmp/
+*.log
+
+# Secrets and credentials
+credentials.json
+.aws/
+
+# VS Code SSH/Remote
+*.code-workspace

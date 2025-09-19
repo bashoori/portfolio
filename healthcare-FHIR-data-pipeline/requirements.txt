@@ -1,0 +1,11 @@
+pandas
+tabulate
+sqlite3
+gspread
+oauth2client
+python-dotenv
+requests
+beautifulsoup4
+streamlit
+plotly
+

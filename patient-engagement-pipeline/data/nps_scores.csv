@@ -1,0 +1,4 @@
+user_id,feedback_score,feedback_date,nps_category
+user_001,10,2025-04-01 12:10:00+00:00,Promoter
+user_002,8,2025-04-01 13:30:00+00:00,Passive
+user_003,6,2025-04-02 10:15:00+00:00,Detractor

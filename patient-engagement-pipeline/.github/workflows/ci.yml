@@ -1,0 +1,34 @@
+#GitHub Actions CI/CD: ci.yml
+#This runs basic DBT validation checks when someone opens a pull request to main.
+name: DBT CI
+
+on:
+  pull_request:
+    branches: [ main ]
+
+jobs:
+  dbt-check:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v3
+
+    - name: Set up Python
+      uses: actions/setup-python@v4
+      with:
+        python-version: '3.9'
+
+    - name: Install dbt
+      run: |
+        pip install dbt-bigquery
+
+    - name: Run dbt debug
+      run: |
+        cd patient-engagement-pipeline/dbt
+        dbt debug
+
+    - name: Run dbt compile
+      run: |
+        cd patient-engagement-pipeline/dbt
+        dbt compile
