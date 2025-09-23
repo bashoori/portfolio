@@ -56,7 +56,7 @@ I’m skilled in <strong>Python, SQL, Apache Airflow, and AWS (S3, Lambda, Redsh
 <!-- ====== Projects ====== -->
 <h2>Project Highlights</h2>
 
-<!-- Kinesis/Glue/Athena -->
+<!-- 1.Kinesis/Glue/Athena -->
 <h3 id="kinesis-glue-athena">🚀 Real-Time Event Processing with AWS Kinesis, Glue &amp; Athena</h3>
 <p><strong>Scenario:</strong> Simulated a real-time clickstream pipeline where user interaction events (e.g., <code>click</code>, <code>view</code>, <code>signup</code>) are sent to AWS Kinesis, processed using AWS Glue, and queried using AWS Athena.</p>
 <p>🧰 <strong>Stack:</strong> Python • AWS Kinesis • AWS Glue • AWS Athena • S3 • boto3 • .env • Shell</p>
@@ -70,16 +70,14 @@ I’m skilled in <strong>Python, SQL, Apache Airflow, and AWS (S3, Lambda, Redsh
 </ul>
 <p>📊 <strong>Potential Impact:</strong> Scalable, real-time pipelines for product analytics, marketing, gaming, and clickstream use cases.</p>
 <p>🧪 <strong>Tested On:</strong> GitHub Codespaces &amp; AWS Console (Kinesis, Glue, S3, Athena)</p>
-
   <a href="https://github.com/bashoori/Real-Time-Event-Processing-with-AWS-Kinesis-Glue-Athena">
     <img src="https://raw.githubusercontent.com/bashoori/Real-Time-Event-Processing-with-AWS-Kinesis-Glue-Athena/main/Image.png" alt="Real-Time Pipeline Diagram" width="720" style="border: 1px solid #ddd; border-radius: 8px; box-shadow: 0 4px 10px rgba(0,0,0,0.08);" />
   </a>
 </p>
 <p>🔗 <a href="https://github.com/bashoori/Real-Time-Event-Processing-with-AWS-Kinesis-Glue-Athena">View GitHub Repo</a></p>
-
 <hr/>
 
-<!-- 1. Real-Time Player Pipeline -->
+<!-- 2. Real-Time Player Pipeline -->
 <h3 id="real-time-player-pipeline">🎮 Real-Time Player Pipeline</h3>
 <p><strong>Scenario:</strong> Gaming companies need real-time analytics on player activity to optimize engagement, matchmaking, and monetization.<br/>
 📎 <a href="https://github.com/bashoori/data-engineering-portfolio/tree/main/real-time-player-pipeline">View GitHub Repo</a><br/>
@@ -95,7 +93,7 @@ I’m skilled in <strong>Python, SQL, Apache Airflow, and AWS (S3, Lambda, Redsh
 
 <hr/>
 
-<!-- 2. Airflow AWS Modernization -->
+<!-- 3. Airflow AWS Modernization -->
 <h3 id="airflow-aws-modernization">🛠️ Airflow AWS Modernization</h3>
 <p><strong>Scenario:</strong> Legacy Windows Task Scheduler jobs needed modernization for reliability and observability.<br/>
 📎 <a href="https://github.com/bashoori/data-engineering-portfolio/tree/main/airflow-aws-modernization">View GitHub Repo</a><br/>
@@ -111,7 +109,7 @@ I’m skilled in <strong>Python, SQL, Apache Airflow, and AWS (S3, Lambda, Redsh
 
 <hr/>
 
-<!-- 3. Cloud ETL Modernization -->
+<!-- 4. Cloud ETL Modernization -->
 <h3 id="cloud-etl-modernization">☁️ Cloud ETL Modernization</h3>
 <p><strong>Scenario:</strong> Legacy workflows lacked observability, scalability, and centralized monitoring.<br/>
 📎 <a href="https://github.com/bashoori/data-engineering-portfolio/tree/main/cloud-etl-modernization-airflow-aws">View GitHub Repo</a><br/>
@@ -127,7 +125,7 @@ I’m skilled in <strong>Python, SQL, Apache Airflow, and AWS (S3, Lambda, Redsh
 
 <hr/>
 
-<!-- 4. Real-Time Marketing Pipeline -->
+<!-- 5. Real-Time Marketing Pipeline -->
 <h3 id="real-time-marketing-pipeline">⚡ Real-Time Marketing Pipeline</h3>
 <p><strong>Scenario:</strong> Marketing teams need faster feedback loops from ad campaigns to optimize spend and performance.<br/>
 📎 <a href="https://github.com/bashoori/data-engineering-portfolio/tree/main/real-time-marketing-pipeline">View GitHub Repo</a><br/>
@@ -143,7 +141,7 @@ I’m skilled in <strong>Python, SQL, Apache Airflow, and AWS (S3, Lambda, Redsh
 
 <hr/>
 
-<!-- 5. FHIR Healthcare Pipeline -->
+<!-- 6. FHIR Healthcare Pipeline -->
 <h3 id="fhir-healthcare-pipeline">🏥 FHIR Healthcare Pipeline</h3>
 <p><strong>Scenario:</strong> Healthcare projects using FHIR require clean, analytics-ready datasets while preserving clinical context.<br/>
 📎 <a href="https://github.com/bashoori/data-engineering-portfolio/tree/main/healthcare-FHIR-data-pipeline">View GitHub Repo</a><br/>
@@ -159,7 +157,7 @@ I’m skilled in <strong>Python, SQL, Apache Airflow, and AWS (S3, Lambda, Redsh
 
 <hr/>
 
-<!-- 6. PySpark Sales Pipeline -->
+<!-- 7. PySpark Sales Pipeline -->
 <h3 id="pyspark-sales-pipeline">📈 PySpark Sales Pipeline</h3>
 <p><strong>Scenario:</strong> Enterprises need scalable ETL for large sales datasets to drive timely BI and planning.<br/>
 📎 <a href="https://github.com/bashoori/data-engineering-portfolio/tree/main/pyspark-sales-pipeline">View GitHub Repo</a><br/>
@@ -175,7 +173,7 @@ I’m skilled in <strong>Python, SQL, Apache Airflow, and AWS (S3, Lambda, Redsh
 
 <hr/>
 
-<!-- 7. LinkedIn Scraper (Lambda) -->
+<!-- 8. LinkedIn Scraper (Lambda) -->
 <h3 id="linkedin-scraper-lambda">🔍 LinkedIn Scraper (Lambda)</h3>
 <p><strong>Scenario:</strong> Manual job tracking is slow and error-prone for candidates and recruiters.<br/>
 📎 <a href="https://github.com/bashoori/data-engineering-portfolio/tree/main/linkedIn-job-scraper">View GitHub Repo</a><br/>
