@@ -70,7 +70,7 @@ I’m skilled in <strong>Python, SQL, Apache Airflow, and AWS (S3, Lambda, Redsh
 </ul>
 <p>📊 <strong>Potential Impact:</strong> Scalable, real-time pipelines for product analytics, marketing, gaming, and clickstream use cases.</p>
 <p>🧪 <strong>Tested On:</strong> GitHub Codespaces &amp; AWS Console (Kinesis, Glue, S3, Athena)</p>
-<p>🖼️ <strong>Diagram:</strong><br/>
+
   <a href="https://github.com/bashoori/Real-Time-Event-Processing-with-AWS-Kinesis-Glue-Athena">
     <img src="https://raw.githubusercontent.com/bashoori/Real-Time-Event-Processing-with-AWS-Kinesis-Glue-Athena/main/Image.png" alt="Real-Time Pipeline Diagram" width="720" style="border: 1px solid #ddd; border-radius: 8px; box-shadow: 0 4px 10px rgba(0,0,0,0.08);" />
   </a>
@@ -120,7 +120,7 @@ I’m skilled in <strong>Python, SQL, Apache Airflow, and AWS (S3, Lambda, Redsh
 🧰 <strong>Stack:</strong> Apache Airflow, AWS Redshift, CloudWatch<br/>
 🧪 <strong>Tested On:</strong> AWS Free Tier, Docker</p>
 <p align="center">
-  <img src="https://raw.githubusercontent.com/bashoori/data-engineering-portfolio/main/docs/images/airflow2.png"
+  <img src="https://raw.githubusercontent.com/bashoori/data-engineering-portfolio/main/docs/images/CloudETLModernization.png"
        alt="Cloud ETL Diagram" width="720"
        style="border: 1px solid #ddd; border-radius: 8px; box-shadow: 0 4px 10px rgba(0,0,0,0.08);" />
 </p>
