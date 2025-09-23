@@ -51,6 +51,34 @@ I’m skilled in <strong>Python, SQL, Apache Airflow, and AWS (S3, Lambda, Redsh
 - [🔍 LinkedIn Scraper (Lambda)](#linkedin-scraper-lambda)
 
 ---
+## Real-Time Event Processing with AWS Kinesis, Glue & Athena
+
+🚀 **Scenario**:  
+Simulated a real-time clickstream pipeline where user interaction events (e.g., `click`, `view`, `signup`) are sent to AWS Kinesis, processed using AWS Glue, and queried using AWS Athena.
+
+🧰 **Stack**:  
+Python • AWS Kinesis • AWS Glue • AWS Athena • S3 • boto3 • .env • Shell
+
+🧪 **Solution Highlights**:
+- Created a Kinesis data stream for ingesting clickstream data
+- Sent sample events using Python & `boto3`
+- Stored incoming data in an S3 data lake
+- Used Glue Crawlers to detect schema & create tables
+- Queried results with SQL in Athena
+- Set up partitioned & non-partitioned table comparisons
+
+📊 **Potential Impact**:  
+Demonstrates how to build scalable, real-time pipelines on AWS using serverless services. Great for product analytics, marketing, gaming, or any clickstream use case.
+
+🧪 **Tested On**:  
+GitHub Codespaces & AWS Console (Kinesis, Glue, S3, Athena)
+
+🖼️ **Diagram**:  
+![Real-Time Pipeline](https://github.com/bashoori/Real-Time-Event-Processing-with-AWS-Kinesis-Glue-Athena/blob/main/Image.png)
+
+🔗 [View GitHub Repo](https://github.com/bashoori/Real-Time-Event-Processing-with-AWS-Kinesis-Glue-Athena)
+
+---
 
 <!-- ====== Projects ====== -->
 <h2>Project Highlights</h2>
