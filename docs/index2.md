@@ -39,10 +39,9 @@ I’m skilled in <strong>Python, SQL, Apache Airflow, and AWS (S3, Lambda, Redsh
   </a>
 </p>
 
-<hr/>
+---
 
 ## 🔗 Quick Navigation
-- [🚀 Real-Time Event Processing with AWS Kinesis, Glue & Athena](#kinesis-glue-athena)
 - [🎮 Real-Time Player Pipeline](#real-time-player-pipeline)
 - [🛠️ Airflow AWS Modernization](#airflow-aws-modernization)
 - [☁️ Cloud ETL Modernization](#cloud-etl-modernization)
@@ -51,33 +50,39 @@ I’m skilled in <strong>Python, SQL, Apache Airflow, and AWS (S3, Lambda, Redsh
 - [📈 PySpark Sales Pipeline](#pyspark-sales-pipeline)
 - [🔍 LinkedIn Scraper (Lambda)](#linkedin-scraper-lambda)
 
-<hr/>
-
+---
 <!-- ====== Projects ====== -->
 <h2>Project Highlights</h2>
 
-<!-- Kinesis/Glue/Athena -->
-<h3 id="kinesis-glue-athena">🚀 Real-Time Event Processing with AWS Kinesis, Glue &amp; Athena</h3>
-<p><strong>Scenario:</strong> Simulated a real-time clickstream pipeline where user interaction events (e.g., <code>click</code>, <code>view</code>, <code>signup</code>) are sent to AWS Kinesis, processed using AWS Glue, and queried using AWS Athena.</p>
-<p>🧰 <strong>Stack:</strong> Python • AWS Kinesis • AWS Glue • AWS Athena • S3 • boto3 • .env • Shell</p>
-<ul>
-  <li>Created a Kinesis data stream for ingesting clickstream data</li>
-  <li>Sent sample events using Python &amp; <code>boto3</code></li>
-  <li>Stored incoming data in an S3 data lake</li>
-  <li>Used Glue Crawlers to detect schema &amp; create tables</li>
-  <li>Queried results with SQL in Athena</li>
-  <li>Set up partitioned &amp; non-partitioned table comparisons</li>
-</ul>
-<p>📊 <strong>Potential Impact:</strong> Scalable, real-time pipelines for product analytics, marketing, gaming, and clickstream use cases.</p>
-<p>🧪 <strong>Tested On:</strong> GitHub Codespaces &amp; AWS Console (Kinesis, Glue, S3, Athena)</p>
-<p>🖼️ <strong>Diagram:</strong><br/>
-  <a href="https://github.com/bashoori/Real-Time-Event-Processing-with-AWS-Kinesis-Glue-Athena">
-    <img src="https://raw.githubusercontent.com/bashoori/Real-Time-Event-Processing-with-AWS-Kinesis-Glue-Athena/main/Image.png" alt="Real-Time Pipeline Diagram" width="720" style="border: 1px solid #ddd; border-radius: 8px; box-shadow: 0 4px 10px rgba(0,0,0,0.08);" />
-  </a>
-</p>
-<p>🔗 <a href="https://github.com/bashoori/Real-Time-Event-Processing-with-AWS-Kinesis-Glue-Athena">View GitHub Repo</a></p>
 
-<hr/>
+## Real-Time Event Processing with AWS Kinesis, Glue & Athena
+
+🚀 **Scenario**:  
+Simulated a real-time clickstream pipeline where user interaction events (e.g., `click`, `view`, `signup`) are sent to AWS Kinesis, processed using AWS Glue, and queried using AWS Athena.
+
+🧰 **Stack**:  
+Python • AWS Kinesis • AWS Glue • AWS Athena • S3 • boto3 • .env • Shell
+
+🧪 **Solution Highlights**:
+- Created a Kinesis data stream for ingesting clickstream data
+- Sent sample events using Python & `boto3`
+- Stored incoming data in an S3 data lake
+- Used Glue Crawlers to detect schema & create tables
+- Queried results with SQL in Athena
+- Set up partitioned & non-partitioned table comparisons
+
+📊 **Potential Impact**:  
+Demonstrates how to build scalable, real-time pipelines on AWS using serverless services. Great for product analytics, marketing, gaming, or any clickstream use case.
+
+🧪 **Tested On**:  
+GitHub Codespaces & AWS Console (Kinesis, Glue, S3, Athena)
+
+🖼️ **Diagram**:  
+![Real-Time Pipeline](https://github.com/bashoori/Real-Time-Event-Processing-with-AWS-Kinesis-Glue-Athena/blob/main/Image.png)
+
+🔗 [View GitHub Repo](https://github.com/bashoori/Real-Time-Event-Processing-with-AWS-Kinesis-Glue-Athena)
+
+----
 
 <!-- 1. Real-Time Player Pipeline -->
 <h3 id="real-time-player-pipeline">🎮 Real-Time Player Pipeline</h3>
@@ -88,11 +93,10 @@ I’m skilled in <strong>Python, SQL, Apache Airflow, and AWS (S3, Lambda, Redsh
 🧰 <strong>Stack:</strong> Apache Kafka (or AWS Kinesis), AWS S3, DynamoDB, Apache Airflow, Spark<br/>
 🧪 <strong>Tested On:</strong> Local Kafka, AWS Localstack, GitHub Codespaces</p>
 <p align="center">
-  <img src="https://raw.githubusercontent.com/bashoori/data-engineering-portfolio/main/docs/images/etl3.png"
+  <img src="https://raw.githubusercontent.com/bashoori/data-engineering-portfolio/main/docs/images/Real-Time-Player.png"
        alt="Real-Time Player Pipeline Diagram" width="720"
        style="border: 1px solid #ddd; border-radius: 8px; box-shadow: 0 4px 10px rgba(0,0,0,0.08);" />
 </p>
-
 <hr/>
 
 <!-- 2. Airflow AWS Modernization -->
@@ -108,7 +112,6 @@ I’m skilled in <strong>Python, SQL, Apache Airflow, and AWS (S3, Lambda, Redsh
        alt="Airflow AWS Diagram" width="720"
        style="border: 1px solid #ddd; border-radius: 8px; box-shadow: 0 4px 10px rgba(0,0,0,0.08);" />
 </p>
-
 <hr/>
 
 <!-- 3. Cloud ETL Modernization -->
@@ -120,11 +123,10 @@ I’m skilled in <strong>Python, SQL, Apache Airflow, and AWS (S3, Lambda, Redsh
 🧰 <strong>Stack:</strong> Apache Airflow, AWS Redshift, CloudWatch<br/>
 🧪 <strong>Tested On:</strong> AWS Free Tier, Docker</p>
 <p align="center">
-  <img src="https://raw.githubusercontent.com/bashoori/data-engineering-portfolio/main/docs/images/airflow2.png"
+  <img src="https://raw.githubusercontent.com/bashoori/data-engineering-portfolio/main/docs/images/CloudETLModernization.png"
        alt="Cloud ETL Diagram" width="720"
        style="border: 1px solid #ddd; border-radius: 8px; box-shadow: 0 4px 10px rgba(0,0,0,0.08);" />
 </p>
-
 <hr/>
 
 <!-- 4. Real-Time Marketing Pipeline -->
@@ -140,7 +142,6 @@ I’m skilled in <strong>Python, SQL, Apache Airflow, and AWS (S3, Lambda, Redsh
        alt="Real-Time Marketing Pipeline Diagram" width="720"
        style="border: 1px solid #ddd; border-radius: 8px; box-shadow: 0 4px 10px rgba(0,0,0,0.08);" />
 </p>
-
 <hr/>
 
 <!-- 5. FHIR Healthcare Pipeline -->
@@ -156,7 +157,6 @@ I’m skilled in <strong>Python, SQL, Apache Airflow, and AWS (S3, Lambda, Redsh
        alt="FHIR Pipeline Diagram" width="720"
        style="border: 1px solid #ddd; border-radius: 8px; box-shadow: 0 4px 10px rgba(0,0,0,0.08);" />
 </p>
-
 <hr/>
 
 <!-- 6. PySpark Sales Pipeline -->
@@ -172,7 +172,6 @@ I’m skilled in <strong>Python, SQL, Apache Airflow, and AWS (S3, Lambda, Redsh
        alt="PySpark Sales Pipeline Diagram" width="720"
        style="border: 1px solid #ddd; border-radius: 8px; box-shadow: 0 4px 10px rgba(0,0,0,0.08);" />
 </p>
-
 <hr/>
 
 <!-- 7. LinkedIn Scraper (Lambda) -->
