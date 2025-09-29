@@ -20,7 +20,7 @@
 I’m a Data Engineer based in Vancouver with 5+ years of experience across data engineering, business intelligence, and analytics. I design
 <strong>cloud-native pipelines</strong> and automate workflows that turn raw data into actionable insights. My work spans
 <strong>healthcare, retail, and public-sector projects</strong>. With 3+ years building cloud pipelines and 2+ years as a BI/ETL Developer,
-I’m skilled in <strong>Python, SQL, Apache Airflow, and AWS (S3, Lambda, Redshift)</strong>, specializing in scalable data architecture and modern orchestration.
+I’m skilled in <strong>Python, SQL, Apache Airflow, and AWS (S3, Lambda, Redshift)</strong>.
 Currently expanding my expertise in Azure data services and Databricks, alongside modern data stack practices, to build next-generation data platforms that support real-time insights and scalability.
 </p>
 
