@@ -198,3 +198,11 @@ Currently expanding my expertise in <strong>Azure data services</strong> and <st
 <img src="https://visitor-badge.laobi.icu/badge?page_id=bashoori.data-engineering-portfolio.databricks" />
 <img src="https://komarev.com/ghpvc/?username=bashoori&label=Portfolio%20Views&color=blueviolet&style=for-the-badge" alt="portfolio views"/>
 
+
+<hr/>
+<p align="center">
+  👥 <img src="https://visitor-badge.laobi.icu/badge?page_id=bashoori.data-engineering-portfolio" alt="Unique Visitors"/>
+  &nbsp;&nbsp;
+  👁️ <img src="https://komarev.com/ghpvc/?username=bashoori&label=Portfolio%20Views&color=blueviolet&style=for-the-badge" alt="Portfolio Views"/>
+</p>
+
