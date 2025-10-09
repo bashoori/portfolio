@@ -44,68 +44,63 @@ Currently expanding my expertise in <strong>Azure data services</strong> and <st
 <hr/>
 
 ## 🔗 Quick Navigation
+- [🏗️ End-to-End Data Pipeline with Databricks](#databricks-end-to-end)
+- [⚡ Real-Time Marketing Pipeline](#real-time-marketing-pipeline)
+- [📈 PySpark Sales Pipeline](#pyspark-sales-pipeline)
+- [☁️ Cloud ETL Modernization](#cloud-etl-modernization)
+- [🛠️ Airflow AWS Modernization](#airflow-aws-modernization)
 - [🚀 Real-Time Event Processing with AWS Kinesis, Glue & Athena](#kinesis-glue-athena)
 - [🎮 Real-Time Player Pipeline](#real-time-player-pipeline)
-- [🛠️ Airflow AWS Modernization](#airflow-aws-modernization)
-- [☁️ Cloud ETL Modernization](#cloud-etl-modernization)
-- [⚡ Real-Time Marketing Pipeline](#real-time-marketing-pipeline)
 - [🏥 FHIR Healthcare Pipeline](#fhir-healthcare-pipeline)
-- [📈 PySpark Sales Pipeline](#pyspark-sales-pipeline)
 - [🔍 LinkedIn Scraper (Lambda)](#linkedin-scraper-lambda)
 
 <hr/>
 
-<!-- ====== Projects ====== -->
 <h2>Project Highlights</h2>
 
-<!-- 1.Kinesis/Glue/Athena -->
-<h3 id="kinesis-glue-athena">🚀 Real-Time Event Processing with AWS Kinesis, Glue &amp; Athena</h3>
-<p><strong>Scenario:</strong> Simulated a real-time clickstream pipeline where user interaction events (e.g., <code>click</code>, <code>view</code>, <code>signup</code>) are sent to AWS Kinesis, processed using AWS Glue, and queried using AWS Athena.</p>
-<p>🧰 <strong>Stack:</strong> Python • AWS Kinesis • AWS Glue • AWS Athena • S3 • boto3 • .env • Shell</p>
-<ul>
-  <li>Created a Kinesis data stream for ingesting clickstream data</li>
-  <li>Sent sample events using Python &amp; <code>boto3</code></li>
-  <li>Stored incoming data in an S3 data lake</li>
-  <li>Used Glue Crawlers to detect schema &amp; create tables</li>
-  <li>Queried results with SQL in Athena</li>
-  <li>Set up partitioned &amp; non-partitioned table comparisons</li>
-</ul>
-<p>📊 <strong>Potential Impact:</strong> Scalable, real-time pipelines for product analytics, marketing, gaming, and clickstream use cases.</p>
-<p>🧪 <strong>Tested On:</strong> GitHub Codespaces &amp; AWS Console (Kinesis, Glue, S3, Athena)</p>
-  <a href="https://github.com/bashoori/Real-Time-Event-Processing-with-AWS-Kinesis-Glue-Athena">
-    <img src="https://raw.githubusercontent.com/bashoori/Real-Time-Event-Processing-with-AWS-Kinesis-Glue-Athena/main/Image.png" alt="Real-Time Pipeline Diagram" width="720" style="border: 1px solid #ddd; border-radius: 8px; box-shadow: 0 4px 10px rgba(0,0,0,0.08);" />
-  </a>
-</p>
-<p>🔗 <a href="https://github.com/bashoori/Real-Time-Event-Processing-with-AWS-Kinesis-Glue-Athena">View GitHub Repo</a></p>
-<hr/>
-
-<!-- 2. Real-Time Player Pipeline -->
-<h3 id="real-time-player-pipeline">🎮 Real-Time Player Pipeline</h3>
-<p><strong>Scenario:</strong> Gaming companies need real-time analytics on player activity to optimize engagement, matchmaking, and monetization.<br/>
-📎 <a href="https://github.com/bashoori/data-engineering-portfolio/tree/main/real-time-player-pipeline">View GitHub Repo</a><br/>
-<strong>Solution:</strong> Simulated streaming of player events into a data lake with transformations and aggregations to deliver analytics-ready datasets for dashboards and retention analysis.<br/>
-✅ <strong>Impact:</strong> Reduced reporting lag from <strong>hours to seconds</strong>, enabling near real-time insights for live ops decisions.<br/>
-🧰 <strong>Stack:</strong> Apache Kafka (or AWS Kinesis), AWS S3, DynamoDB, Apache Airflow, Spark<br/>
-🧪 <strong>Tested On:</strong> Local Kafka, AWS Localstack, GitHub Codespaces</p>
+<!-- 1. End-to-End Databricks Pipeline -->
+<h3 id="databricks-end-to-end">🏗️ End-to-End Data Pipeline with Databricks</h3>
+<p><strong>Scenario:</strong> Designed and implemented a complete end-to-end ETL pipeline in Azure Databricks, applying the <strong>Medallion Architecture (Bronze → Silver → Gold)</strong> to build a modern data lakehouse for analytics.<br/>
+📎 <a href="https://github.com/bashoori/databricks-lakehouse-pipeline">View GitHub Repo</a><br/>
+<strong>Solution:</strong> Developed a multi-layer Delta Lake pipeline to ingest, cleanse, and aggregate retail data using PySpark and SQL within Databricks notebooks. Implemented data quality rules, incremental MERGE operations, and created analytical views for dashboards.<br/>
+✅ <strong>Impact:</strong> Improved data reliability and reduced transformation latency by enabling efficient, governed, and automated data processing in the Databricks ecosystem.<br/>
+🧰 <strong>Stack:</strong> Azure Databricks, Delta Lake, PySpark, Spark SQL, Unity Catalog, Power BI Cloud<br/>
+🧪 <strong>Tested On:</strong> Azure Databricks Community Edition + GitHub Codespaces</p>
 <p align="center">
-  <img src="https://raw.githubusercontent.com/bashoori/data-engineering-portfolio/main/docs/images/etl3.png"
-       alt="Real-Time Player Pipeline Diagram" width="720"
+  <img src="https://raw.githubusercontent.com/bashoori/databricks-lakehouse-pipeline/main/assets/architecture-diagram.png"
+       alt="Databricks Lakehouse Pipeline Diagram" width="720"
        style="border: 1px solid #ddd; border-radius: 8px; box-shadow: 0 4px 10px rgba(0,0,0,0.08);" />
 </p>
 
 <hr/>
 
-<!-- 3. Airflow AWS Modernization -->
-<h3 id="airflow-aws-modernization">🛠️ Airflow AWS Modernization</h3>
-<p><strong>Scenario:</strong> Legacy Windows Task Scheduler jobs needed modernization for reliability and observability.<br/>
-📎 <a href="https://github.com/bashoori/data-engineering-portfolio/tree/main/airflow-aws-modernization">View GitHub Repo</a><br/>
-<strong>Solution:</strong> Migrated jobs into modular Airflow DAGs containerized with Docker, storing artifacts in S3 and standardizing logging/retries.<br/>
-✅ <strong>Impact:</strong> Up to <strong>50% reduction</strong> in manual errors and improved job monitoring/alerting.<br/>
-🧰 <strong>Stack:</strong> Python, Apache Airflow, Docker, AWS S3<br/>
-🧪 <strong>Tested On:</strong> Local Docker, GitHub Codespaces</p>
+<!-- 2. Real-Time Marketing Pipeline -->
+<h3 id="real-time-marketing-pipeline">⚡ Real-Time Marketing Pipeline</h3>
+<p><strong>Scenario:</strong> Marketing teams need faster feedback loops from ad campaigns to optimize spend and performance.<br/>
+📎 <a href="https://github.com/bashoori/data-engineering-portfolio/tree/main/real-time-marketing-pipeline">View GitHub Repo</a><br/>
+<strong>Solution:</strong> Simulated real-time ingestion of campaign data with PySpark + Delta patterns for incremental insights.<br/>
+✅ <strong>Impact:</strong> Reduced reporting lag from <strong>24h → ~1h</strong>, enabling quicker optimization cycles.<br/>
+🧰 <strong>Stack:</strong> PySpark, Databricks, GitHub Actions, AWS S3<br/>
+🧪 <strong>Tested On:</strong> Databricks Community Edition, GitHub CI/CD</p>
 <p align="center">
-  <img src="https://raw.githubusercontent.com/bashoori/data-engineering-portfolio/main/docs/images/etl2.png"
-       alt="Airflow AWS Diagram" width="720"
+  <img src="https://raw.githubusercontent.com/bashoori/data-engineering-portfolio/main/docs/images/image1.png"
+       alt="Real-Time Marketing Pipeline Diagram" width="720"
+       style="border: 1px solid #ddd; border-radius: 8px; box-shadow: 0 4px 10px rgba(0,0,0,0.08);" />
+</p>
+
+<hr/>
+
+<!-- 3. PySpark Sales Pipeline -->
+<h3 id="pyspark-sales-pipeline">📈 PySpark Sales Pipeline</h3>
+<p><strong>Scenario:</strong> Enterprises need scalable ETL for large sales datasets to drive timely BI and planning.<br/>
+📎 <a href="https://github.com/bashoori/data-engineering-portfolio/tree/main/pyspark-sales-pipeline">View GitHub Repo</a><br/>
+<strong>Solution:</strong> Production-style PySpark ETL to ingest/transform into Delta Lake with partitioning and optimization.<br/>
+✅ <strong>Impact:</strong> ~<strong>40% faster</strong> transformations and improved reporting accuracy with Delta optimizations.<br/>
+🧰 <strong>Stack:</strong> PySpark, Delta Lake, AWS S3<br/>
+🧪 <strong>Tested On:</strong> Local Databricks + S3</p>
+<p align="center">
+  <img src="https://raw.githubusercontent.com/bashoori/data-engineering-portfolio/main/docs/images/etl6.png"
+       alt="PySpark Sales Pipeline Diagram" width="720"
        style="border: 1px solid #ddd; border-radius: 8px; box-shadow: 0 4px 10px rgba(0,0,0,0.08);" />
 </p>
 
@@ -127,30 +122,55 @@ Currently expanding my expertise in <strong>Azure data services</strong> and <st
 
 <hr/>
 
-<!-- 5. Real-Time Marketing Pipeline -->
-<h3 id="real-time-marketing-pipeline">⚡ Real-Time Marketing Pipeline</h3>
-<p><strong>Scenario:</strong> Marketing teams need faster feedback loops from ad campaigns to optimize spend and performance.<br/>
-📎 <a href="https://github.com/bashoori/data-engineering-portfolio/tree/main/real-time-marketing-pipeline">View GitHub Repo</a><br/>
-<strong>Solution:</strong> Simulated real-time ingestion of campaign data with PySpark + Delta patterns for incremental insights.<br/>
-✅ <strong>Impact:</strong> Reduced reporting lag from <strong>24h → ~1h</strong>, enabling quicker optimization cycles.<br/>
-🧰 <strong>Stack:</strong> PySpark, Databricks, GitHub Actions, AWS S3<br/>
-🧪 <strong>Tested On:</strong> Databricks Community Edition, GitHub CI/CD</p>
+<!-- 5. Airflow AWS Modernization -->
+<h3 id="airflow-aws-modernization">🛠️ Airflow AWS Modernization</h3>
+<p><strong>Scenario:</strong> Legacy Windows Task Scheduler jobs needed modernization for reliability and observability.<br/>
+📎 <a href="https://github.com/bashoori/data-engineering-portfolio/tree/main/airflow-aws-modernization">View GitHub Repo</a><br/>
+<strong>Solution:</strong> Migrated jobs into modular Airflow DAGs containerized with Docker, storing artifacts in S3 and standardizing logging/retries.<br/>
+✅ <strong>Impact:</strong> Up to <strong>50% reduction</strong> in manual errors and improved job monitoring/alerting.<br/>
+🧰 <strong>Stack:</strong> Python, Apache Airflow, Docker, AWS S3<br/>
+🧪 <strong>Tested On:</strong> Local Docker, GitHub Codespaces</p>
 <p align="center">
-  <img src="https://raw.githubusercontent.com/bashoori/data-engineering-portfolio/main/docs/images/image1.png"
-       alt="Real-Time Marketing Pipeline Diagram" width="720"
+  <img src="https://raw.githubusercontent.com/bashoori/data-engineering-portfolio/main/docs/images/etl2.png"
+       alt="Airflow AWS Diagram" width="720"
        style="border: 1px solid #ddd; border-radius: 8px; box-shadow: 0 4px 10px rgba(0,0,0,0.08);" />
 </p>
 
 <hr/>
 
-<!-- 6. FHIR Healthcare Pipeline -->
+<!-- 6. Real-Time Event Processing -->
+<h3 id="kinesis-glue-athena">🚀 Real-Time Event Processing with AWS Kinesis, Glue & Athena</h3>
+<p><strong>Scenario:</strong> Simulated a real-time clickstream pipeline where user interaction events are sent to AWS Kinesis, processed with Glue, and queried in Athena.</p>
+🧰 <strong>Stack:</strong> Python • AWS Kinesis • AWS Glue • AWS Athena • S3<br/>
+✅ <strong>Impact:</strong> Built a reusable pattern for clickstream and analytics pipelines.<br/>
+<p align="center">
+  <img src="https://raw.githubusercontent.com/bashoori/Real-Time-Event-Processing-with-AWS-Kinesis-Glue-Athena/main/Image.png"
+       alt="Kinesis Glue Athena Diagram" width="720"
+       style="border: 1px solid #ddd; border-radius: 8px; box-shadow: 0 4px 10px rgba(0,0,0,0.08);" />
+</p>
+
+<hr/>
+
+<!-- 7. Real-Time Player Pipeline -->
+<h3 id="real-time-player-pipeline">🎮 Real-Time Player Pipeline</h3>
+<p><strong>Scenario:</strong> Gaming companies need real-time analytics on player activity to optimize engagement and retention.<br/>
+📎 <a href="https://github.com/bashoori/data-engineering-portfolio/tree/main/real-time-player-pipeline">View GitHub Repo</a></p>
+✅ <strong>Impact:</strong> Reduced reporting lag from <strong>hours → seconds</strong> for live ops insights.<br/>
+🧰 <strong>Stack:</strong> Kafka / AWS Kinesis, Airflow, S3, Spark<br/>
+<p align="center">
+  <img src="https://raw.githubusercontent.com/bashoori/data-engineering-portfolio/main/docs/images/etl3.png"
+       alt="Real-Time Player Pipeline Diagram" width="720"
+       style="border: 1px solid #ddd; border-radius: 8px; box-shadow: 0 4px 10px rgba(0,0,0,0.08);" />
+</p>
+
+<hr/>
+
+<!-- 8. FHIR Healthcare Pipeline -->
 <h3 id="fhir-healthcare-pipeline">🏥 FHIR Healthcare Pipeline</h3>
 <p><strong>Scenario:</strong> Healthcare projects using FHIR require clean, analytics-ready datasets while preserving clinical context.<br/>
-📎 <a href="https://github.com/bashoori/data-engineering-portfolio/tree/main/healthcare-FHIR-data-pipeline">View GitHub Repo</a><br/>
-<strong>Solution:</strong> Processed synthetic Synthea FHIR JSON into relational models for downstream analytics and ML.<br/>
-✅ <strong>Impact:</strong> Cut preprocessing time by ~<strong>60%</strong>; improved data quality and analysis readiness.<br/>
-🧰 <strong>Stack:</strong> Python, Pandas, Synthea, SQLite, Streamlit<br/>
-🧪 <strong>Tested On:</strong> Local + Streamlit + BigQuery-compatible</p>
+📎 <a href="https://github.com/bashoori/data-engineering-portfolio/tree/main/healthcare-FHIR-data-pipeline">View GitHub Repo</a></p>
+✅ <strong>Impact:</strong> Cut preprocessing time by ~<strong>60%</strong>; improved data quality.<br/>
+🧰 <strong>Stack:</strong> Python, Pandas, SQLite, Streamlit<br/>
 <p align="center">
   <img src="https://raw.githubusercontent.com/bashoori/data-engineering-portfolio/main/docs/images/etl4.png"
        alt="FHIR Pipeline Diagram" width="720"
@@ -159,30 +179,12 @@ Currently expanding my expertise in <strong>Azure data services</strong> and <st
 
 <hr/>
 
-<!-- 7. PySpark Sales Pipeline -->
-<h3 id="pyspark-sales-pipeline">📈 PySpark Sales Pipeline</h3>
-<p><strong>Scenario:</strong> Enterprises need scalable ETL for large sales datasets to drive timely BI and planning.<br/>
-📎 <a href="https://github.com/bashoori/data-engineering-portfolio/tree/main/pyspark-sales-pipeline">View GitHub Repo</a><br/>
-<strong>Solution:</strong> Production-style PySpark ETL to ingest/transform into Delta Lake with partitioning and optimization.<br/>
-✅ <strong>Impact:</strong> ~<strong>40% faster</strong> transformations and improved reporting accuracy with Delta optimizations.<br/>
-🧰 <strong>Stack:</strong> PySpark, Delta Lake, AWS S3<br/>
-🧪 <strong>Tested On:</strong> Local Databricks + S3</p>
-<p align="center">
-  <img src="https://raw.githubusercontent.com/bashoori/data-engineering-portfolio/main/docs/images/etl6.png"
-       alt="PySpark Sales Pipeline Diagram" width="720"
-       style="border: 1px solid #ddd; border-radius: 8px; box-shadow: 0 4px 10px rgba(0,0,0,0.08);" />
-</p>
-
-<hr/>
-
-<!-- 8. LinkedIn Scraper (Lambda) -->
+<!-- 9. LinkedIn Scraper -->
 <h3 id="linkedin-scraper-lambda">🔍 LinkedIn Scraper (Lambda)</h3>
 <p><strong>Scenario:</strong> Manual job tracking is slow and error-prone for candidates and recruiters.<br/>
-📎 <a href="https://github.com/bashoori/data-engineering-portfolio/tree/main/linkedIn-job-scraper">View GitHub Repo</a><br/>
-<strong>Solution:</strong> Serverless scraping with scheduled invocations and structured S3 outputs for analysis.<br/>
-✅ <strong>Impact:</strong> Automated lead sourcing and job search analytics with minimal maintenance overhead.<br/>
-🧰 <strong>Stack:</strong> AWS Lambda, EventBridge, BeautifulSoup, S3, CloudWatch<br/>
-🧪 <strong>Tested On:</strong> AWS Free Tier</p>
+📎 <a href="https://github.com/bashoori/data-engineering-portfolio/tree/main/linkedIn-job-scraper">View GitHub Repo</a></p>
+✅ <strong>Impact:</strong> Automated lead sourcing and job search analytics.<br/>
+🧰 <strong>Stack:</strong> AWS Lambda, EventBridge, BeautifulSoup, S3<br/>
 <p align="center">
   <img src="https://raw.githubusercontent.com/bashoori/data-engineering-portfolio/main/docs/images/etl5.png"
        alt="LinkedIn Scraper Diagram" width="720"
