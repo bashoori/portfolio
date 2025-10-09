@@ -190,3 +190,14 @@ Currently expanding my expertise in <strong>Azure data services</strong> and <st
        alt="LinkedIn Scraper Diagram" width="720"
        style="border: 1px solid #ddd; border-radius: 8px; box-shadow: 0 4px 10px rgba(0,0,0,0.08);" />
 </p>
+
+
+<p align="center">
+  <img src="https://visitor-badge.laobi.icu/badge?page_id=bashoori.data-engineering-portfolio" alt="visitor badge"/>
+</p>
+
+<p align="center">
+  <img src="https://komarev.com/ghpvc/?username=bashoori&label=Portfolio%20Views&color=blueviolet&style=for-the-badge" alt="portfolio views"/>
+</p>
+
+<img src="https://visitor-badge.laobi.icu/badge?page_id=bashoori.data-engineering-portfolio.databricks" />
