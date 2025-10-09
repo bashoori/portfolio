@@ -67,7 +67,7 @@ Currently expanding my expertise in <strong>Azure data services</strong> and <st
 🧰 <strong>Stack:</strong> Azure Databricks, Delta Lake, PySpark, Spark SQL, Unity Catalog, Power BI Cloud<br/>
 🧪 <strong>Tested On:</strong> Azure Databricks Community Edition + GitHub Codespaces</p>
 <p align="center">
-  <img src="https://raw.githubusercontent.com/bashoori/databricks-lakehouse-pipeline/main/assets/databricks_end_to_end.png"
+  <img src="https://raw.githubusercontent.com/bashoori/databricks-lakehouse-pipeline/docs/images/databricks_end_to_end.png"
        alt="Databricks Lakehouse Pipeline Diagram" width="720"
        style="border: 1px solid #ddd; border-radius: 8px; box-shadow: 0 4px 10px rgba(0,0,0,0.08);" />
 </p>
