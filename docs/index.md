@@ -206,3 +206,26 @@ Currently expanding my expertise in <strong>Azure data services</strong> and <st
   👁️ <img src="https://komarev.com/ghpvc/?username=bashoori&label=Portfolio%20Views&color=blueviolet&style=for-the-badge" alt="Portfolio Views"/>
 </p>
 
+
+
+<!-- ====== Visitor & View Badges (bottom-left corner) ====== -->
+<div style="
+  position: fixed;
+  bottom: 15px;
+  left: 15px;
+  z-index: 1000;
+  background-color: white;
+  padding: 4px 8px;
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+  font-size: 0.85em;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  opacity: 0.9;
+">
+  <img src="https://visitor-badge.laobi.icu/badge?page_id=bashoori.data-engineering-portfolio&left_color=lightgrey&right_color=teal&style=flat-square" alt="Unique Visitors" height="18">
+  <img src="https://komarev.com/ghpvc/?username=bashoori&label=Views&color=blueviolet&style=flat-square" alt="Portfolio Views" height="18">
+</div>
+
+
