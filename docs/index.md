@@ -213,6 +213,9 @@ Currently expanding my expertise in <strong>Azure data services</strong> and <st
   align-items: center;
   gap: 6px;
   opacity: 0.9;
+  position: fixed;
+  z-index: 1000;
+
 ">
   <img src="https://visitor-badge.laobi.icu/badge?page_id=bashoori.data-engineering-portfolio&left_color=lightgrey&right_color=teal&style=flat-square" alt="Unique Visitors" height="18">
   <img src="https://komarev.com/ghpvc/?username=bashoori&label=Views&color=blueviolet&style=flat-square" alt="Portfolio Views" height="18">
