@@ -198,27 +198,23 @@ Currently expanding my expertise in <strong>Azure data services</strong> and <st
 
 
 <hr/>
-<!-- ====== Visitor & View Badges (bottom-left corner) ====== -->
+<!-- ====== Visitor & View Badges (bottom of page) ====== -->
 <div style="
-  position: fixed;
-  bottom: 15px;
-  left: 15px;
-  z-index: 1000;
-  background-color: white;
-  padding: 4px 8px;
-  border-radius: 8px;
-  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
-  font-size: 0.85em;
+  margin-top: 40px;
+  padding: 6px 10px;
   display: flex;
   align-items: center;
-  gap: 6px;
-  opacity: 0.9;
-  position: fixed;
-  z-index: 1000;
-
+  gap: 8px;
+  background-color: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.08);
+  width: fit-content;
+  font-size: 0.85em;
 ">
-  <img src="https://visitor-badge.laobi.icu/badge?page_id=bashoori.data-engineering-portfolio&left_color=lightgrey&right_color=teal&style=flat-square" alt="Unique Visitors" height="18">
-  <img src="https://komarev.com/ghpvc/?username=bashoori&label=Views&color=blueviolet&style=flat-square" alt="Portfolio Views" height="18">
+  <img src="https://visitor-badge.laobi.icu/badge?page_id=bashoori.data-engineering-portfolio&left_color=lightgrey&right_color=teal&style=flat-square"
+       alt="Unique Visitors" height="18">
+  <img src="https://komarev.com/ghpvc/?username=bashoori&label=Views&color=blueviolet&style=flat-square"
+       alt="Portfolio Views" height="18">
 </div>
 
 
