@@ -36,7 +36,7 @@ Currently expanding my expertise in <strong>Azure data services</strong> and <st
     <img alt="LinkedIn" src="https://img.shields.io/badge/LinkedIn-Bita%20Ashoori-blue?logo=linkedin">
   </a>
   &nbsp;
-  <a href="https://raw.githubusercontent.com/bashoori/data-engineering-portfolio/main/docs/Resume-BitaAshoori-Cloud Data Specialist Role_v2 (2).pdf.pdf">
+  <a href="https://raw.githubusercontent.com/bashoori/data-engineering-portfolio/main/docs/docs/Resume2.pdf">
     <img alt="Resume" src="https://img.shields.io/badge/Resume-Download-green?logo=adobeacrobatreader">
   </a>
 </p>
