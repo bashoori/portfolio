@@ -72,7 +72,6 @@ Currently expanding my expertise in <strong>Azure data services</strong> and <st
        style="border: 1px solid #ddd; border-radius: 8px; box-shadow: 0 4px 10px rgba(0,0,0,0.08);" />
 </p>
 
-
 <hr/>
 
 <!-- 2. Real-Time Marketing Pipeline -->
