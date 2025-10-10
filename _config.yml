@@ -7,4 +7,4 @@ theme: jekyll-theme-cayman
 
 # GitHub Pages compatibility
 markdown: kramdown
-show_downloads: true
+show_downloads: false
