@@ -54,7 +54,7 @@ Explore the [**docs/**](./docs) folder for more!
 
 - 🔗 [LinkedIn](https://www.linkedin.com/in/bitaashoori/)
 - 🌐 [GitHub Pages Portfolio](https://bashoori.github.io/data-engineering-portfolio/)
-- ✉️ Email: bita.projects@gmail.com
+
 
 ---
 
