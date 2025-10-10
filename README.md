@@ -40,15 +40,6 @@ Explore the [**docs/**](./docs) folder for more!
 
 ---
 
-## 🚀 How to Use
-
-1. Clone this repository:  
-   `git clone https://github.com/bashoori/data-engineering-portfolio.git`
-   git clone https://github.com/bashoori/Real-Time-Player-Pipeline.git
-
-2. Follow the local setup instructions in each project’s `README.md`
-
----
 
 ## 📬 Contact
 
