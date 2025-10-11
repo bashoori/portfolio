@@ -8,7 +8,7 @@
     </p>
   </div>
   <div style="flex-shrink: 0; margin-left: 30px;">
-    <img src="https://raw.githubusercontent.com/bashoori/data-engineering-portfolio/main/docs/images/profile-photo3.png"
+    <img src="https://raw.githubusercontent.com/bashoori/data-engineering-portfolio/main/docs/images/profile-photo4.png"
          width="230" alt="Bita Ashoori"
          style="border-radius: 50%; border: 3px solid #f2f2f2; box-shadow: 0 6px 14px rgba(0,0,0,0.12);" />
   </div>
