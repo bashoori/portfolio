@@ -2,13 +2,13 @@
 <div style="display: flex; align-items: center; justify-content: space-between; width: 100%; padding: 25px 0; border-bottom: 2px solid #eaeaea;">
   <div style="flex: 1;">
     <h1 style="margin: 0; font-size: 2.4em; font-weight: 700; color: #222;">Bita Ashoori</h1>
-    <p style="margin: 6px 0 0; font-size: 1.25em; color: #555;">💼 Data Engineering Portfolio</p>
+    <p style="margin: 6px 0 0; font-size: 1.25em; color: #555;">💼 Data Engineering portfolio</p>
     <p style="margin: 10px 0 0; font-size: 1em; color: #666; max-width: 560px;">
       Designing scalable, cloud-native data pipelines that power decision-making across healthcare, retail, and public services.
     </p>
   </div>
   <div style="flex-shrink: 0; margin-left: 30px;">
-    <img src="https://raw.githubusercontent.com/bashoori/Portfolio/main/docs/images/profile-photo4.png"
+    <img src="https://raw.githubusercontent.com/bashoori/portfolio/main/docs/images/profile-photo4.png"
          width="230" alt="Bita Ashoori"
          style="border-radius: 50%; border: 3px solid #f2f2f2; box-shadow: 0 6px 14px rgba(0,0,0,0.12);" />
   </div>
@@ -36,7 +36,7 @@ Currently expanding my expertise in <strong>Azure data services</strong> and <st
     <img alt="LinkedIn" src="https://img.shields.io/badge/LinkedIn-Bita%20Ashoori-blue?logo=linkedin">
   </a>
   &nbsp;
-  <a href="https://raw.githubusercontent.com/bashoori/Portfolio/main/docs/Resume-BitaAshoori-CloudDataSpecialist.pdf">
+  <a href="https://raw.githubusercontent.com/bashoori/portfolio/main/docs/Resume-BitaAshoori-CloudDataSpecialist.pdf">
     <img alt="Resume" src="https://img.shields.io/badge/Resume-Download-green?logo=adobeacrobatreader">
   </a>
 </p>
@@ -67,7 +67,7 @@ Currently expanding my expertise in <strong>Azure data services</strong> and <st
 🧰 <strong>Stack:</strong> Azure Databricks, Delta Lake, PySpark, Spark SQL, Unity Catalog, Power BI Cloud<br/>
 🧪 <strong>Tested On:</strong> Azure Databricks Community Edition + GitHub Codespaces</p>
 <p align="center">
-  <img src="https://raw.githubusercontent.com/bashoori/Portfolio/main/docs/images/databricks_end_to_end.png"
+  <img src="https://raw.githubusercontent.com/bashoori/portfolio/main/docs/images/databricks_end_to_end.png"
        alt="Databricks Lakehouse Pipeline Diagram" width="720"
        style="border: 1px solid #ddd; border-radius: 8px; box-shadow: 0 4px 10px rgba(0,0,0,0.08);" />
 </p>
@@ -77,13 +77,13 @@ Currently expanding my expertise in <strong>Azure data services</strong> and <st
 <!-- 2. Real-Time Marketing Pipeline -->
 <h3 id="real-time-marketing-pipeline">⚡ Real-Time Marketing Pipeline</h3>
 <p><strong>Scenario:</strong> Marketing teams need faster feedback loops from ad campaigns to optimize spend and performance.<br/>
-📎 <a href="https://github.com/bashoori/Portfolio/tree/main/real-time-marketing-pipeline">View GitHub Repo</a><br/>
+📎 <a href="https://github.com/bashoori/portfolio/tree/main/real-time-marketing-pipeline">View GitHub Repo</a><br/>
 <strong>Solution:</strong> Simulated real-time ingestion of campaign data with PySpark + Delta patterns for incremental insights.<br/>
 ✅ <strong>Impact:</strong> Reduced reporting lag from <strong>24h → ~1h</strong>, enabling quicker optimization cycles.<br/>
 🧰 <strong>Stack:</strong> PySpark, Databricks, GitHub Actions, AWS S3<br/>
 🧪 <strong>Tested On:</strong> Databricks Community Edition, GitHub CI/CD</p>
 <p align="center">
-  <img src="https://raw.githubusercontent.com/bashoori/Portfolio/main/docs/images/image1.png"
+  <img src="https://raw.githubusercontent.com/bashoori/portfolio/main/docs/images/image1.png"
        alt="Real-Time Marketing Pipeline Diagram" width="720"
        style="border: 1px solid #ddd; border-radius: 8px; box-shadow: 0 4px 10px rgba(0,0,0,0.08);" />
 </p>
@@ -93,13 +93,13 @@ Currently expanding my expertise in <strong>Azure data services</strong> and <st
 <!-- 3. PySpark Sales Pipeline -->
 <h3 id="pyspark-sales-pipeline">📈 PySpark Sales Pipeline</h3>
 <p><strong>Scenario:</strong> Enterprises need scalable ETL for large sales datasets to drive timely BI and planning.<br/>
-📎 <a href="https://github.com/bashoori/Portfolio/tree/main/pyspark-sales-pipeline">View GitHub Repo</a><br/>
+📎 <a href="https://github.com/bashoori/portfolio/tree/main/pyspark-sales-pipeline">View GitHub Repo</a><br/>
 <strong>Solution:</strong> Production-style PySpark ETL to ingest/transform into Delta Lake with partitioning and optimization.<br/>
 ✅ <strong>Impact:</strong> ~<strong>40% faster</strong> transformations and improved reporting accuracy with Delta optimizations.<br/>
 🧰 <strong>Stack:</strong> PySpark, Delta Lake, AWS S3<br/>
 🧪 <strong>Tested On:</strong> Local Databricks + S3</p>
 <p align="center">
-  <img src="https://raw.githubusercontent.com/bashoori/Portfolio/main/docs/images/etl6.png"
+  <img src="https://raw.githubusercontent.com/bashoori/portfolio/main/docs/images/etl6.png"
        alt="PySpark Sales Pipeline Diagram" width="720"
        style="border: 1px solid #ddd; border-radius: 8px; box-shadow: 0 4px 10px rgba(0,0,0,0.08);" />
 </p>
@@ -109,13 +109,13 @@ Currently expanding my expertise in <strong>Azure data services</strong> and <st
 <!-- 4. Cloud ETL Modernization -->
 <h3 id="cloud-etl-modernization">☁️ Cloud ETL Modernization</h3>
 <p><strong>Scenario:</strong> Legacy workflows lacked observability, scalability, and centralized monitoring.<br/>
-📎 <a href="https://github.com/bashoori/Portfolio/tree/main/cloud-etl-modernization-airflow-aws">View GitHub Repo</a><br/>
+📎 <a href="https://github.com/bashoori/portfolio/tree/main/cloud-etl-modernization-airflow-aws">View GitHub Repo</a><br/>
 <strong>Solution:</strong> Built scalable ETL from APIs to Redshift with Airflow orchestration and CloudWatch alerting; standardized schemas and error handling.<br/>
 ✅ <strong>Impact:</strong> ~<strong>30% faster</strong> troubleshooting via unified logging/metrics; more consistent SLAs.<br/>
 🧰 <strong>Stack:</strong> Apache Airflow, AWS Redshift, CloudWatch<br/>
 🧪 <strong>Tested On:</strong> AWS Free Tier, Docker</p>
 <p align="center">
-  <img src="https://raw.githubusercontent.com/bashoori/Portfolio/main/docs/images/CloudETLModernization.png"
+  <img src="https://raw.githubusercontent.com/bashoori/portfolio/main/docs/images/CloudETLModernization.png"
        alt="Cloud ETL Diagram" width="720"
        style="border: 1px solid #ddd; border-radius: 8px; box-shadow: 0 4px 10px rgba(0,0,0,0.08);" />
 </p>
@@ -125,13 +125,13 @@ Currently expanding my expertise in <strong>Azure data services</strong> and <st
 <!-- 5. Airflow AWS Modernization -->
 <h3 id="airflow-aws-modernization">🛠️ Airflow AWS Modernization</h3>
 <p><strong>Scenario:</strong> Legacy Windows Task Scheduler jobs needed modernization for reliability and observability.<br/>
-📎 <a href="https://github.com/bashoori/Portfolio/tree/main/airflow-aws-modernization">View GitHub Repo</a><br/>
+📎 <a href="https://github.com/bashoori/portfolio/tree/main/airflow-aws-modernization">View GitHub Repo</a><br/>
 <strong>Solution:</strong> Migrated jobs into modular Airflow DAGs containerized with Docker, storing artifacts in S3 and standardizing logging/retries.<br/>
 ✅ <strong>Impact:</strong> Up to <strong>50% reduction</strong> in manual errors and improved job monitoring/alerting.<br/>
 🧰 <strong>Stack:</strong> Python, Apache Airflow, Docker, AWS S3<br/>
 🧪 <strong>Tested On:</strong> Local Docker, GitHub Codespaces</p>
 <p align="center">
-  <img src="https://raw.githubusercontent.com/bashoori/Portfolio/main/docs/images/etl2.png"
+  <img src="https://raw.githubusercontent.com/bashoori/portfolio/main/docs/images/etl2.png"
        alt="Airflow AWS Diagram" width="720"
        style="border: 1px solid #ddd; border-radius: 8px; box-shadow: 0 4px 10px rgba(0,0,0,0.08);" />
 </p>
@@ -154,11 +154,11 @@ Currently expanding my expertise in <strong>Azure data services</strong> and <st
 <!-- 7. Real-Time Player Pipeline -->
 <h3 id="real-time-player-pipeline">🎮 Real-Time Player Pipeline</h3>
 <p><strong>Scenario:</strong> Gaming companies need real-time analytics on player activity to optimize engagement and retention.<br/>
-📎 <a href="https://github.com/bashoori/Portfolio/tree/main/real-time-player-pipeline">View GitHub Repo</a></p>
+📎 <a href="https://github.com/bashoori/portfolio/tree/main/real-time-player-pipeline">View GitHub Repo</a></p>
 ✅ <strong>Impact:</strong> Reduced reporting lag from <strong>hours → seconds</strong> for live ops insights.<br/>
 🧰 <strong>Stack:</strong> Kafka / AWS Kinesis, Airflow, S3, Spark<br/>
 <p align="center">
-  <img src="https://raw.githubusercontent.com/bashoori/Portfolio/main/docs/images/etl3.png"
+  <img src="https://raw.githubusercontent.com/bashoori/portfolio/main/docs/images/etl3.png"
        alt="Real-Time Player Pipeline Diagram" width="720"
        style="border: 1px solid #ddd; border-radius: 8px; box-shadow: 0 4px 10px rgba(0,0,0,0.08);" />
 </p>
@@ -168,11 +168,11 @@ Currently expanding my expertise in <strong>Azure data services</strong> and <st
 <!-- 8. FHIR Healthcare Pipeline -->
 <h3 id="fhir-healthcare-pipeline">🏥 FHIR Healthcare Pipeline</h3>
 <p><strong>Scenario:</strong> Healthcare projects using FHIR require clean, analytics-ready datasets while preserving clinical context.<br/>
-📎 <a href="https://github.com/bashoori/Portfolio/tree/main/healthcare-FHIR-data-pipeline">View GitHub Repo</a></p>
+📎 <a href="https://github.com/bashoori/portfolio/tree/main/healthcare-FHIR-data-pipeline">View GitHub Repo</a></p>
 ✅ <strong>Impact:</strong> Cut preprocessing time by ~<strong>60%</strong>; improved data quality.<br/>
 🧰 <strong>Stack:</strong> Python, Pandas, SQLite, Streamlit<br/>
 <p align="center">
-  <img src="https://raw.githubusercontent.com/bashoori/Portfolio/main/docs/images/etl4.png"
+  <img src="https://raw.githubusercontent.com/bashoori/portfolio/main/docs/images/etl4.png"
        alt="FHIR Pipeline Diagram" width="720"
        style="border: 1px solid #ddd; border-radius: 8px; box-shadow: 0 4px 10px rgba(0,0,0,0.08);" />
 </p>
@@ -182,11 +182,11 @@ Currently expanding my expertise in <strong>Azure data services</strong> and <st
 <!-- 9. LinkedIn Scraper -->
 <h3 id="linkedin-scraper-lambda">🔍 LinkedIn Scraper (Lambda)</h3>
 <p><strong>Scenario:</strong> Manual job tracking is slow and error-prone for candidates and recruiters.<br/>
-📎 <a href="https://github.com/bashoori/Portfolio/tree/main/linkedIn-job-scraper">View GitHub Repo</a></p>
+📎 <a href="https://github.com/bashoori/portfolio/tree/main/linkedIn-job-scraper">View GitHub Repo</a></p>
 ✅ <strong>Impact:</strong> Automated lead sourcing and job search analytics.<br/>
 🧰 <strong>Stack:</strong> AWS Lambda, EventBridge, BeautifulSoup, S3<br/>
 <p align="center">
-  <img src="https://raw.githubusercontent.com/bashoori/Portfolio/main/docs/images/etl5.png"
+  <img src="https://raw.githubusercontent.com/bashoori/portfolio/main/docs/images/etl5.png"
        alt="LinkedIn Scraper Diagram" width="720"
        style="border: 1px solid #ddd; border-radius: 8px; box-shadow: 0 4px 10px rgba(0,0,0,0.08);" />
 </p>
@@ -211,10 +211,10 @@ Currently expanding my expertise in <strong>Azure data services</strong> and <st
   width: fit-content;
   font-size: 0.85em;
 ">
-  <img src="https://visitor-badge.laobi.icu/badge?page_id=bashoori.Portfolio&left_color=lightgrey&right_color=teal&style=flat-square"
+  <img src="https://visitor-badge.laobi.icu/badge?page_id=bashoori.portfolio&left_color=lightgrey&right_color=teal&style=flat-square"
        alt="Unique Visitors" height="18">
   <img src="https://komarev.com/ghpvc/?username=bashoori&label=Views&color=blueviolet&style=flat-square"
-       alt="Portfolio Views" height="18">
+       alt="portfolio Views" height="18">
 </div>
 
 
