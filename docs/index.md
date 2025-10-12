@@ -13,7 +13,6 @@
          style="border-radius: 50%; border: 3px solid #f2f2f2; box-shadow: 0 6px 14px rgba(0,0,0,0.12);" />
   </div>
 </div>
-
 <!-- ====== About ====== -->
 <h2>About Me</h2>
 <p>
@@ -24,7 +23,6 @@ I’m skilled in <strong>Python, SQL, Apache Airflow, and AWS (S3, Lambda, Redsh
   
 Currently expanding my expertise in <strong>Azure data services</strong> and <strong>Databricks</strong>, alongside modern data stack practices, to build next-generation data platforms that support real-time insights and scalability.
 </p>
-
 <!-- ====== Contact ====== -->
 <h2>Contact Me</h2>
 <p>
