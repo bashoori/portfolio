@@ -22,7 +22,7 @@ github:
 # 🧭 SEO & Social Metadata
 # -------------------------
 url: "https://bashoori.github.io"
-baseurl: "/data-engineering-portfolio"
+baseurl: "/portfolio"
 
 # Social media & sharing metadata
 author: "Bita Ashoori"
