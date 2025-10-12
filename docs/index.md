@@ -2,7 +2,7 @@
 <div style="display: flex; align-items: center; justify-content: space-between; width: 100%; padding: 25px 0; border-bottom: 2px solid #eaeaea;">
   <div style="flex: 1;">
     <h1 style="margin: 0; font-size: 2.4em; font-weight: 700; color: #222;">Bita Ashoori</h1>
-    <p style="margin: 6px 0 0; font-size: 1.25em; color: #555;">💼 Data Engineering portfolio</p>
+    <p style="margin: 6px 0 0; font-size: 1.25em; color: #555;"></strong>💼 Data Engineering portfolio</strong></p>
     <p style="margin: 10px 0 0; font-size: 1em; color: #666; max-width: 560px;">
       Designing scalable, cloud-native data pipelines that power decision-making across healthcare, retail, and public services.
     </p>
