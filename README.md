@@ -36,7 +36,7 @@ Many of these projects include:
 - 🧪 **Test datasets**
 - ✅ **Automation via GitHub Actions or Docker Compose**
 
-Explore the [**docs/**](./docs) folder for more!
+
 
 ---
 
