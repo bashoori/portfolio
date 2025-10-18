@@ -13,9 +13,9 @@
          style="border-radius: 50%; border: 3px solid #f2f2f2; box-shadow: 0 6px 14px rgba(0,0,0,0.12);" />
   </div>
 </div>
+
 <!-- ====== About ====== -->
 <h2>About Me</h2>
-<p>
 <p>
 I’m a <strong>Data Engineer based in Vancouver</strong> with over 5 years of experience spanning <strong>data engineering, business intelligence, and analytics</strong>). I specialize in designing <strong>cloud native ETL/ELT pipelines</strong> and <strong>automating data workflows</strong> that transform raw data into actionable insights.
 </p>
@@ -28,7 +28,6 @@ My background includes work across <strong>healthcare, retail, and public-sector
 I’m currently <strong>expanding my skills in Azure and Databricks</strong>, focusing on <strong>modern data stack architectures</strong>—including <strong>Delta Lake, Medallion design, and real-time streaming</strong>—to build next generation data platforms that drive <strong>performance, reliability, and business value</strong>.
 </p>
 
-</p>
 <!-- ====== Contact ====== -->
 <h2>Contact Me</h2>
 <p>
@@ -56,6 +55,7 @@ I’m currently <strong>expanding my skills in Azure and Databricks</strong>, fo
 - [🚀 Real-Time Event Processing with AWS Kinesis, Glue & Athena](#kinesis-glue-athena)
 - [🎮 Real-Time Player Pipeline](#real-time-player-pipeline)
 - [🏥 FHIR Healthcare Pipeline](#fhir-healthcare-pipeline)
+- [🛒 Azure ADF Retail Pipeline](#azure-adf-retail-pipeline)
 - [🔍 LinkedIn Scraper (Lambda)](#linkedin-scraper-lambda)
 
 <hr/>
@@ -183,7 +183,23 @@ I’m currently <strong>expanding my skills in Azure and Databricks</strong>, fo
 
 <hr/>
 
-<!-- 9. LinkedIn Scraper -->
+<!-- 9. Azure ADF Retail Pipeline -->
+<h3 id="azure-adf-retail-pipeline">🛒 Azure ADF Retail Pipeline</h3>
+<p><strong>Scenario:</strong> Retail organizations needed an automated cloud data pipeline to consolidate and analyze sales data from multiple regions.<br/>
+📎 <a href="https://github.com/bashoori/azure-adf-retail-pipeline">View GitHub Repo</a><br/>
+<strong>Solution:</strong> Developed a cloud-native ETL pipeline using <strong>Azure Data Factory</strong> that ingests, transforms, and loads retail sales data from on-prem SQL Server to <strong>Azure Data Lake</strong> and <strong>Azure SQL Database</strong>. Implemented <strong>parameterized pipelines</strong>, <strong>incremental data loads</strong>, and <strong>monitoring through ADF logs</strong>.<br/>
+✅ <strong>Impact:</strong> Improved reporting efficiency by 45%, automated data refresh cycles, and reduced manual dependencies.<br/>
+🧰 <strong>Stack:</strong> Azure Data Factory · Azure SQL Database · Blob Storage · Power BI<br/>
+🧪 <strong>Tested On:</strong> Azure Free Tier + GitHub Codespaces</p>
+<p align="center">
+  <img src="https://raw.githubusercontent.com/bashoori/azure-adf-retail-pipeline/main/docs/images/azure-adf-retail-diagram.png"
+       alt="Azure ADF Retail Pipeline Diagram" width="720"
+       style="border: 1px solid #ddd; border-radius: 8px; box-shadow: 0 4px 10px rgba(0,0,0,0.08);" />
+</p>
+
+<hr/>
+
+<!-- 10. LinkedIn Scraper -->
 <h3 id="linkedin-scraper-lambda">🔍 LinkedIn Scraper (Lambda)</h3>
 <p><strong>Scenario:</strong> Manual job tracking is slow and error-prone for candidates and recruiters.<br/>
 📎 <a href="https://github.com/bashoori/portfolio/tree/main/linkedIn-job-scraper">View GitHub Repo</a></p>
@@ -195,13 +211,8 @@ I’m currently <strong>expanding my skills in Azure and Databricks</strong>, fo
        style="border: 1px solid #ddd; border-radius: 8px; box-shadow: 0 4px 10px rgba(0,0,0,0.08);" />
 </p>
 
-
-
-
-
-
-
 <hr/>
+
 <!-- ====== Visitor & View Badges (bottom of page) ====== -->
 <div style="
   margin-top: 40px;
@@ -220,5 +231,3 @@ I’m currently <strong>expanding my skills in Azure and Databricks</strong>, fo
   <img src="https://komarev.com/ghpvc/?username=bashoori&label=Views&color=blueviolet&style=flat-square"
        alt="portfolio Views" height="18">
 </div>
-
-
