@@ -283,7 +283,7 @@ including <strong>Delta Lake, Medallion design, and real-time streaming</strong>
 </div>
 
 <footer>
-  © 2025 Bita Ashoori | Built using HTML & GitHub Pages
+  © 2025 Bita Ashoori | Built with ❤️ using HTML & GitHub Pages
 </footer>
 
 </body>
