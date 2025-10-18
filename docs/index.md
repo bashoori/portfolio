@@ -1,3 +1,108 @@
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <!-- Page Title -->
+  <title>Bita Ashoori | Data Engineering Portfolio</title>
+
+  <!-- Meta Tags for SEO -->
+  <meta name="description" content="Bita Ashoori — Data Engineer based in Vancouver, specializing in Azure, Databricks, and cloud-native ETL pipelines. Explore projects on ADF, Airflow, and Databricks." />
+  <meta name="keywords" content="Bita Ashoori, Data Engineer, Azure, Databricks, Airflow, ADF, Power BI, ETL, Vancouver, Portfolio" />
+  <meta name="author" content="Bita Ashoori" />
+
+  <!-- Open Graph for LinkedIn / Social sharing -->
+  <meta property="og:title" content="Bita Ashoori | Data Engineering Portfolio" />
+  <meta property="og:description" content="Explore Bita Ashoori’s professional portfolio featuring Azure, Databricks, and modern data engineering projects." />
+  <meta property="og:image" content="https://raw.githubusercontent.com/bashoori/portfolio/main/docs/images/profile-photo4.png" />
+  <meta property="og:url" content="https://bashoori.github.io/portfolio/" />
+  <meta name="twitter:card" content="summary_large_image" />
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/png" href="https://raw.githubusercontent.com/bashoori/portfolio/main/docs/images/favicon.png" />
+
+  <!-- Fonts and Colors -->
+  <style>
+    body {
+      font-family: "Segoe UI", Arial, sans-serif;
+      color: #1E293B;
+      background-color: #ffffff;
+      margin: 40px;
+      line-height: 1.6;
+    }
+
+    h1, h2, h3, h4 {
+      color: #0078D4;
+      font-weight: 700;
+    }
+
+    a {
+      color: #2563EB;
+      text-decoration: none;
+      transition: color 0.2s ease;
+    }
+
+    a:hover {
+      text-decoration: underline;
+      color: #0078D4;
+    }
+
+    hr {
+      border: none;
+      border-top: 2px solid #E5E7EB;
+      margin: 40px 0;
+    }
+
+    img {
+      border-radius: 8px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.08);
+    }
+
+    section {
+      margin-bottom: 60px;
+      padding: 25px;
+      border-left: 4px solid #0078D4;
+      background-color: #FAFAFA;
+      border-radius: 10px;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.05);
+    }
+
+    .skills-grid {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 20px;
+    }
+
+    .skill-card {
+      flex: 1;
+      min-width: 250px;
+      background: #F3F4F6;
+      padding: 15px 20px;
+      border-radius: 10px;
+      transition: transform 0.2s ease;
+    }
+
+    .skill-card:hover {
+      transform: translateY(-4px);
+      box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+    }
+
+    footer {
+      margin-top: 60px;
+      text-align: center;
+      color: #666;
+      font-size: 0.9em;
+    }
+
+    .stack img {
+      margin: 3px;
+    }
+  </style>
+</head>
+
+
+
+
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
