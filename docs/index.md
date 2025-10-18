@@ -71,7 +71,7 @@ I’m currently <strong>expanding my skills in Azure and Databricks</strong>, fo
 🧰 <strong>Stack:</strong> Azure Data Factory · Azure SQL Database · Blob Storage · Power BI<br/>
 🧪 <strong>Tested On:</strong> Azure Free Tier + GitHub Codespaces</p>
 <p align="center">
-  <img src="https://raw.githubusercontent.com/bashoori/azure-adf-retail-pipeline/main/docs/images/azure-adf-retail-diagram.png"
+  <img src="https://raw.githubusercontent.com/bashoori/azure-adf-retail-pipeline/main/docs/images/ADF2.png"
        alt="Azure ADF Retail Pipeline Diagram" width="720"
        style="border: 1px solid #ddd; border-radius: 8px; box-shadow: 0 4px 10px rgba(0,0,0,0.08);" />
 </p>
