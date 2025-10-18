@@ -17,7 +17,7 @@
 <h2>About Me</h2>
 <p>
 <p>
-I’m a <strong>Data Engineer based in Vancouver</strong> with over 5 years of experience spanning <strong>data engineering, business intelligence, and analytics</strong>). I specialize in designing <strong>cloud-native ETL/ELT pipelines</strong> and <strong>automating data workflows</strong> that transform raw data into actionable insights.
+I’m a <strong>Data Engineer based in Vancouver</strong> with over 5 years of experience spanning <strong>data engineering, business intelligence, and analytics</strong>). I specialize in designing <strong>cloud native ETL/ELT pipelines</strong> and <strong>automating data workflows</strong> that transform raw data into actionable insights.
 </p>
 
 <p>
@@ -25,7 +25,7 @@ My background includes work across <strong>healthcare, retail, and public-sector
 </p>
 
 <p>
-I’m currently <strong>expanding my skills in Azure and Databricks</strong>, focusing on <strong>modern data stack architectures</strong>—including <strong>Delta Lake, Medallion design, and real-time streaming</strong>—to build next-generation data platforms that drive <strong>performance, reliability, and business value</strong>.
+I’m currently <strong>expanding my skills in Azure and Databricks</strong>, focusing on <strong>modern data stack architectures</strong>—including <strong>Delta Lake, Medallion design, and real-time streaming</strong>—to build next generation data platforms that drive <strong>performance, reliability, and business value</strong>.
 </p>
 
 </p>
