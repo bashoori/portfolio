@@ -16,12 +16,18 @@
 <!-- ====== About ====== -->
 <h2>About Me</h2>
 <p>
-I’m a Data Engineer based in Vancouver with 5+ years of experience across data engineering, business intelligence, and analytics. I design
-<strong>cloud-native pipelines</strong> and automate workflows that turn raw data into actionable insights. My work spans
-<strong>healthcare, retail, and public-sector projects</strong>. With 3+ years building cloud pipelines and 2+ years as a BI/ETL Developer,
-I’m skilled in <strong>Python, SQL, Apache Airflow, and AWS (S3, Lambda, Redshift)</strong>.
-  
-Currently expanding my expertise in <strong>Azure data services</strong> and <strong>Databricks</strong>, alongside modern data stack practices, to build next-generation data platforms that support real-time insights and scalability.
+<p>
+I’m a <strong>Data Engineer based in Vancouver</strong> with over 5 years of experience spanning <strong>data engineering, business intelligence, and analytics</strong>). I specialize in designing <strong>cloud-native ETL/ELT pipelines</strong> and <strong>automating data workflows</strong> that transform raw data into actionable insights.
+</p>
+
+<p>
+My background includes work across <strong>healthcare, retail, and public-sector</strong> environments, where I’ve delivered scalable and reliable data solutions. With 3+ years building <strong>cloud data pipelines</strong> and 2+ years as a <strong>BI/ETL Developer</strong>, I bring strong expertise in <strong>Python, SQL, Apache Airflow, and AWS (S3, Lambda, Redshift)</strong>.
+</p>
+
+<p>
+I’m currently <strong>expanding my skills in Azure and Databricks</strong>, focusing on <strong>modern data stack architectures</strong>—including <strong>Delta Lake, Medallion design, and real-time streaming</strong>—to build next-generation data platforms that drive <strong>performance, reliability, and business value</strong>.
+</p>
+
 </p>
 <!-- ====== Contact ====== -->
 <h2>Contact Me</h2>
