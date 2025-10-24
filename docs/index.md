@@ -142,3 +142,121 @@ I’m currently <strong>expanding my skills in Azure and Databricks</strong>, fo
        alt="Airflow AWS Diagram" width="720"
        style="border: 1px solid #ddd; border-radius: 8px; box-shadow: 0 4px 10px rgba(0,0,0,0.08);" />
 </p>
+
+<hr/>
+
+<!-- 6. Real-Time Marketing Pipeline -->
+<h3 id="real-time-marketing-pipeline">⚡ Real-Time Marketing Pipeline</h3>
+<p><strong>Scenario:</strong> Marketing teams often struggle to get timely insights from campaign data spread across multiple ad platforms. This project simulates a real-time ingestion and transformation system to provide near-instant analytics for marketing performance.<br/>
+📎 <a href="https://github.com/bashoori/portfolio/tree/main/real-time-marketing-pipeline">View GitHub Repo</a><br/>
+<strong>Solution:</strong> Implemented a PySpark-based data ingestion and transformation pipeline that streams ad campaign data into a Delta Lake architecture. Leveraged incremental data loading and scheduled automation with GitHub Actions for CI/CD.<br/>
+✅ <strong>Impact:</strong> Reduced data latency from <strong>24 hours to under 1 hour</strong>, enabling rapid decision-making for campaign optimization.<br/>
+🧰 <strong>Stack:</strong> PySpark · Databricks · Delta Lake · GitHub Actions · AWS S3<br/>
+🧪 <strong>Tested On:</strong> Databricks Community Edition + GitHub CI/CD</p>
+<p align="center">
+  <img src="https://raw.githubusercontent.com/bashoori/portfolio/main/docs/images/image1.png"
+       alt="Real-Time Marketing Pipeline Diagram" width="720"
+       style="border: 1px solid #ddd; border-radius: 8px; box-shadow: 0 4px 10px rgba(0,0,0,0.08);" />
+</p>
+
+<hr/>
+
+<!-- 7. Real-Time Player Pipeline -->
+<h3 id="real-time-player-pipeline">🎮 Real-Time Player Pipeline</h3>
+<p><strong>Scenario:</strong> Gaming companies need live insights into player behavior to improve engagement and retention. This project demonstrates how to process high-volume event streams from gameplay in real time.<br/>
+📎 <a href="https://github.com/bashoori/portfolio/tree/main/real-time-player-pipeline">View GitHub Repo</a><br/>
+<strong>Solution:</strong> Built a streaming data pipeline using Kafka (or AWS Kinesis) for real-time ingestion, orchestrated with Airflow. Transformed and stored event data in AWS S3 for analytics, allowing near-instant monitoring of user engagement metrics.<br/>
+✅ <strong>Impact:</strong> Enabled dashboards with <strong>real-time player stats</strong> and reduced data availability lag from hours to seconds.<br/>
+🧰 <strong>Stack:</strong> Kafka · AWS Kinesis · Airflow · S3 · Spark<br/>
+🧪 <strong>Tested On:</strong> Local Docker + AWS Free Tier</p>
+<p align="center">
+  <img src="https://raw.githubusercontent.com/bashoori/portfolio/main/docs/images/etl3.png"
+       alt="Real-Time Player Pipeline Diagram" width="720"
+       style="border: 1px solid #ddd; border-radius: 8px; box-shadow: 0 4px 10px rgba(0,0,0,0.08);" />
+</p>
+
+<hr/>
+
+<!-- 8. PySpark Sales Pipeline -->
+<h3 id="pyspark-sales-pipeline">📈 PySpark Sales Pipeline</h3>
+<p><strong>Scenario:</strong> Enterprises require efficient ETL systems to handle growing volumes of sales data and provide timely insights for forecasting and reporting.<br/>
+📎 <a href="https://github.com/bashoori/portfolio/tree/main/pyspark-sales-pipeline">View GitHub Repo</a><br/>
+<strong>Solution:</strong> Created a production-style PySpark ETL pipeline to extract large sales datasets, transform and aggregate them into a Delta Lake, and optimize with partitioning and caching for query performance.<br/>
+✅ <strong>Impact:</strong> Achieved up to <strong>40% faster transformations</strong> and improved report accuracy through standardized schema validation and Delta Lake optimization.<br/>
+🧰 <strong>Stack:</strong> PySpark · Delta Lake · AWS S3 · Databricks<br/>
+🧪 <strong>Tested On:</strong> Local Databricks + AWS Free Tier</p>
+<p align="center">
+  <img src="https://raw.githubusercontent.com/bashoori/portfolio/main/docs/images/etl6.png"
+       alt="PySpark Sales Pipeline Diagram" width="720"
+       style="border: 1px solid #ddd; border-radius: 8px; box-shadow: 0 4px 10px rgba(0,0,0,0.08);" />
+</p>
+
+<hr/>
+
+<!-- 9. FHIR Healthcare Pipeline -->
+<h3 id="fhir-healthcare-pipeline">🏥 FHIR Healthcare Pipeline</h3>
+<p><strong>Scenario:</strong> Healthcare organizations using FHIR (Fast Healthcare Interoperability Resources) often face data integration challenges between clinical systems and analytics tools.<br/>
+📎 <a href="https://github.com/bashoori/portfolio/tree/main/healthcare-FHIR-data-pipeline">View GitHub Repo</a><br/>
+<strong>Solution:</strong> Developed a Python-based ETL pipeline to ingest and normalize FHIR patient and encounter data, clean and store it in SQLite, and visualize it using Streamlit. Added validation and audit layers to ensure clinical data integrity.<br/>
+✅ <strong>Impact:</strong> Improved preprocessing efficiency by <strong>60%</strong> and ensured high-quality, analytics-ready clinical data.<br/>
+🧰 <strong>Stack:</strong> Python · Pandas · FHIR API · SQLite · Streamlit<br/>
+🧪 <strong>Tested On:</strong> Local + GitHub Codespaces</p>
+<p align="center">
+  <img src="https://raw.githubusercontent.com/bashoori/portfolio/main/docs/images/etl4.png"
+       alt="FHIR Healthcare Pipeline Diagram" width="720"
+       style="border: 1px solid #ddd; border-radius: 8px; box-shadow: 0 4px 10px rgba(0,0,0,0.08);" />
+</p>
+
+<hr/>
+
+<!-- 10. Real-Time Event Processing -->
+<h3 id="kinesis-glue-athena">🚀 Real-Time Event Processing with AWS Kinesis, Glue & Athena</h3>
+<p><strong>Scenario:</strong> Modern applications generate massive clickstream and interaction data that must be processed in near-real time for user analytics and system monitoring.<br/>
+📎 <a href="https://github.com/bashoori/Real-Time-Event-Processing-with-AWS-Kinesis-Glue-Athena">View GitHub Repo</a><br/>
+<strong>Solution:</strong> Designed an end-to-end data pipeline where user events are streamed to AWS Kinesis, transformed using Glue jobs, and queried via Athena. Implemented data cataloging and schema evolution for dynamic JSON data.<br/>
+✅ <strong>Impact:</strong> Built a reusable real-time processing pattern for streaming analytics and data lake integration.<br/>
+🧰 <strong>Stack:</strong> Python · AWS Kinesis · AWS Glue · AWS Athena · S3<br/>
+🧪 <strong>Tested On:</strong> AWS Free Tier</p>
+<p align="center">
+  <img src="https://raw.githubusercontent.com/bashoori/Real-Time-Event-Processing-with-AWS-Kinesis-Glue-Athena/main/Image.png"
+       alt="Kinesis Glue Athena Diagram" width="720"
+       style="border: 1px solid #ddd; border-radius: 8px; box-shadow: 0 4px 10px rgba(0,0,0,0.08);" />
+</p>
+
+<hr/>
+
+<!-- 11. LinkedIn Scraper -->
+<h3 id="linkedin-scraper-lambda">🔍 LinkedIn Scraper (Lambda)</h3>
+<p><strong>Scenario:</strong> Manual job tracking is slow and error-prone for candidates, recruiters, and analysts seeking real-time market insights.<br/>
+📎 <a href="https://github.com/bashoori/portfolio/tree/main/linkedIn-job-scraper">View GitHub Repo</a><br/>
+<strong>Solution:</strong> Created an automated data scraper using AWS Lambda and EventBridge that extracts LinkedIn job posts at scheduled intervals, parses them with BeautifulSoup, and stores them in S3 for analysis.<br/>
+✅ <strong>Impact:</strong> Automated collection of job market data for trend analysis and dashboarding.<br/>
+🧰 <strong>Stack:</strong> AWS Lambda · EventBridge · BeautifulSoup · S3<br/>
+🧪 <strong>Tested On:</strong> AWS Free Tier + Local Validation</p>
+<p align="center">
+  <img src="https://raw.githubusercontent.com/bashoori/portfolio/main/docs/images/etl5.png"
+       alt="LinkedIn Scraper Diagram" width="720"
+       style="border: 1px solid #ddd; border-radius: 8px; box-shadow: 0 4px 10px rgba(0,0,0,0.08);" />
+</p>
+
+<hr/>
+
+<!-- ====== Visitor & View Badges (bottom of page) ====== -->
+<div style="
+  margin-top: 40px;
+  padding: 6px 10px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  background-color: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.08);
+  width: fit-content;
+  font-size: 0.85em;
+">
+  <img src="https://visitor-badge.laobi.icu/badge?page_id=bashoori.portfolio&left_color=lightgrey&right_color=teal&style=flat-square"
+       alt="Unique Visitors" height="18">
+  <img src="https://komarev.com/ghpvc/?username=bashoori&label=Views&color=blueviolet&style=flat-square"
+       alt="Portfolio Views" height="18">
+</div>
+
