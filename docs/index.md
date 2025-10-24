@@ -122,7 +122,7 @@ I’m currently <strong>expanding my skills in Azure and Databricks</strong>, fo
 🧰 <strong>Stack:</strong> Python · SQLite · Pandas · Loguru · Streamlit · SQLAlchemy<br/>
 🧪 <strong>Tested On:</strong> GitHub Codespaces + Local SQLite</p>
 <p align="center">
-  <img src="https://raw.githubusercontent.com/bashoori/herbal-products-api-etl/main/images/herbal.png"
+  <img src="https://raw.githubusercontent.com/bashoori/herbal-products-api-etl/images/herbal.png"
        alt="Herbal Products ETL Diagram" width="720"
        style="border: 1px solid #ddd; border-radius: 8px; box-shadow: 0 4px 10px rgba(0,0,0,0.08);" />
 </p>
