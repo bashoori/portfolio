@@ -1,86 +1,111 @@
-# Bita Ashoori — Data Engineering Portfolio
+# Data Engineering Portfolio — Bita Ashoori
 
-This repository is a curated collection of practical data engineering projects focused on real-world pipelines, automation, and analytics.
-
-The projects here reflect how I approach data work in production: ingesting data from unreliable sources, transforming it into usable structures, orchestrating workflows, and exposing insights through analytics or downstream systems.
-
-**Core skills demonstrated**
-- Data ingestion from APIs, files, and web sources  
-- ETL / ELT pipeline design and orchestration  
-- SQL modeling and analytics-ready schemas  
-- Cloud and container-based workflows  
-- Python-based data processing and automation  
+Production-style data engineering projects focused on ingestion, transformation, orchestration, and analytics.  
+Each project models real-world data problems, not toy examples.
 
 ---
 
-## Featured Projects
+## Selected Projects
 
-### Airflow AWS Modernization  
-**Tech:** Airflow, Docker, AWS S3  
-Modernized legacy batch jobs into orchestrated Airflow DAGs with cloud storage integration. Focuses on workflow reliability, scheduling, and scalable deployment.
+### Airflow AWS Modernization
 
----
+::contentReference[oaicite:0]{index=0}
 
-### Cloud ETL Modernization (Airflow + AWS)  
-**Tech:** Python, Airflow, AWS  
-End-to-end ETL pipeline that ingests data from APIs, applies transformations, and loads curated datasets into cloud storage and databases. Designed with modular, reusable components.
+**Stack:** Airflow, Docker, AWS S3  
+Modernized legacy batch jobs into orchestrated Airflow DAGs with cloud storage integration. Emphasis on scheduling, dependency management, and operational reliability.
 
 ---
 
-### Healthcare FHIR Data Pipeline  
-**Tech:** Python, Pandas, SQLite, Streamlit  
-Processes FHIR-formatted healthcare JSON into structured analytical tables and visual dashboards. Demonstrates data normalization, healthcare data handling, and reporting.
+### Cloud ETL Modernization (Airflow + AWS)
+
+::contentReference[oaicite:1]{index=1}
+
+**Stack:** Python, Airflow, AWS  
+End-to-end ETL pipeline ingesting API data, transforming it, and loading curated datasets into cloud storage and databases. Built with modular components for reuse.
 
 ---
 
-### Real-Time Marketing Data Pipeline  
-**Tech:** Airflow, Docker, SQL  
-Simulates near real-time marketing events and processes them through scheduled pipelines. Emphasizes time-based transformations, aggregation logic, and analytics readiness.
+### Healthcare FHIR Data Pipeline
+
+::contentReference[oaicite:2]{index=2}
+
+**Stack:** Python, Pandas, SQLite, Streamlit  
+Processes FHIR-formatted healthcare JSON into structured analytical tables and dashboards. Focuses on schema normalization and healthcare data complexity.
 
 ---
 
-### Customer Insights Pipeline  
-**Tech:** Python, PostgreSQL, Airflow  
-Combines multiple customer datasets into unified reporting tables. Focuses on joins, transformations, and analytics-friendly schema design.
+### Real-Time Marketing Data Pipeline
+
+::contentReference[oaicite:3]{index=3}
+
+**Stack:** Airflow, Docker, SQL  
+Simulates near real-time marketing events and processes them through scheduled pipelines. Demonstrates time-window aggregation and analytics readiness.
 
 ---
 
-### PySpark Sales Pipeline  
-**Tech:** PySpark, Delta Lake  
-Distributed data processing pipeline that transforms raw sales data into cleaned, analytics-ready layers. Demonstrates scalable data engineering patterns.
+### Customer Insights Pipeline
+
+::contentReference[oaicite:4]{index=4}
+
+**Stack:** Python, PostgreSQL, Airflow  
+Integrates multiple customer data sources into unified reporting tables. Emphasis on joins, data modeling, and analytics-friendly schemas.
 
 ---
 
-### AWS Lambda LinkedIn Job Scraper  
-**Tech:** AWS Lambda, Python, S3  
-Serverless scraper that extracts job listings and stores structured outputs in cloud storage. Highlights automation and event-driven architecture.
+### PySpark Sales Pipeline
+
+::contentReference[oaicite:5]{index=5}
+
+**Stack:** PySpark, Delta Lake  
+Distributed pipeline transforming raw sales data into cleaned, analytics-ready layers. Demonstrates scalable processing patterns.
 
 ---
 
-### Patient Engagement Analytics  
-**Tech:** SQL, Pandas  
-ETL workflow analyzing patient engagement behavior across datasets. Designed for trend analysis and reporting use cases.
+### AWS Lambda LinkedIn Job Scraper
+
+::contentReference[oaicite:6]{index=6}
+
+**Stack:** AWS Lambda, Python, S3  
+Serverless scraper extracting job postings and storing structured outputs in cloud storage. Designed to demonstrate automation and event-driven architecture.
 
 ---
 
-### eBay Product Tracker  
-**Tech:** Python, BeautifulSoup  
-Web scraper that tracks product listings and pricing changes. Demonstrates data extraction, parsing, and structured output generation.
+### Patient Engagement Analytics
+
+::contentReference[oaicite:7]{index=7}
+
+**Stack:** SQL, Pandas  
+ETL workflow analyzing patient engagement behavior across healthcare datasets for trend analysis and reporting.
 
 ---
 
-### Vancouver Public Library Scraper  
-**Tech:** Python, BeautifulSoup  
-Scrapes and enriches book metadata from the Vancouver Public Library website. A small project focused on local data enrichment and automation.
+### eBay Product Tracker
+
+::contentReference[oaicite:8]{index=8}
+
+**Stack:** Python, BeautifulSoup  
+Web scraper tracking product listings and pricing changes with structured output.
 
 ---
 
-## About This Portfolio
+### Vancouver Public Library Scraper
 
-This portfolio is intentionally practical.  
-Each project exists to simulate or solve real data engineering problems rather than showcase theory or toy examples.
+::contentReference[oaicite:9]{index=9}
 
-I actively iterate on these projects as I learn new tools and patterns in cloud data engineering.
+**Stack:** Python, BeautifulSoup  
+Scrapes and enriches public library book metadata for local data exploration and enrichment.
+
+---
+
+## How to Read This Repository
+
+Each project includes:
+- Problem definition  
+- Data sources and assumptions  
+- Transformation and modeling logic  
+- Notes on tradeoffs and design decisions  
+
+Projects are updated as new tools and patterns are learned.
 
 ---
 
@@ -88,7 +113,4 @@ I actively iterate on these projects as I learn new tools and patterns in cloud 
 
 - GitHub: https://github.com/bashoori  
 - Live Portfolio: https://bashoori.github.io/portfolio  
-- LinkedIn: https://www.linkedin.com/in/bitaashoori  
-
----
-
+- LinkedIn: https://www.linkedin.com/in/bitaashoori
