@@ -1,7 +1,8 @@
 # Data Engineering Portfolio — Bita Ashoori
 
-Production-style data engineering projects focused on ingestion, transformation, orchestration, and analytics.  
-Each project models real-world data problems, not toy examples.
+Production-style data engineering projects focused on ingestion, transformation, orchestration, and analytics.
+
+Each project models real-world data problems and operational tradeoffs rather than toy examples or isolated scripts.
 
 ---
 
@@ -9,61 +10,61 @@ Each project models real-world data problems, not toy examples.
 
 ### Airflow AWS Modernization
 
-::contentReference[oaicite:0]{index=0}
+![Airflow AWS Modernization Architecture](images/airflow-aws-modernization.png)
 
 **Stack:** Airflow, Docker, AWS S3  
-Modernized legacy batch jobs into orchestrated Airflow DAGs with cloud storage integration. Emphasis on scheduling, dependency management, and operational reliability.
+Modernized legacy batch jobs into orchestrated Airflow DAGs with cloud storage integration. Emphasis on scheduling, dependency management, retries, and operational reliability.
 
 ---
 
 ### Cloud ETL Modernization (Airflow + AWS)
 
-::contentReference[oaicite:1]{index=1}
+![Cloud ETL Modernization Architecture](images/cloud-etl-modernization.png)
 
 **Stack:** Python, Airflow, AWS  
-End-to-end ETL pipeline ingesting API data, transforming it, and loading curated datasets into cloud storage and databases. Built with modular components for reuse.
+End-to-end ETL pipeline ingesting API data, transforming it, and loading curated datasets into cloud storage and databases. Built with modular components to support reuse and change.
 
 ---
 
 ### Healthcare FHIR Data Pipeline
 
-::contentReference[oaicite:2]{index=2}
+![Healthcare FHIR Data Pipeline Architecture](images/healthcare-fhir-pipeline.png)
 
 **Stack:** Python, Pandas, SQLite, Streamlit  
-Processes FHIR-formatted healthcare JSON into structured analytical tables and dashboards. Focuses on schema normalization and healthcare data complexity.
+Processes FHIR-formatted healthcare JSON into structured analytical tables and dashboards. Focuses on schema normalization, data quality, and healthcare data complexity.
 
 ---
 
 ### Real-Time Marketing Data Pipeline
 
-::contentReference[oaicite:3]{index=3}
+![Real-Time Marketing Data Pipeline Architecture](images/real-time-marketing-pipeline.png)
 
 **Stack:** Airflow, Docker, SQL  
-Simulates near real-time marketing events and processes them through scheduled pipelines. Demonstrates time-window aggregation and analytics readiness.
+Simulates near real-time marketing events and processes them through scheduled pipelines. Demonstrates time-window aggregation, transformation logic, and analytics readiness.
 
 ---
 
 ### Customer Insights Pipeline
 
-::contentReference[oaicite:4]{index=4}
+![Customer Insights Pipeline Architecture](images/customer-insights-pipeline.png)
 
 **Stack:** Python, PostgreSQL, Airflow  
-Integrates multiple customer data sources into unified reporting tables. Emphasis on joins, data modeling, and analytics-friendly schemas.
+Integrates multiple customer data sources into unified reporting tables. Emphasis on joins, data modeling, and analytics-friendly schema design.
 
 ---
 
 ### PySpark Sales Pipeline
 
-::contentReference[oaicite:5]{index=5}
+![PySpark Sales Pipeline Architecture](images/pyspark-sales-pipeline.png)
 
 **Stack:** PySpark, Delta Lake  
-Distributed pipeline transforming raw sales data into cleaned, analytics-ready layers. Demonstrates scalable processing patterns.
+Distributed pipeline transforming raw sales data into cleaned, analytics-ready layers. Demonstrates scalable processing patterns and layered data architecture.
 
 ---
 
 ### AWS Lambda LinkedIn Job Scraper
 
-::contentReference[oaicite:6]{index=6}
+![AWS Lambda Job Scraper Architecture](images/aws-lambda-job-scraper.png)
 
 **Stack:** AWS Lambda, Python, S3  
 Serverless scraper extracting job postings and storing structured outputs in cloud storage. Designed to demonstrate automation and event-driven architecture.
@@ -72,7 +73,7 @@ Serverless scraper extracting job postings and storing structured outputs in clo
 
 ### Patient Engagement Analytics
 
-::contentReference[oaicite:7]{index=7}
+![Patient Engagement Analytics Pipeline](images/patient-engagement-analytics.png)
 
 **Stack:** SQL, Pandas  
 ETL workflow analyzing patient engagement behavior across healthcare datasets for trend analysis and reporting.
@@ -81,16 +82,16 @@ ETL workflow analyzing patient engagement behavior across healthcare datasets fo
 
 ### eBay Product Tracker
 
-::contentReference[oaicite:8]{index=8}
+![eBay Product Tracker Pipeline](images/ebay-product-tracker.png)
 
 **Stack:** Python, BeautifulSoup  
-Web scraper tracking product listings and pricing changes with structured output.
+Web scraper tracking product listings and pricing changes with structured, queryable output.
 
 ---
 
 ### Vancouver Public Library Scraper
 
-::contentReference[oaicite:9]{index=9}
+![Vancouver Public Library Scraper Pipeline](images/vpl-scraper.png)
 
 **Stack:** Python, BeautifulSoup  
 Scrapes and enriches public library book metadata for local data exploration and enrichment.
@@ -100,12 +101,12 @@ Scrapes and enriches public library book metadata for local data exploration and
 ## How to Read This Repository
 
 Each project includes:
-- Problem definition  
+- A clear problem definition  
 - Data sources and assumptions  
 - Transformation and modeling logic  
 - Notes on tradeoffs and design decisions  
 
-Projects are updated as new tools and patterns are learned.
+Projects are updated continuously as new tools and patterns are learned.
 
 ---
 
