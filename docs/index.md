@@ -1,13 +1,13 @@
 <!-- ====== Banner ====== -->
-<div style="width:100%;min-height:240px;background:linear-gradient(120deg,rgba(10,25,47,0.92),rgba(17,70,120,0.88));border-radius:16px;margin-bottom:32px;display:flex;align-items:center;justify-content:center;text-align:center;padding:40px 20px;box-shadow:0 8px 24px rgba(0,0,0,0.15);">
+<div style="width:100%;min-height:240px;background:linear-gradient(120deg,#0b1f3a,#114678);border-radius:16px;margin-bottom:36px;display:flex;align-items:center;justify-content:center;text-align:center;padding:48px 20px;box-shadow:0 10px 28px rgba(0,0,0,0.18);">
 
   <div>
-    <h1 style="margin:0;color:#ffffff;font-size:2.4em;font-weight:700;">
+    <h1 style="margin:0;color:#ffffff;font-size:2.5em;font-weight:700;letter-spacing:0.3px;">
       Building Reliable Data Systems
     </h1>
 
-    <p style="margin:12px auto 0;max-width:720px;color:#dbeafe;font-size:1.1em;line-height:1.7;">
-      From raw data to structured pipelines and decision-ready datasets
+    <p style="margin:14px auto 0;max-width:680px;color:#e2ecff;font-size:1.08em;line-height:1.7;">
+      Turning raw data into structured pipelines and decision-ready datasets
     </p>
 
   </div>
