@@ -209,7 +209,7 @@ I care about clarity, maintainability, and data quality. My goal is not just to 
 <!-- ====== Contact ====== -->
 <h2 style="margin-top: 34px;">Contact</h2>
 
-<div style="display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap;">
+<div style="display: flex; justify-content: space-between; align-items: center; width: 100%;">
 
   <!-- Left side -->
   <div>
@@ -223,7 +223,7 @@ I care about clarity, maintainability, and data quality. My goal is not just to 
   </div>
 
   <!-- Right side -->
-  <div>
+  <div style="white-space: nowrap;">
     <img src="https://visitor-badge.laobi.icu/badge?page_id=bashoori.portfolio&left_color=lightgrey&right_color=teal&style=flat-square">
   </div>
 
