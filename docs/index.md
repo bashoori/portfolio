@@ -158,6 +158,7 @@ I care about clarity, maintainability, and data quality. My goal is not just to 
   Built SSIS pipelines and centralized reporting systems in SQL Server.
 </p>
 
+
 <!-- ====== Skills ====== -->
 <h2 style="margin-top: 34px;">Skills</h2>
 <p>
@@ -166,7 +167,6 @@ I care about clarity, maintainability, and data quality. My goal is not just to 
   <strong>Tools:</strong> Airflow, SSIS, Power BI, Databricks<br/>
   <strong>Concepts:</strong> ETL/ELT, Data Modeling, Lakehouse, Medallion Architecture
 </p>
-
 
 <!-- ====== Certifications ====== -->
 <h2 style="margin-top: 34px;">Certifications</h2>
@@ -186,9 +186,13 @@ I care about clarity, maintainability, and data quality. My goal is not just to 
   Covers Delta Lake, medallion architecture, and scalable data processing using Spark.
 </p>
 
-
 <!-- ====== Education ====== -->
 <h2 style="margin-top: 34px;">Education</h2>
+
+<p>
+  <strong>Bachelor’s Degree in Applied Mathematics (Computer Science)</strong><br/>
+  Built a strong foundation in mathematical modeling, problem-solving, and computational thinking.
+</p>
 
 <p>
   <strong>Applied Database Administration & Design</strong><br/>
