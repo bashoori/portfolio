@@ -1,39 +1,56 @@
 <!-- ====== Banner ====== -->
 <div style="
   width: 100%;
-  padding: 40px 20px;
-  background: #0f172a;
-  border-radius: 12px;
+  min-height: 220px;
+  background:
+    linear-gradient(rgba(10, 25, 47, 0.82), rgba(17, 70, 120, 0.78)),
+    url('https://raw.githubusercontent.com/bashoori/portfolio/main/docs/images/banner-data-engineering.png');
+  background-size: cover;
+  background-position: center;
+  border-radius: 14px;
   margin-bottom: 28px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   text-align: center;
+  padding: 30px 20px;
 ">
 
-  <h1 style="
-    margin: 0;
-    font-size: 2.2em;
-    font-weight: 700;
-    color: #f9fafb;
-    letter-spacing: 0.5px;
-  ">
-    Data is only useful when it’s reliable
-  </h1>
+  <div>
+    <h1 style="
+      margin: 0;
+      color: #ffffff;
+      font-size: 2.5em;
+      font-weight: 700;
+      letter-spacing: 0.3px;
+    ">
+      Bita Ashoori
+    </h1>
 
-  <p style="
-    margin: 12px auto 0;
-    max-width: 700px;
-    font-size: 1.05em;
-    color: #cbd5f5;
-    line-height: 1.6;
-  ">
-    I design data pipelines and systems that turn raw, inconsistent data into structured datasets teams can trust.
-  </p>
+    <p style="
+      margin: 10px 0 0;
+      color: #e6f0ff;
+      font-size: 1.2em;
+      font-weight: 500;
+    ">
+      Data Engineer
+    </p>
 
+    <p style="
+      margin: 12px auto 0;
+      max-width: 760px;
+      color: #dbeafe;
+      font-size: 1.05em;
+      line-height: 1.6;
+    ">
+      Turning raw data into reliable pipelines, structured datasets, and clear decisions.
+    </p>
+  </div>
 </div>
-
 <!-- ====== Header ====== -->
 <div style="display: flex; align-items: center; justify-content: space-between; width: 100%; padding: 25px 0; border-bottom: 2px solid #eaeaea;">
   <div style="flex: 1;">
-    <h1 style="margin: 0; font-size: 2.4em; font-weight: 700; color: #222;">Bita Ashoori</h1>
+    <h1 style="margin: 0; font-size: 2.4em; font-weight: 700; color: #222;">Bita Ashoori's Blog</h1>
     <p style="margin: 6px 0 0; font-size: 1.25em; color: #555;">
       <strong>Data Engineer</strong>
     </p>
