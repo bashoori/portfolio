@@ -145,6 +145,28 @@ I care about clarity, maintainability, and data quality. My goal is not just to 
 
 <hr/>
 
+<!-- ====== Learning Product ====== -->
+<h2 style="margin-top:34px;">Learning Product</h2>
+
+<div style="border:1px solid #e5e5e5;border-radius:10px;padding:22px;margin-bottom:20px;box-shadow:0 2px 8px rgba(0,0,0,0.04);">
+  <h3 style="margin-top:0;">Udemy Course in Progress: Azure Data Fundamentals Practice Tests</h3>
+
+  <p>
+    I am currently building a Udemy course for <strong>Azure Data Fundamentals</strong> that includes
+    exam-style practice questions, correct answers, and detailed explanations to help learners build
+    real understanding rather than rely only on memorization.
+  </p>
+
+  <p>
+    The course is designed to make core Azure data concepts clearer through structured question sets,
+    explanation-based learning, and answer walkthroughs that show why each answer is right or wrong.
+  </p>
+
+  <p>
+    <strong>Focus:</strong> DP-900 · Azure Data Fundamentals · Practice Tests · Explained Answers · Learning Design
+  </p>
+</div>
+
 <!-- ====== Current Focus ====== -->
 <h2>Current Focus</h2>
 <div style="border: 1px solid #e5e5e5; border-radius: 10px; padding: 22px; background-color: #fafafa;">
