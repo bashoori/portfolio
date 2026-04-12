@@ -1,50 +1,52 @@
 <!-- ====== Banner ====== -->
 <div style="
   width: 100%;
-  min-height: 220px;
+  min-height: 240px;
   background:
-    linear-gradient(rgba(10, 25, 47, 0.82), rgba(17, 70, 120, 0.78)),
+    linear-gradient(120deg, rgba(10, 25, 47, 0.9), rgba(17, 70, 120, 0.85)),
     url('https://raw.githubusercontent.com/bashoori/portfolio/main/docs/images/banner-data-engineering.png');
   background-size: cover;
   background-position: center;
-  border-radius: 14px;
-  margin-bottom: 28px;
+  border-radius: 16px;
+  margin-bottom: 32px;
   display: flex;
   align-items: center;
   justify-content: center;
   text-align: center;
-  padding: 30px 20px;
+  padding: 40px 20px;
+  box-shadow: 0 8px 24px rgba(0,0,0,0.15);
 ">
 
   <div>
     <h1 style="
       margin: 0;
       color: #ffffff;
-      font-size: 2.5em;
+      font-size: 2.6em;
       font-weight: 700;
-      letter-spacing: 0.3px;
+      letter-spacing: 0.4px;
     ">
       Bita Ashoori
     </h1>
 
     <p style="
       margin: 10px 0 0;
-      color: #e6f0ff;
-      font-size: 1.2em;
+      color: #cfe8ff;
+      font-size: 1.25em;
       font-weight: 500;
     ">
       Data Engineer
     </p>
 
     <p style="
-      margin: 12px auto 0;
-      max-width: 760px;
-      color: #dbeafe;
-      font-size: 1.05em;
-      line-height: 1.6;
+      margin: 14px auto 0;
+      max-width: 720px;
+      color: #e6f0ff;
+      font-size: 1.08em;
+      line-height: 1.7;
     ">
       Turning raw data into reliable pipelines, structured datasets, and clear decisions.
     </p>
+
   </div>
 </div>
 <!-- ====== Header ====== -->
