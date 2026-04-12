@@ -77,13 +77,13 @@
 
     <hr style="margin:32px 0;"/>
 
-    <!-- ====== Projects ====== -->
+   <!-- ====== Projects ====== -->
     <h2>Selected Projects</h2>
-
+    
     <div style="background:#ffffff;border:1.5px solid #d1d5db;border-radius:10px;padding:22px;margin-bottom:16px;">
       <h3 style="margin-top:0;">Azure ADF Retail Pipeline</h3>
       <p style="color:#6b7280;margin-top:6px;">
-        <strong>Problem:</strong> Retail data from multiple regions was inconsistent and difficult to trust, which made reporting unreliable.
+        <strong>Problem:</strong> Retail data from multiple regions was inconsistent and difficult to trust, making reporting unreliable.
       </p>
       <p>
         Built a pipeline in Azure Data Factory with incremental loading and monitoring to standardize data and support reliable refresh cycles.
@@ -92,29 +92,41 @@
         <strong>Result:</strong> Reduced inconsistencies in reporting datasets and improved day-to-day data reliability.
       </p>
     </div>
-
+    
     <div style="background:#ffffff;border:1px solid #e5e7eb;border-radius:10px;padding:20px;margin-bottom:16px;">
       <h3 style="margin-top:0;">Databricks Lakehouse Pipeline</h3>
+      <p style="color:#6b7280;margin-top:6px;">
+        <strong>Problem:</strong> Raw data lacked structure and consistency, making it difficult to use for analysis.
+      </p>
       <p>
-        Designed a medallion pipeline using PySpark and Delta Lake to transform raw data into analytics-ready datasets.
+        Designed a medallion architecture pipeline using PySpark and Delta Lake to transform raw data into clean, analytics-ready datasets.
+      </p>
+      <p style="color:#6b7280;margin-bottom:0;">
+        <strong>Result:</strong> Improved data quality and created structured layers for reliable downstream reporting.
       </p>
     </div>
-
+    
     <div style="background:#ffffff;border:1px solid #e5e7eb;border-radius:10px;padding:20px;margin-bottom:16px;">
       <h3 style="margin-top:0;">Cloud ETL Modernization</h3>
+      <p style="color:#6b7280;margin-top:6px;">
+        <strong>Problem:</strong> Legacy ETL workflows were difficult to maintain and lacked visibility into failures.
+      </p>
       <p>
-        Rebuilt ETL workflows using Airflow and AWS, improving orchestration and reliability.
+        Rebuilt ETL pipelines using Airflow and AWS to improve orchestration, logging, and consistency across data workflows.
+      </p>
+      <p style="color:#6b7280;margin-bottom:0;">
+        <strong>Result:</strong> Increased pipeline reliability and made failures easier to detect and troubleshoot.
       </p>
     </div>
-
-    <hr style="margin:32px 0;"/>
-
-    <div style="margin-top:10px;">
+    
+    <div style="margin-top:14px;">
       <a href="https://github.com/bashoori" style="color:#2563eb;font-weight:500;">
-      View more projects on GitHub →
+        View more projects on GitHub →
       </a>
     </div>
-
+    
+    <hr style="margin:32px 0;"/>
+    
     <!-- ====== Insights ====== -->
     <h2>Insights & Writing</h2>
     
@@ -136,9 +148,17 @@
 
     <!-- ====== Learning Product ====== -->
     <h2 style="margin-top:28px;">Learning Product</h2>
+    
     <p style="color:#6b7280;">
-      Building a DP-900 practice course with explained answers and structured learning.
+      Building a <strong>DP-900 Azure Data Fundamentals</strong> course with practice questions,
+      detailed explanations, and answer walkthroughs designed for real understanding.
     </p>
+    
+    <div style="margin-top:8px;">
+      <a href="YOUR_UDEMY_LINK_HERE" style="color:#2563eb;font-weight:500;">
+        View course on Udemy →
+      </a>
+    </div>
 
     <!-- ====== Current Focus ====== -->
     <h2 style="margin-top:28px;">Current Focus</h2>
