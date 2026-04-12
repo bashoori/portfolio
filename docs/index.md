@@ -109,11 +109,30 @@
 
     <hr style="margin:32px 0;"/>
 
+    <div style="margin-top:10px;">
+      <a href="https://github.com/bashoori" style="color:#2563eb;font-weight:500;">
+      View more projects on GitHub →
+      </a>
+    </div>
+
     <!-- ====== Insights ====== -->
     <h2>Insights & Writing</h2>
+    
     <p style="color:#6b7280;">
-      I write about real data engineering challenges like pipeline failures, schema drift, and system design tradeoffs.
+      I write about real data engineering challenges, focusing on things that break in production and how to design around them.
     </p>
+    
+    <ul style="margin-top:10px;color:#4b5563;">
+      <li>Why pipelines fail silently and how to detect it</li>
+      <li>Schema drift is not just a bug, it’s a design problem</li>
+      <li>When to use Spark vs Pandas in real workflows</li>
+    </ul>
+    
+    <div style="margin-top:8px;">
+      <a href="https://www.linkedin.com/in/bitaashoori" style="color:#2563eb;font-weight:500;">
+        Read posts on LinkedIn →
+      </a>
+    </div>
 
     <!-- ====== Learning Product ====== -->
     <h2 style="margin-top:28px;">Learning Product</h2>
