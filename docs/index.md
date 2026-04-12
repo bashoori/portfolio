@@ -10,29 +10,50 @@
   </div>
 </div>
 
-<h1>Bita Ashoori's Blog</h1>
-<p>
-I’m a Data Engineer based in Vancouver, working across healthcare, retail, and enterprise environments.
-I build reliable data pipelines and turn messy, fragmented data into structured datasets that teams can trust.
-</p>
+<div style="display:flex;align-items:center;justify-content:space-between;gap:30px;flex-wrap:wrap;">
 
-<p>
-My background spans data engineering, ETL development, and business intelligence.
-I’ve worked with Python, SQL, Airflow, SSIS, AWS, and Azure, with a growing focus on Microsoft Fabric,
-lakehouse architecture, and modern data platforms.
-</p>
+  <!-- Left: Text -->
+  <div style="flex:1;min-width:260px;">
 
-<p>
-I care about data quality, clarity, and maintainability. The goal is not just moving data,
-but making it usable for real decision-making.
-</p>
+    <h1 style="margin:0;">Bita Ashoori</h1>
 
-<p style="margin-top:14px;">
-📍 Vancouver, BC &nbsp; | &nbsp;
-💼 Open to Data Engineer / Analytics roles &nbsp; | &nbsp;
-<a href="https://github.com/bashoori"><strong>GitHub</strong></a> &nbsp; | &nbsp;
-<a href="https://www.linkedin.com/in/bitaashoori"><strong>LinkedIn</strong></a>
-</p>
+    <p><strong>Data Engineer</strong></p>
+
+    <p>
+    I’m a Data Engineer based in Vancouver, working across healthcare, retail, and enterprise environments.
+    I design and build data pipelines that turn messy, fragmented data into structured datasets teams can trust.
+    </p>
+
+    <p>
+    My background spans data engineering, ETL development, and business intelligence.
+    I’ve worked with Python, SQL, Airflow, SSIS, AWS, and Azure, with a growing focus on Microsoft Fabric,
+    lakehouse architecture, and modern data platforms.
+    </p>
+
+    <p>
+    I care about data quality, clarity, and maintainability. The goal is not just moving data,
+    but making it usable for real decision-making.
+    </p>
+
+    <p style="margin-top:14px;">
+    📍 Vancouver, BC &nbsp; | &nbsp;
+    💼 Open to Data Engineer / Analytics roles &nbsp; | &nbsp;
+    <a href="https://github.com/bashoori"><strong>GitHub</strong></a> &nbsp; | &nbsp;
+    <a href="https://www.linkedin.com/in/bitaashoori"><strong>LinkedIn</strong></a>
+    </p>
+
+  </div>
+
+  <!-- Right: Image -->
+  <div style="flex-shrink:0;">
+    <img 
+      src="https://raw.githubusercontent.com/bashoori/portfolio/main/docs/images/profile-photo4.png"
+      alt="Bita Ashoori"
+      width="200"
+      style="border-radius:50%;border:3px solid #f2f2f2;box-shadow:0 6px 16px rgba(0,0,0,0.15);" />
+  </div>
+
+</div>
 
 <!-- ====== What I Do ====== -->
 <h2 style="margin-top:34px;">What I Do</h2>
