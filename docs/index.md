@@ -223,7 +223,7 @@ I care about clarity, maintainability, and data quality. My goal is not just to 
 </p>
 
 <!-- ====== Contact ====== -->
-<h2 style="margin-top:34px;">Contact</h2>
+<h2 style="margin-top:34px;">Stay Connected</h2>
 
 <div style="display:flex;justify-content:space-between;align-items:center;gap:20px;flex-wrap:wrap;width:100%;">
 
@@ -240,7 +240,6 @@ I care about clarity, maintainability, and data quality. My goal is not just to 
 
   <!-- Center (message) -->
   <div style="text-align:center;max-width:520px;color:#555;font-size:0.95em;line-height:1.6;">
-    <div style="font-weight:600;margin-bottom:6px;">Stay Connected</div>
     <div>
       Follow my work on 
       <a href="https://www.linkedin.com/in/bitaashoori"><strong>LinkedIn</strong></a> 
