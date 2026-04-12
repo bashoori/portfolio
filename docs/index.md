@@ -167,6 +167,29 @@ I care about clarity, maintainability, and data quality. My goal is not just to 
   </p>
 </div>
 
+<!-- ====== Insights & Writing ====== -->
+<h2 style="margin-top:34px;">Insights & Writing</h2>
+
+<div style="border:1px solid #e5e5e5;border-radius:10px;padding:22px;margin-bottom:20px;box-shadow:0 2px 8px rgba(0,0,0,0.04);">
+
+  <p style="margin-top:0;">
+    I share practical insights on data engineering, pipeline design, and real-world data challenges on LinkedIn.
+    My focus is on explaining how systems actually behave, not just how they are supposed to work.
+  </p>
+
+  <ul>
+    <li>Common failures in data pipelines and how to prevent them</li>
+    <li>Schema drift, data quality, and reliability in production systems</li>
+    <li>Differences between Spark and Pandas in real use cases</li>
+    <li>Data modeling decisions and tradeoffs</li>
+  </ul>
+
+  <p style="margin-bottom:0;">
+    <a href="https://www.linkedin.com/in/bitaashoori"><strong>Read my posts on LinkedIn →</strong></a>
+  </p>
+
+</div>
+
 <!-- ====== Current Focus ====== -->
 <h2>Current Focus</h2>
 <div style="border: 1px solid #e5e5e5; border-radius: 10px; padding: 22px; background-color: #fafafa;">
