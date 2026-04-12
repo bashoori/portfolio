@@ -1,3 +1,39 @@
+<div style="display:flex;align-items:center;justify-content:space-between;gap:32px;flex-wrap:wrap;padding:20px 0 28px;border-bottom:2px solid #eaeaea;">
+
+  <div style="flex:1;min-width:280px;">
+    <div style="font-size:0.95em;color:#0b5394;font-weight:600;margin-bottom:10px;">
+      Data Engineer based in Vancouver
+    </div>
+
+    <h1 style="margin:0;font-size:2.5em;color:#222;">Bita Ashoori</h1>
+
+    <p style="margin:10px 0 0;font-size:1.15em;color:#555;">
+      Building reliable data pipelines and structured datasets for real decision-making
+    </p>
+
+    <p style="margin:16px 0 0;max-width:620px;color:#666;line-height:1.7;">
+      I work across healthcare, retail, and enterprise environments, designing data workflows that turn fragmented and messy inputs into trusted, usable systems.
+    </p>
+
+    <p style="margin:18px 0 0;color:#666;">
+      📍 Vancouver, BC &nbsp; | &nbsp;
+      <a href="https://github.com/bashoori"><strong>GitHub</strong></a>
+      &nbsp; | &nbsp;
+      <a href="https://www.linkedin.com/in/bitaashoori"><strong>LinkedIn</strong></a>
+    </p>
+  </div>
+
+  <div style="flex-shrink:0;">
+    <img
+      src="https://raw.githubusercontent.com/bashoori/portfolio/main/docs/images/profile-photo4.png"
+      alt="Bita Ashoori"
+      width="190"
+      style="border-radius:50%;border:3px solid #f2f2f2;box-shadow:0 6px 16px rgba(0,0,0,0.12);" />
+  </div>
+
+</div>
+
+
 <!-- ====== Banner ====== -->
 <div style="width:100%;min-height:240px;background:linear-gradient(120deg,#0b1f3a,#114678);border-radius:16px;margin-bottom:36px;display:flex;align-items:center;justify-content:center;text-align:center;padding:48px 20px;box-shadow:0 10px 28px rgba(0,0,0,0.18);">
   <div>
@@ -15,9 +51,7 @@
   <!-- Left: Text -->
   <div style="flex:1;min-width:260px;">
 
-    <h1 style="margin:0;">Bita Ashoori</h1>
-
-    <p><strong>Data Engineer</strong></p>
+    <h1 style="margin:0;">Bita Ashoori's Blog</h1>
 
     <p>
     I’m a Data Engineer based in Vancouver, working across healthcare, retail, and enterprise environments.
