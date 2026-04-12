@@ -217,6 +217,8 @@ I care about clarity, maintainability, and data quality. My goal is not just to 
   <a href="https://www.linkedin.com/in/bitaashoori">
     <img alt="LinkedIn" src="https://img.shields.io/badge/LinkedIn-Bita%20Ashoori-blue?logo=linkedin">
   </a>
-  &nbsp;
-  <img src="https://visitor-badge.laobi.icu/badge?page_id=bashoori.portfolio&left_color=lightgrey&right_color=teal&style=flat-square">
+
+  <span style="float: right;">
+    <img src="https://visitor-badge.laobi.icu/badge?page_id=bashoori.portfolio&left_color=lightgrey&right_color=teal&style=flat-square">
+  </span>
 </p>
