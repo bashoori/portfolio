@@ -27,6 +27,13 @@
       <a href="https://github.com/bashoori"><strong>GitHub</strong></a> &nbsp; | &nbsp;
       <a href="https://www.linkedin.com/in/bitaashoori"><strong>LinkedIn</strong></a>
     </p>
+
+    <!-- ====== Experience ====== -->
+  <h2 style="margin-top:28px;">Experience</h2>
+  <p><strong>Data Engineer | O2E Brands</strong></p>
+  <p><strong>ETL Developer | Vancouver Coastal Health</strong></p>
+  <p><strong>BI Developer | Georgia Main Food Group</strong></p>
+
   </div>
 
   <div style="flex-shrink:0;">
@@ -119,11 +126,6 @@ Building a DP-900 practice course with explained answers and structured learning
 Microsoft Fabric, lakehouse architecture, and DP-700.
 </p>
 
-<!-- ====== Experience ====== -->
-<h2 style="margin-top:28px;">Experience</h2>
-<p><strong>Data Engineer | O2E Brands</strong></p>
-<p><strong>ETL Developer | Vancouver Coastal Health</strong></p>
-<p><strong>BI Developer | Georgia Main Food Group</strong></p>
 
 <!-- ====== Footer ====== -->
 <h2 style="margin-top:32px;">Stay Connected</h2>
