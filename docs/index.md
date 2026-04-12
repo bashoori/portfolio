@@ -209,16 +209,22 @@ I care about clarity, maintainability, and data quality. My goal is not just to 
 <!-- ====== Contact ====== -->
 <h2 style="margin-top: 34px;">Contact</h2>
 
-<p>
-  <a href="https://github.com/bashoori">
-    <img alt="GitHub" src="https://img.shields.io/badge/GitHub-bashoori-black?logo=github">
-  </a>
-  &nbsp;
-  <a href="https://www.linkedin.com/in/bitaashoori">
-    <img alt="LinkedIn" src="https://img.shields.io/badge/LinkedIn-Bita%20Ashoori-blue?logo=linkedin">
-  </a>
+<div style="display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap;">
 
-  <span style="float: right;">
+  <!-- Left side -->
+  <div>
+    <a href="https://github.com/bashoori">
+      <img alt="GitHub" src="https://img.shields.io/badge/GitHub-bashoori-black?logo=github">
+    </a>
+    &nbsp;
+    <a href="https://www.linkedin.com/in/bitaashoori">
+      <img alt="LinkedIn" src="https://img.shields.io/badge/LinkedIn-Bita%20Ashoori-blue?logo=linkedin">
+    </a>
+  </div>
+
+  <!-- Right side -->
+  <div>
     <img src="https://visitor-badge.laobi.icu/badge?page_id=bashoori.portfolio&left_color=lightgrey&right_color=teal&style=flat-square">
-  </span>
-</p>
+  </div>
+
+</div>
