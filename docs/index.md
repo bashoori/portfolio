@@ -9,7 +9,7 @@
 
       <div style="flex:1;min-width:280px;">
         <div style="font-size:0.9em;color:#3b6ea8;font-weight:600;margin-bottom:8px;">
-          Data Engineer · Vancouver
+          Data Engineer 
         </div>
 
         <h1 style="margin:0;font-size:2.4em;color:#1f2937;">Bita Ashoori</h1>
