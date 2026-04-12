@@ -70,13 +70,22 @@
 <h2>Selected Projects</h2>
 
 <div style="border:1px solid #e5e5e5;border-radius:10px;padding:22px;margin-bottom:20px;">
-  <h3>Azure ADF Retail Pipeline</h3>
-  <p>
-    Built a pipeline using Azure Data Factory to consolidate multi-region retail data with incremental loading and monitoring.
-  </p>
-  <p><strong>Stack:</strong> ADF · Azure SQL · Blob Storage · Power BI</p>
-</div>
 
+  <h3>Azure ADF Retail Pipeline</h3>
+
+  <p style="color:#555;margin-top:6px;">
+    <strong>Problem:</strong> Retail data was coming from multiple regions with inconsistent formats and delayed updates, making reporting unreliable.
+  </p>
+
+  <p>
+    Built a pipeline in <strong>Azure Data Factory</strong> with incremental loading and monitoring to standardize data and ensure consistent, reliable refresh cycles.
+  </p>
+
+  <p>
+    <strong>Stack:</strong> ADF · Azure SQL · Blob Storage · Power BI
+  </p>
+
+</div>
 <div style="border:1px solid #e5e5e5;border-radius:10px;padding:22px;margin-bottom:20px;">
   <h3>Databricks Lakehouse Pipeline</h3>
   <p>
