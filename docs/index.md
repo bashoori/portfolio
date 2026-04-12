@@ -1,27 +1,34 @@
 <!-- ====== Banner ====== -->
 <div style="
   width: 100%;
-  height: 180px;
-  background: linear-gradient(120deg, #0b5394, #1c7ed6, #74c0fc);
+  padding: 40px 20px;
+  background: #0f172a;
   border-radius: 12px;
-  margin-bottom: 25px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  margin-bottom: 28px;
   text-align: center;
 ">
 
-  <div style="color: white;">
-    <h1 style="margin: 0; font-size: 2em; font-weight: 700;">
-      Data Engineering Portfolio
-    </h1>
-    <p style="margin: 8px 0 0; font-size: 1.05em; opacity: 0.9;">
-      Building reliable data systems and turning raw data into clear insight
-    </p>
-  </div>
+  <h1 style="
+    margin: 0;
+    font-size: 2.2em;
+    font-weight: 700;
+    color: #f9fafb;
+    letter-spacing: 0.5px;
+  ">
+    Data is only useful when it’s reliable
+  </h1>
+
+  <p style="
+    margin: 12px auto 0;
+    max-width: 700px;
+    font-size: 1.05em;
+    color: #cbd5f5;
+    line-height: 1.6;
+  ">
+    I design data pipelines and systems that turn raw, inconsistent data into structured datasets teams can trust.
+  </p>
 
 </div>
-
 
 <!-- ====== Header ====== -->
 <div style="display: flex; align-items: center; justify-content: space-between; width: 100%; padding: 25px 0; border-bottom: 2px solid #eaeaea;">
