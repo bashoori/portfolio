@@ -238,6 +238,20 @@ I care about clarity, maintainability, and data quality. My goal is not just to 
     </a>
   </div>
 
+  <!-- ====== Engagement ====== -->
+  <h2 style="margin-top:34px;">Stay Connected</h2>
+  
+  <p>
+  Follow my work and connect with me:
+  <a href="https://www.linkedin.com/in/bitaashoori"><strong>LinkedIn</strong></a> ·
+  <a href="https://github.com/bashoori"><strong>GitHub</strong></a>
+  </p>
+  
+  <p>
+  If something here was useful or interesting, feel free to leave a comment or reach out.
+  I’m always open to conversations about data, projects, and ideas.
+  </p>
+
   <!-- Right side -->
   <div style="white-space: nowrap;">
     <img src="https://visitor-badge.laobi.icu/badge?page_id=bashoori.portfolio&left_color=lightgrey&right_color=teal&style=flat-square">
