@@ -141,7 +141,7 @@
     </ul>
     
     <div style="margin-top:8px;">
-      <a href="https://www.linkedin.com/in/bitaashoori" style="color:#2563eb;font-weight:500;">
+      <a href="https://www.linkedin.com/in/bitaashoori/recent-activity/all/" style="color:#2563eb;font-weight:500;">
         Read posts on LinkedIn →
       </a>
     </div>
