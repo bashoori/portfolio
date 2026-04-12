@@ -167,6 +167,41 @@ I care about clarity, maintainability, and data quality. My goal is not just to 
   <strong>Concepts:</strong> ETL/ELT, Data Modeling, Lakehouse, Medallion Architecture
 </p>
 
+
+<!-- ====== Certifications ====== -->
+<h2 style="margin-top: 34px;">Certifications</h2>
+
+<p>
+  <strong>Microsoft Certified: Azure Data Fundamentals (DP-900)</strong><br/>
+  Demonstrates foundational knowledge of core data concepts and how they are implemented using Microsoft Azure data services.
+</p>
+
+<p>
+  <strong>DP-700: Implementing Data Engineering Solutions Using Microsoft Fabric (In Progress)</strong><br/>
+  Focused on modern data engineering patterns, lakehouse architecture, and end-to-end data workflows in Microsoft Fabric.
+</p>
+
+<p>
+  <strong>Databricks Lakehouse Fundamentals</strong><br/>
+  Covers Delta Lake, medallion architecture, and scalable data processing using Spark.
+</p>
+
+
+<!-- ====== Education ====== -->
+<h2 style="margin-top: 34px;">Education</h2>
+
+<p>
+  <strong>Applied Database Administration & Design</strong><br/>
+  British Columbia Institute of Technology (BCIT)<br/>
+  Focused on SQL Server, data modeling, ETL (SSIS), and database design principles.
+</p>
+
+<p>
+  <strong>Data Science Bootcamp</strong><br/>
+  Springboard (Mentor-led, 550+ hours)<br/>
+  Covered Python, SQL, data analysis, statistics, and machine learning with hands-on projects.
+</p>
+
 <!-- ====== Contact ====== -->
 <h2 style="margin-top: 34px;">Contact</h2>
 <p>
