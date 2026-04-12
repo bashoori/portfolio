@@ -1,3 +1,28 @@
+<!-- ====== Banner ====== -->
+<div style="
+  width: 100%;
+  height: 180px;
+  background: linear-gradient(120deg, #0b5394, #1c7ed6, #74c0fc);
+  border-radius: 12px;
+  margin-bottom: 25px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+">
+
+  <div style="color: white;">
+    <h1 style="margin: 0; font-size: 2em; font-weight: 700;">
+      Data Engineering Portfolio
+    </h1>
+    <p style="margin: 8px 0 0; font-size: 1.05em; opacity: 0.9;">
+      Building reliable data systems and turning raw data into clear insight
+    </p>
+  </div>
+
+</div>
+
+
 <!-- ====== Header ====== -->
 <div style="display: flex; align-items: center; justify-content: space-between; width: 100%; padding: 25px 0; border-bottom: 2px solid #eaeaea;">
   <div style="flex: 1;">
@@ -9,7 +34,7 @@
       Building reliable data pipelines and structured datasets that support clear decisions.
     </p>
     <p style="margin: 14px 0 0; font-size: 0.98em; color: #666;">
-      📍 Vancouver, BC &nbsp; | &nbsp; 💼 Open to Data Engineer / Data Developer roles &nbsp; | &nbsp;
+      📍 Vancouver, BC &nbsp; | &nbsp; 💼 Open to Data Engineer / Analytics / Developer roles &nbsp; | &nbsp;
       <a href="https://github.com/bashoori" style="color: #0b5394; text-decoration: none;"><strong>GitHub</strong></a>
       &nbsp; | &nbsp;
       <a href="https://www.linkedin.com/in/bitaashoori" style="color: #0b5394; text-decoration: none;"><strong>LinkedIn</strong></a>
