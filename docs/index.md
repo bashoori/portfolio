@@ -223,11 +223,11 @@ I care about clarity, maintainability, and data quality. My goal is not just to 
 </p>
 
 <!-- ====== Contact ====== -->
-<h2 style="margin-top: 34px;">Contact</h2>
+<h2 style="margin-top:34px;">Contact</h2>
 
-<div style="display: flex; justify-content: space-between; align-items: center; width: 100%;">
+<div style="display:flex;justify-content:space-between;align-items:center;gap:20px;flex-wrap:wrap;width:100%;">
 
-  <!-- Left side -->
+  <!-- Left -->
   <div>
     <a href="https://github.com/bashoori">
       <img alt="GitHub" src="https://img.shields.io/badge/GitHub-bashoori-black?logo=github">
@@ -238,22 +238,22 @@ I care about clarity, maintainability, and data quality. My goal is not just to 
     </a>
   </div>
 
-  <!-- ====== Engagement ====== -->
-  <h2 style="margin-top:34px;">Stay Connected</h2>
-  
-  <p>
-  Follow my work and connect with me:
-  <a href="https://www.linkedin.com/in/bitaashoori"><strong>LinkedIn</strong></a> ·
-  <a href="https://github.com/bashoori"><strong>GitHub</strong></a>
-  </p>
-  
-  <p>
-  If something here was useful or interesting, feel free to leave a comment or reach out.
-  I’m always open to conversations about data, projects, and ideas.
-  </p>
+  <!-- Center (message) -->
+  <div style="text-align:center;max-width:520px;color:#555;font-size:0.95em;line-height:1.6;">
+    <div style="font-weight:600;margin-bottom:6px;">Stay Connected</div>
+    <div>
+      Follow my work on 
+      <a href="https://www.linkedin.com/in/bitaashoori"><strong>LinkedIn</strong></a> 
+      and explore projects on 
+      <a href="https://github.com/bashoori"><strong>GitHub</strong></a>.
+    </div>
+    <div style="margin-top:6px;">
+      If something here was useful, feel free to reach out or leave a comment.
+    </div>
+  </div>
 
-  <!-- Right side -->
-  <div style="white-space: nowrap;">
+  <!-- Right -->
+  <div style="white-space:nowrap;">
     <img src="https://visitor-badge.laobi.icu/badge?page_id=bashoori.portfolio&left_color=lightgrey&right_color=teal&style=flat-square">
   </div>
 
