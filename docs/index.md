@@ -10,10 +10,7 @@
   </div>
 </div>
 
-<h1>Bita Ashoori</h1>
-
-<p><strong>Data Engineer</strong></p>
-
+<h1>Bita Ashoori's Blog</h1>
 <p>
 I’m a Data Engineer based in Vancouver, working across healthcare, retail, and enterprise environments.
 I build reliable data pipelines and turn messy, fragmented data into structured datasets that teams can trust.
