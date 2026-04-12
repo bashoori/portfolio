@@ -1,90 +1,79 @@
 <!-- ====== Banner ====== -->
 <div style="width:100%;min-height:240px;background:linear-gradient(120deg,#0b1f3a,#114678);border-radius:16px;margin-bottom:36px;display:flex;align-items:center;justify-content:center;text-align:center;padding:48px 20px;box-shadow:0 10px 28px rgba(0,0,0,0.18);">
-
   <div>
     <h1 style="margin:0;color:#ffffff;font-size:2.5em;font-weight:700;">
       Building Reliable Data Systems
     </h1>
-
     <div style="margin:14px auto 0;max-width:680px;color:#e2ecff;font-size:1.08em;line-height:1.7;">
       Designing pipelines and datasets that turn messy data into decisions people can trust
     </div>
-
   </div>
-
 </div>
 
 <!-- ====== Header ====== -->
-<div style="display: flex; align-items: center; justify-content: space-between; width: 100%; padding: 25px 0; border-bottom: 2px solid #eaeaea;">
-  <div style="flex: 1;">
-    <h1 style="margin: 0; font-size: 2.4em; font-weight: 700; color: #222;">Bita Ashoori's Blog</h1>
-    <p style="margin: 6px 0 0; font-size: 1.25em; color: #555;">
-      <strong>Data Engineer</strong>
-    </p>
-    <p style="margin: 10px 0 0; font-size: 1em; color: #666; max-width: 560px;">
+<div style="display:flex;align-items:center;justify-content:space-between;width:100%;padding:25px 0;border-bottom:2px solid #eaeaea;">
+  <div style="flex:1;">
+    <h1 style="margin:0;font-size:2.4em;font-weight:700;color:#222;">Bita Ashoori</h1>
+    <p style="margin:6px 0 0;font-size:1.25em;color:#555;"><strong>Data Engineer</strong></p>
+    <p style="margin:10px 0 0;font-size:1em;color:#666;max-width:560px;">
       Building reliable data pipelines and structured datasets that support clear decisions.
     </p>
-    <p style="margin: 14px 0 0; font-size: 0.98em; color: #666;">
-      📍 Vancouver, BC &nbsp; | &nbsp; 💼 Open to Data Engineer / Analytics / Developer roles &nbsp; | &nbsp;
-      <a href="https://github.com/bashoori" style="color: #0b5394; text-decoration: none;"><strong>GitHub</strong></a>
-      &nbsp; | &nbsp;
-      <a href="https://www.linkedin.com/in/bitaashoori" style="color: #0b5394; text-decoration: none;"><strong>LinkedIn</strong></a>
+    <p style="margin:14px 0 0;font-size:0.98em;color:#666;">
+      📍 Vancouver, BC |
+      <a href="https://github.com/bashoori"><strong>GitHub</strong></a> |
+      <a href="https://www.linkedin.com/in/bitaashoori"><strong>LinkedIn</strong></a>
     </p>
   </div>
 
-  <div style="flex-shrink: 0; margin-left: 30px;">
-    <img
-      src="https://raw.githubusercontent.com/bashoori/portfolio/main/docs/images/profile-photo4.png"
-      width="220"
-      alt="Bita Ashoori"
-      style="border-radius: 50%; border: 3px solid #f2f2f2; box-shadow: 0 6px 14px rgba(0,0,0,0.12);" />
+  <div style="flex-shrink:0;margin-left:30px;">
+    <img src="https://raw.githubusercontent.com/bashoori/portfolio/main/docs/images/profile-photo4.png"
+         width="220"
+         alt="Bita Ashoori"
+         style="border-radius:50%;border:3px solid #f2f2f2;box-shadow:0 6px 14px rgba(0,0,0,0.12);" />
   </div>
 </div>
 
 <!-- ====== About ====== -->
-<h2 style="margin-top: 34px;">About Me</h2>
+<h2 style="margin-top:34px;">About Me</h2>
 <p>
-I’m a <strong>Data Engineer based in Vancouver</strong> with experience across healthcare, retail, and enterprise environments.
-I build reliable data pipelines, structure messy data into usable datasets, and support reporting and analytics with systems teams can trust.
+I’m a Data Engineer based in Vancouver, working across healthcare, retail, and enterprise environments.
+I focus on turning fragmented, unreliable data into structured systems teams can trust.
 </p>
-
 <p>
-My background spans data engineering, ETL development, and business intelligence. I’ve worked with
-<strong>Python, SQL, Apache Airflow, SSIS, AWS, and Azure</strong>, with a growing focus on
-<strong>Microsoft Fabric, lakehouse design, and modern cloud data platforms</strong>.
+My background spans ETL development, data engineering, and analytics support using Python, SQL, Airflow, SSIS, AWS, and Azure.
+More recently, I’ve been focused on Microsoft Fabric and lakehouse architecture.
 </p>
-
 <p>
-I care about clarity, maintainability, and data quality. My goal is not just to move data, but to make it usable for decision-making.
+I care about data quality, maintainability, and clarity. The goal is not just moving data, but making it usable.
 </p>
 
 <!-- ====== What I Do ====== -->
-<h2 style="margin-top: 34px;">What I Do</h2>
-<div style="display: flex; gap: 28px; flex-wrap: wrap; margin-top: 10px;">
-  <div style="flex: 1; min-width: 240px;">
-    <h3 style="margin-bottom: 10px;">Data Engineering</h3>
+<h2 style="margin-top:34px;">What I Do</h2>
+<div style="display:flex;gap:28px;flex-wrap:wrap;">
+  <div style="flex:1;min-width:240px;">
+    <h3>Data Pipelines</h3>
     <ul>
-      <li>Design and build reliable data pipelines</li>
-      <li>Transform raw data into clean, usable datasets</li>
-      <li>Support consistent, trusted downstream reporting</li>
+      <li>Design reliable, repeatable workflows</li>
+      <li>Handle real-world data issues and inconsistencies</li>
+      <li>Ensure consistent data delivery</li>
     </ul>
   </div>
 
-  <div style="flex: 1; min-width: 240px;">
-    <h3 style="margin-bottom: 10px;">Data Modeling & Analytics Support</h3>
+  <div style="flex:1;min-width:240px;">
+    <h3>Data Modeling</h3>
     <ul>
-      <li>Create structured datasets for analysis</li>
-      <li>Define clear business logic and metrics</li>
-      <li>Support reporting and decision-making</li>
+      <li>Structure datasets for analysis</li>
+      <li>Define clear business logic</li>
+      <li>Support trusted reporting</li>
     </ul>
   </div>
 
-  <div style="flex: 1; min-width: 240px;">
-    <h3 style="margin-bottom: 10px;">Modernization & Cloud Pipelines</h3>
+  <div style="flex:1;min-width:240px;">
+    <h3>Modern Platforms</h3>
     <ul>
-      <li>Migrate legacy workflows to scalable platforms</li>
-      <li>Apply ETL/ELT and lakehouse architecture</li>
-      <li>Improve reliability, monitoring, and maintainability</li>
+      <li>Move workflows to cloud-based systems</li>
+      <li>Apply lakehouse and medallion design</li>
+      <li>Improve performance and monitoring</li>
     </ul>
   </div>
 </div>
@@ -94,211 +83,103 @@ I care about clarity, maintainability, and data quality. My goal is not just to 
 <!-- ====== Selected Projects ====== -->
 <h2>Selected Projects</h2>
 
-<!-- Project 1 -->
-<div style="border: 1px solid #e5e5e5; border-radius: 10px; padding: 22px; margin-bottom: 20px; box-shadow: 0 2px 8px rgba(0,0,0,0.04);">
-  <h3 style="margin-top: 0;">Azure ADF Retail Pipeline</h3>
+<div style="border:1px solid #e5e5e5;border-radius:10px;padding:22px;margin-bottom:20px;">
+  <h3>Azure ADF Retail Pipeline</h3>
   <p>
-    Developed a cloud-native pipeline using <strong>Azure Data Factory</strong> to consolidate and analyze multi-region retail sales data.
-    Built parameterized workflows, incremental loading patterns, and monitoring logic to support reliable refresh cycles.
+    Built a pipeline using Azure Data Factory to consolidate multi-region retail data with incremental loading and monitoring.
   </p>
-  <p>
-    <strong>Stack:</strong> Azure Data Factory · Azure SQL Database · Blob Storage · Power BI
-  </p>
-  <p>
-    <a href="https://github.com/bashoori/azure-adf-retail-pipeline"><strong>View Project</strong></a>
-  </p>
+  <p><strong>Stack:</strong> ADF · Azure SQL · Blob Storage · Power BI</p>
 </div>
 
-<!-- Project 2 -->
-<div style="border: 1px solid #e5e5e5; border-radius: 10px; padding: 22px; margin-bottom: 20px; box-shadow: 0 2px 8px rgba(0,0,0,0.04);">
-  <h3 style="margin-top: 0;">End-to-End Data Pipeline with Databricks</h3>
+<div style="border:1px solid #e5e5e5;border-radius:10px;padding:22px;margin-bottom:20px;">
+  <h3>Databricks Lakehouse Pipeline</h3>
   <p>
-    Designed a medallion-style pipeline in <strong>Azure Databricks</strong> using Bronze, Silver, and Gold layers to ingest,
-    clean, and transform retail data into analytics-ready outputs.
+    Designed a medallion architecture pipeline to transform raw data into analytics-ready datasets using PySpark and Delta Lake.
   </p>
-  <p>
-    <strong>Stack:</strong> Azure Databricks · Delta Lake · PySpark · Unity Catalog · Power BI
-  </p>
-  <p>
-    <a href="https://github.com/bashoori/databricks-lakehouse-pipeline"><strong>View Project</strong></a>
-  </p>
+  <p><strong>Stack:</strong> Databricks · Delta · PySpark</p>
 </div>
 
-<!-- Project 3 -->
-<div style="border: 1px solid #e5e5e5; border-radius: 10px; padding: 22px; margin-bottom: 20px; box-shadow: 0 2px 8px rgba(0,0,0,0.04);">
-  <h3 style="margin-top: 0;">Cloud ETL Modernization</h3>
+<div style="border:1px solid #e5e5e5;border-radius:10px;padding:22px;margin-bottom:20px;">
+  <h3>Cloud ETL Modernization</h3>
   <p>
-    Built and modernized ETL workflows with <strong>Airflow and AWS</strong>, improving orchestration, logging, and pipeline consistency.
-    Focused on observability, standardized error handling, and maintainable cloud-based execution.
+    Rebuilt ETL workflows using Airflow and AWS, improving orchestration, logging, and pipeline consistency.
   </p>
-  <p>
-    <strong>Stack:</strong> Apache Airflow · AWS Redshift · CloudWatch
-  </p>
-  <p>
-    <a href="https://github.com/bashoori/portfolio/tree/main/cloud-etl-modernization-airflow-aws"><strong>View Project</strong></a>
-  </p>
+  <p><strong>Stack:</strong> Airflow · AWS</p>
 </div>
-
-<p style="text-align: right; margin-top: 10px;">
-  <a href="./projects.html" style="font-size: 1.05em;"><strong>View Full Project Archive →</strong></a>
-</p>
 
 <hr/>
 
+<!-- ====== Insights ====== -->
+<h2 style="margin-top:34px;">Insights & Writing</h2>
+<p>
+I share insights on real data engineering challenges, focusing on failures, tradeoffs, and design decisions.
+</p>
+<ul>
+  <li>Pipeline failures and reliability</li>
+  <li>Schema drift and data quality</li>
+  <li>Spark vs Pandas decisions</li>
+</ul>
+<p>
+  <a href="https://www.linkedin.com/in/bitaashoori"><strong>Read on LinkedIn →</strong></a>
+</p>
+
 <!-- ====== Learning Product ====== -->
 <h2 style="margin-top:34px;">Learning Product</h2>
-
-<div style="border:1px solid #e5e5e5;border-radius:10px;padding:22px;margin-bottom:20px;box-shadow:0 2px 8px rgba(0,0,0,0.04);">
-  <h3 style="margin-top:0;">Udemy Course in Progress: Azure Data Fundamentals Practice Tests</h3>
-
-  <p>
-    I am currently building a Udemy course for <strong>Azure Data Fundamentals</strong> that includes
-    exam-style practice questions, correct answers, and detailed explanations to help learners build
-    real understanding rather than rely only on memorization.
-  </p>
-
-  <p>
-    The course is designed to make core Azure data concepts clearer through structured question sets,
-    explanation-based learning, and answer walkthroughs that show why each answer is right or wrong.
-  </p>
-
-  <p>
-    <strong>Focus:</strong> DP-900 · Azure Data Fundamentals · Practice Tests · Explained Answers · Learning Design
-  </p>
-</div>
-
-<!-- ====== Insights & Writing ====== -->
-<h2 style="margin-top:34px;">Insights & Writing</h2>
-
-<div style="border:1px solid #e5e5e5;border-radius:10px;padding:22px;margin-bottom:20px;box-shadow:0 2px 8px rgba(0,0,0,0.04);">
-
-  <p style="margin-top:0;">
-    I share practical insights on data engineering, pipeline design, and real-world data challenges on LinkedIn.
-    My focus is on explaining how systems actually behave, not just how they are supposed to work.
-  </p>
-
-  <ul>
-    <li>Common failures in data pipelines and how to prevent them</li>
-    <li>Schema drift, data quality, and reliability in production systems</li>
-    <li>Differences between Spark and Pandas in real use cases</li>
-    <li>Data modeling decisions and tradeoffs</li>
-  </ul>
-
-  <p style="margin-bottom:0;">
-    <a href="https://www.linkedin.com/in/bitaashoori"><strong>Read my posts on LinkedIn →</strong></a>
-  </p>
-
-</div>
+<p>
+Building a Udemy course for Azure Data Fundamentals (DP-900) with practice questions, explanations, and answer walkthroughs.
+</p>
 
 <!-- ====== Current Focus ====== -->
 <h2>Current Focus</h2>
-<div style="border: 1px solid #e5e5e5; border-radius: 10px; padding: 22px; background-color: #fafafa;">
-  <p style="margin-top: 0;">
-    I’m currently deepening my experience in <strong>Microsoft Fabric</strong>, lakehouse architecture, and modern data engineering patterns while preparing for the <strong>DP-700 certification</strong>.
-  </p>
-  <p style="margin-bottom: 0;">
-    <a href="./dp700-fabric-journey/"><strong>My DP-700 Journey</strong></a>
-  </p>
-</div>
+<p>
+Working on Microsoft Fabric, lakehouse architecture, and preparing for DP-700 certification.
+</p>
 
 <!-- ====== Experience ====== -->
-<h2 style="margin-top: 34px;">Experience</h2>
+<h2 style="margin-top:34px;">Experience</h2>
 
-<p>
-  <strong>Data Engineer | O2E Brands</strong><br/>
-  Redesigned ETL workflows into modular pipelines using Python and Airflow, improving reliability and maintainability.
+<p><strong>Data Engineer | O2E Brands</strong><br/>
+Redesigned ETL workflows using Python and Airflow to improve reliability.
 </p>
 
-<p>
-  <strong>ETL Developer | Vancouver Coastal Health</strong><br/>
-  Integrated healthcare data across multiple systems and supported enterprise reporting with validated datasets.
+<p><strong>ETL Developer | Vancouver Coastal Health</strong><br/>
+Integrated healthcare data into structured datasets for reporting.
 </p>
 
-<p>
-  <strong>BI Developer / DBA | Georgia Main Food Group</strong><br/>
-  Built SSIS pipelines and centralized reporting systems in SQL Server.
+<p><strong>BI Developer | Georgia Main Food Group</strong><br/>
+Built SSIS pipelines and centralized reporting.
 </p>
-
 
 <!-- ====== Skills ====== -->
-<h2 style="margin-top: 34px;">Skills</h2>
+<h2 style="margin-top:34px;">Skills</h2>
 <p>
-  <strong>Languages:</strong> Python, SQL<br/>
-  <strong>Platforms:</strong> Azure, Microsoft Fabric, AWS<br/>
-  <strong>Tools:</strong> Airflow, SSIS, Power BI, Databricks<br/>
-  <strong>Concepts:</strong> ETL/ELT, Data Modeling, Lakehouse, Medallion Architecture
+Python · SQL · Azure · AWS · Airflow · Databricks · Power BI
 </p>
 
 <!-- ====== Certifications ====== -->
-<h2 style="margin-top: 34px;">Certifications</h2>
-
-<p>
-  <strong>Microsoft Certified: Azure Data Fundamentals (DP-900)</strong><br/>
-  Demonstrates foundational knowledge of core data concepts and how they are implemented using Microsoft Azure data services.
-</p>
-
-<p>
-  <strong>DP-700: Implementing Data Engineering Solutions Using Microsoft Fabric (In Progress)</strong><br/>
-  Focused on modern data engineering patterns, lakehouse architecture, and end-to-end data workflows in Microsoft Fabric.
-</p>
-
-<p>
-  <strong>Databricks Lakehouse Fundamentals</strong><br/>
-  Covers Delta Lake, medallion architecture, and scalable data processing using Spark.
-</p>
+<h2 style="margin-top:34px;">Certifications</h2>
+<p>DP-900 · DP-700 (In Progress) · Databricks Fundamentals</p>
 
 <!-- ====== Education ====== -->
-<h2 style="margin-top: 34px;">Education</h2>
-
-<p>
-  <strong>Bachelor’s Degree in Applied Mathematics (Computer Science)</strong><br/>
-  Built a strong foundation in mathematical modeling, problem-solving, and computational thinking.
-</p>
-
-<p>
-  <strong>Applied Database Administration & Design</strong><br/>
-  British Columbia Institute of Technology (BCIT)<br/>
-  Focused on SQL Server, data modeling, ETL (SSIS), and database design principles.
-</p>
-
-<p>
-  <strong>Data Science Bootcamp</strong><br/>
-  Springboard (Mentor-led, 550+ hours)<br/>
-  Covered Python, SQL, data analysis, statistics, and machine learning with hands-on projects.
-</p>
+<h2 style="margin-top:34px;">Education</h2>
+<p>Bachelor’s in Applied Mathematics (Computer Science)</p>
+<p>BCIT – Database Administration</p>
+<p>Springboard Data Science Bootcamp</p>
 
 <!-- ====== Contact ====== -->
 <h2 style="margin-top:34px;">Stay Connected</h2>
 
-<div style="display:flex;justify-content:space-between;align-items:center;gap:20px;flex-wrap:wrap;width:100%;">
-
-  <!-- Left -->
+<div style="display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:20px;">
   <div>
-    <a href="https://github.com/bashoori">
-      <img alt="GitHub" src="https://img.shields.io/badge/GitHub-bashoori-black?logo=github">
-    </a>
-    &nbsp;
-    <a href="https://www.linkedin.com/in/bitaashoori">
-      <img alt="LinkedIn" src="https://img.shields.io/badge/LinkedIn-Bita%20Ashoori-blue?logo=linkedin">
-    </a>
+    <a href="https://github.com/bashoori">GitHub</a> ·
+    <a href="https://www.linkedin.com/in/bitaashoori">LinkedIn</a>
   </div>
 
-  <!-- Center (message) -->
-  <div style="text-align:center;max-width:520px;color:#555;font-size:0.95em;line-height:1.6;">
-    <div>
-      Follow my work on 
-      <a href="https://www.linkedin.com/in/bitaashoori"><strong>LinkedIn</strong></a> 
-      and explore projects on 
-      <a href="https://github.com/bashoori"><strong>GitHub</strong></a>.
-    </div>
-    <div style="margin-top:6px;">
-      If something here was useful, feel free to reach out or leave a comment.
-    </div>
+  <div style="text-align:center;max-width:500px;color:#555;">
+    Follow my work or reach out if you'd like to collaborate.
   </div>
 
-  <!-- Right -->
-  <div style="white-space:nowrap;">
-    <img src="https://visitor-badge.laobi.icu/badge?page_id=bashoori.portfolio&left_color=lightgrey&right_color=teal&style=flat-square">
+  <div>
+    <img src="https://visitor-badge.laobi.icu/badge?page_id=bashoori.portfolio">
   </div>
-
 </div>
