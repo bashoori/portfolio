@@ -221,10 +221,17 @@ I care about clarity, maintainability, and data quality. My goal is not just to 
     <img alt="Resume" src="https://img.shields.io/badge/Resume-Download-green?logo=adobeacrobatreader">
   </a>
 
-  <h2 style="margin-top: 34px;">Visitors</h2>
-<p style="color: #666;">
-  Unique visitors tracked (excluding internal traffic)
+  <!-- ====== Visitors ====== -->
+<h2 style="margin-top: 34px;">Visitors</h2>
+
+<p style="color: #666; margin-bottom: 8px;">
+  Unique visitors (approximate, excluding repeated personal visits)
 </p>
 
+<img src="https://visitor-badge.laobi.icu/badge?page_id=bashoori.portfolio&left_color=lightgrey&right_color=teal&style=flat-square">
+
+  <h2 style="margin-top: 34px;"</h2>
+<p style="color: #666;">
+</p>
 <img src="https://visitor-badge.laobi.icu/badge?page_id=bashoori.portfolio&left_color=lightgrey&right_color=teal&style=flat-square">
 </p>
