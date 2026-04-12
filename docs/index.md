@@ -10,41 +10,31 @@
   </div>
 </div>
 
-<!-- ====== Header ====== -->
-<div style="display:flex;align-items:center;justify-content:space-between;width:100%;padding:25px 0;border-bottom:2px solid #eaeaea;">
-  <div style="flex:1;">
-    <h1 style="margin:0;font-size:2.4em;font-weight:700;color:#222;">Bita Ashoori</h1>
-    <p style="margin:6px 0 0;font-size:1.25em;color:#555;"><strong>Data Engineer</strong></p>
-    <p style="margin:10px 0 0;font-size:1em;color:#666;max-width:560px;">
-      Building reliable data pipelines and structured datasets that support clear decisions.
-    </p>
-    <p style="margin:14px 0 0;font-size:0.98em;color:#666;">
-      📍 Vancouver, BC |
-      <a href="https://github.com/bashoori"><strong>GitHub</strong></a> |
-      <a href="https://www.linkedin.com/in/bitaashoori"><strong>LinkedIn</strong></a>
-    </p>
-  </div>
+<h1>Bita Ashoori</h1>
 
-  <div style="flex-shrink:0;margin-left:30px;">
-    <img src="https://raw.githubusercontent.com/bashoori/portfolio/main/docs/images/profile-photo4.png"
-         width="220"
-         alt="Bita Ashoori"
-         style="border-radius:50%;border:3px solid #f2f2f2;box-shadow:0 6px 14px rgba(0,0,0,0.12);" />
-  </div>
-</div>
+<p><strong>Data Engineer</strong></p>
 
-<!-- ====== About ====== -->
-<h2 style="margin-top:34px;">About Me</h2>
 <p>
 I’m a Data Engineer based in Vancouver, working across healthcare, retail, and enterprise environments.
-I focus on turning fragmented, unreliable data into structured systems teams can trust.
+I build reliable data pipelines and turn messy, fragmented data into structured datasets that teams can trust.
 </p>
+
 <p>
-My background spans ETL development, data engineering, and analytics support using Python, SQL, Airflow, SSIS, AWS, and Azure.
-More recently, I’ve been focused on Microsoft Fabric and lakehouse architecture.
+My background spans data engineering, ETL development, and business intelligence.
+I’ve worked with Python, SQL, Airflow, SSIS, AWS, and Azure, with a growing focus on Microsoft Fabric,
+lakehouse architecture, and modern data platforms.
 </p>
+
 <p>
-I care about data quality, maintainability, and clarity. The goal is not just moving data, but making it usable.
+I care about data quality, clarity, and maintainability. The goal is not just moving data,
+but making it usable for real decision-making.
+</p>
+
+<p style="margin-top:14px;">
+📍 Vancouver, BC &nbsp; | &nbsp;
+💼 Open to Data Engineer / Analytics roles &nbsp; | &nbsp;
+<a href="https://github.com/bashoori"><strong>GitHub</strong></a> &nbsp; | &nbsp;
+<a href="https://www.linkedin.com/in/bitaashoori"><strong>LinkedIn</strong></a>
 </p>
 
 <!-- ====== What I Do ====== -->
