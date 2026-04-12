@@ -208,6 +208,7 @@ I care about clarity, maintainability, and data quality. My goal is not just to 
 
 <!-- ====== Contact ====== -->
 <h2 style="margin-top: 34px;">Contact</h2>
+
 <p>
   <a href="https://github.com/bashoori">
     <img alt="GitHub" src="https://img.shields.io/badge/GitHub-bashoori-black?logo=github">
@@ -220,9 +221,8 @@ I care about clarity, maintainability, and data quality. My goal is not just to 
   <a href="https://raw.githubusercontent.com/bashoori/portfolio/main/docs/Resume-BitaAshoori-CloudDataSpecialist.pdf">
     <img alt="Resume" src="https://img.shields.io/badge/Resume-Download-green?logo=adobeacrobatreader">
   </a>
-
-  <h2 style="margin-top: 34px;"</h2>
-<p style="color: #666;">
 </p>
-<img src="https://visitor-badge.laobi.icu/badge?page_id=bashoori.portfolio&left_color=lightgrey&right_color=teal&style=flat-square">
+
+<p style="margin-top: 10px;">
+  <img src="https://visitor-badge.laobi.icu/badge?page_id=bashoori.portfolio&left_color=lightgrey&right_color=teal&style=flat-square">
 </p>
