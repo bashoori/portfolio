@@ -33,62 +33,6 @@
 
 </div>
 
-
-<!-- ====== Banner ====== -->
-<div style="width:100%;min-height:240px;background:linear-gradient(120deg,#0b1f3a,#114678);border-radius:16px;margin-bottom:36px;display:flex;align-items:center;justify-content:center;text-align:center;padding:48px 20px;box-shadow:0 10px 28px rgba(0,0,0,0.18);">
-  <div>
-    <h1 style="margin:0;color:#ffffff;font-size:2.5em;font-weight:700;">
-      Building Reliable Data Systems
-    </h1>
-    <div style="margin:14px auto 0;max-width:680px;color:#e2ecff;font-size:1.08em;line-height:1.7;">
-      Designing pipelines and datasets that turn messy data into decisions people can trust
-    </div>
-  </div>
-</div>
-
-<div style="display:flex;align-items:center;justify-content:space-between;gap:30px;flex-wrap:wrap;">
-
-  <!-- Left: Text -->
-  <div style="flex:1;min-width:260px;">
-
-    <h1 style="margin:0;">Bita Ashoori's Blog</h1>
-
-    <p>
-    I’m a Data Engineer based in Vancouver, working across healthcare, retail, and enterprise environments.
-    I design and build data pipelines that turn messy, fragmented data into structured datasets teams can trust.
-    </p>
-
-    <p>
-    My background spans data engineering, ETL development, and business intelligence.
-    I’ve worked with Python, SQL, Airflow, SSIS, AWS, and Azure, with a growing focus on Microsoft Fabric,
-    lakehouse architecture, and modern data platforms.
-    </p>
-
-    <p>
-    I care about data quality, clarity, and maintainability. The goal is not just moving data,
-    but making it usable for real decision-making.
-    </p>
-
-    <p style="margin-top:14px;">
-    📍 Vancouver, BC &nbsp; | &nbsp;
-    💼 Open to Data Engineer / Analytics roles &nbsp; | &nbsp;
-    <a href="https://github.com/bashoori"><strong>GitHub</strong></a> &nbsp; | &nbsp;
-    <a href="https://www.linkedin.com/in/bitaashoori"><strong>LinkedIn</strong></a>
-    </p>
-
-  </div>
-
-  <!-- Right: Image -->
-  <div style="flex-shrink:0;">
-    <img 
-      src="https://raw.githubusercontent.com/bashoori/portfolio/main/docs/images/profile-photo4.png"
-      alt="Bita Ashoori"
-      width="200"
-      style="border-radius:50%;border:3px solid #f2f2f2;box-shadow:0 6px 16px rgba(0,0,0,0.15);" />
-  </div>
-
-</div>
-
 <!-- ====== What I Do ====== -->
 <h2 style="margin-top:34px;">What I Do</h2>
 <div style="display:flex;gap:28px;flex-wrap:wrap;">
