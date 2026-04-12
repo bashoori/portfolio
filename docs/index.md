@@ -140,24 +140,6 @@ I care about clarity, maintainability, and data quality. My goal is not just to 
   </p>
 </div>
 
-<!-- ====== Real-World Application ====== -->
-<h2 style="margin-top: 34px;">Real-World Application</h2>
-<p>
-I apply my data engineering work in a practical setting through <strong>Bita Digital Hub</strong>, where I turn messy data into clear, structured insights that support decision-making.
-</p>
-<p>
-  <a href="https://bitadigitalhub.com/"><strong>Visit Bita Digital Hub</strong></a>
-</p>
-
-<!-- ====== How I Think ====== -->
-<h2 style="margin-top: 34px;">How I Think</h2>
-<ul>
-  <li>Data quality matters more than data quantity</li>
-  <li>Good pipelines should be simple, reliable, and maintainable</li>
-  <li>Raw data becomes valuable only when it is structured clearly</li>
-  <li>I focus on systems that help people make better decisions</li>
-</ul>
-
 <!-- ====== Experience ====== -->
 <h2 style="margin-top: 34px;">Experience</h2>
 
