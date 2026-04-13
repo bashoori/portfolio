@@ -4,52 +4,50 @@
   <!-- ====== Content Container ====== -->
   <div style="max-width:1000px;margin:0 auto;background:#ffffff;padding:32px 28px;border-radius:16px;box-shadow:0 10px 30px rgba(0,0,0,0.05);">
 
-  <!-- ====== Header ====== -->
-  <div style="display:flex;align-items:center;justify-content:space-between;gap:32px;flex-wrap:wrap;padding-bottom:24px;border-bottom:1px solid #eaeaea;">
-  
-    <div style="flex:1;min-width:280px;">
-      <div style="font-size:0.9em;color:#3b6ea8;font-weight:600;margin-bottom:8px;">
-        Data Engineer
+    <!-- ====== Header ====== -->
+    <div style="display:flex;align-items:center;justify-content:space-between;gap:32px;flex-wrap:wrap;padding-bottom:24px;border-bottom:1px solid #eaeaea;">
+
+      <div style="flex:1;min-width:280px;">
+        
+        <div style="font-size:0.9em;color:#3b6ea8;font-weight:600;margin-bottom:8px;">
+          Data Engineer
+        </div>
+
+        <h1 style="margin:0;font-size:2.4em;color:#1f2937;">Bita Ashoori</h1>
+
+        <p style="margin:10px 0 0;font-size:1.1em;color:#4b5563;">
+          I design data systems that turn fragmented and unreliable data into something teams can actually trust.
+        </p>
+
+        <p style="margin:14px 0 0;max-width:600px;color:#6b7280;line-height:1.6;">
+          I bring 5 years of experience across data engineering and business intelligence, including 3 years focused on data engineering and 2 years in BI, working in healthcare and e-commerce environments.
+        </p>
+
+        <p style="margin:14px 0 0;color:#6b7280;line-height:1.6;">
+          I have built and maintained data pipelines and analytical datasets using SQL Server, Python, SSIS, Apache Airflow, Azure, and Power BI, with a focus on turning fragmented source data into structured, reliable systems.
+        </p>
+
+        <p style="margin:14px 0 0;color:#6b7280;line-height:1.6;">
+          My work emphasizes data quality, validation, and modeling decisions so the data behaves correctly and can be trusted in real use.
+        </p>
+
+        <p style="margin:16px 0 0;color:#6b7280;">
+          📍 Vancouver, BC &nbsp; | &nbsp;
+          <a href="https://github.com/bashoori"><strong>GitHub</strong></a> &nbsp; | &nbsp;
+          <a href="https://www.linkedin.com/in/bitaashoori"><strong>LinkedIn</strong></a>
+        </p>
+
       </div>
 
-      <p style="margin:14px 0 0;max-width:600px;color:#6b7280;line-height:1.6;">
-      I bring 5 years of experience across data engineering and business intelligence, including 3 years focused on data engineering and 2 years in BI, working in healthcare and e-commerce environments. I have built and maintained data pipelines and analytical datasets using SQL Server, Python, SSIS, Apache Airflow, Azure, and Power BI.
-      </p>
-      
-      <p style="margin:14px 0 0;color:#6b7280;line-height:1.6;">
-        My work focuses on turning fragmented source data into structured, reliable systems by combining pipeline design, data modeling, and quality validation so the data behaves correctly in real use.
-      </p>
-  
-      <h1 style="margin:0;font-size:2.4em;color:#1f2937;">Bita Ashoori</h1>
-  
-      <p style="margin:10px 0 0;font-size:1.1em;color:#4b5563;">
-        I design data systems that turn fragmented and unreliable data into something teams can actually trust.
-      </p>
-  
-      <p style="margin:14px 0 0;max-width:600px;color:#6b7280;line-height:1.6;">
-        I work across healthcare, retail, and enterprise environments, building pipelines and data models that turn fragmented sources into structured, analysis-ready datasets.
-      </p>
-  
-      <p style="margin:14px 0 0;color:#6b7280;line-height:1.6;">
-        I focus on data quality, validation, and modeling decisions so the data behaves correctly and can be trusted in real use.
-      </p>
-  
-      <p style="margin:16px 0 0;color:#6b7280;">
-        📍 Vancouver, BC &nbsp; | &nbsp;
-        <a href="https://github.com/bashoori"><strong>GitHub</strong></a> &nbsp; | &nbsp;
-        <a href="https://www.linkedin.com/in/bitaashoori"><strong>LinkedIn</strong></a>
-      </p>
+      <div style="flex-shrink:0;">
+        <img
+          src="https://raw.githubusercontent.com/bashoori/portfolio/main/docs/images/profile-photo4.png"
+          width="180"
+          alt="Bita Ashoori"
+          style="border-radius:50%;border:3px solid #f1f1f1;box-shadow:0 6px 14px rgba(0,0,0,0.08);" />
+      </div>
+
     </div>
-  
-    <div style="flex-shrink:0;">
-      <img
-        src="https://raw.githubusercontent.com/bashoori/portfolio/main/docs/images/profile-photo4.png"
-        width="180"
-        alt="Bita Ashoori"
-        style="border-radius:50%;border:3px solid #f1f1f1;box-shadow:0 6px 14px rgba(0,0,0,0.08);" />
-    </div>
-  
-  </div>
 
     <!-- ====== What I Do ====== -->
     <h2 style="margin-top:32px;">What I Do</h2>
