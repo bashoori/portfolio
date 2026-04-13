@@ -105,7 +105,7 @@
     </div>
 
     <img
-      src="https://github.com/bashoori/transit_data_warehouse/blob/main/analysis/output/translink_visual.png"
+      src="https://raw.githubusercontent.com/bashoori/transit_data_warehouse/main/analysis/output/translink_visual.png"
       alt="TransLink GTFS Data Warehouse Analysis"
       style="width:100%;border-radius:10px;margin-top:14px;margin-bottom:24px;border:1px solid #e5e7eb;box-shadow:0 6px 16px rgba(0,0,0,0.05);">
 
