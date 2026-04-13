@@ -96,6 +96,7 @@
       <p>
         Modeled fact and dimension tables to support analysis of trip behavior, service distribution, and route utilization, and generated visual reports to highlight peak demand patterns and operational insights.
       </p>
+       🔗 https://github.com/bashoori/transit_data_warehouse
 
       <p style="color:#6b7280;margin-bottom:0;">
         <strong>Result:</strong> Enabled reliable analysis of transit service patterns, including peak-hour demand, route-level trip distribution, and trip duration variability, turning raw GTFS data into a usable analytical model.
@@ -105,7 +106,7 @@
       src="analysis/output/combined_report.png"
       alt="TransLink GTFS Data Warehouse Analysis"
       style="width:100%;border-radius:10px;margin-top:14px;margin-bottom:18px;border:1px solid #e5e7eb;box-shadow:0 6px 16px rgba(0,0,0,0.05);">
-      🔗 https://github.com/bashoori/transit_data_warehouse
+     
       
     <div style="background:#f9fbff;border:1px solid #e6edf5;border-radius:10px;padding:22px;margin-bottom:16px;">
       <h3 style="margin-top:0;">Azure ADF Retail Pipeline</h3>
