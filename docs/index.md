@@ -187,12 +187,13 @@
       Building a <strong>DP-900 Azure Data Fundamentals</strong> course with practice questions,
       detailed explanations, and answer walkthroughs designed for real understanding. (Coming Soon!)
     </p>
-
+   <!-- 
     <div style="margin-top:8px;">
       <a href="YOUR_UDEMY_LINK_HERE" style="color:#2563eb;font-weight:500;">
         View course on Udemy →
       </a>
     </div>
+    -->
 
     <!-- ====== Certifications ====== -->
     <h2 style="margin-top:28px;">Certifications</h2>
