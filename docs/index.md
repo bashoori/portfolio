@@ -196,23 +196,30 @@
 
     <!-- ====== Certifications ====== -->
     <h2 style="margin-top:28px;">Certifications</h2>
-
+    
     <div style="background:#f9fbff;border:1px solid #e6edf5;border-radius:10px;padding:18px;margin-top:10px;">
-
+    
       <p style="margin:0 0 10px;color:#1f2937;">
         <strong>Microsoft Certified: Azure Data Fundamentals (DP-900)</strong>
       </p>
-
+    
       <p style="margin:0 0 10px;color:#1f2937;">
-        <strong>Databricks Lakehouse Fundamentals</strong>
+        <strong>Academy Accreditation - Databricks Fundamentals</strong> — Databricks
       </p>
-
+    
+      <p style="margin:0 0 10px;color:#1f2937;">
+        <strong>Academy Accreditation - Generative AI Fundamentals</strong> — Databricks (Issued Sep 2025)
+      </p>
+    
+      <p style="margin:0 0 10px;color:#1f2937;">
+        <strong>20778 Analyzing Data with Power BI</strong> — New Horizons (Issued Feb 2018)
+      </p>
+    
       <p style="margin:0;color:#6b7280;">
         Currently preparing for <strong>Microsoft Fabric Data Engineer (DP-700)</strong>
       </p>
-
+    
     </div>
-
     <!-- ====== Footer ====== -->
     <h2 style="margin-top:32px;">Stay Connected</h2>
 
