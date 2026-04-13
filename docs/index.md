@@ -39,12 +39,26 @@
 
       </div>
 
-      <div style="flex-shrink:0;">
-        <img
-          src="https://raw.githubusercontent.com/bashoori/portfolio/main/docs/images/profile_resized.jpg"
-          width="180"
-          alt="Bita Ashoori"
-          style="border-radius:50%;border:3px solid #f1f1f1;box-shadow:0 6px 14px rgba(0,0,0,0.08);" />
+    <div style="flex-shrink:0;">
+        <div style="
+          width:180px;
+          height:180px;
+          border-radius:50%;
+          overflow:hidden;
+          border:3px solid #f1f1f1;
+          box-shadow:0 6px 14px rgba(0,0,0,0.08);
+        ">
+          <img
+            src="https://raw.githubusercontent.com/bashoori/portfolio/main/docs/images/profile_resized.jpg"
+            alt="Bita Ashoori"
+            style="
+              width:100%;
+              height:100%;
+              object-fit:cover;
+              object-position:center;
+            "
+          />
+        </div>
       </div>
 
     </div>
