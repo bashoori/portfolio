@@ -8,7 +8,7 @@
     <div style="display:flex;align-items:center;justify-content:space-between;gap:32px;flex-wrap:wrap;padding-bottom:24px;border-bottom:1px solid #eaeaea;">
 
       <div style="flex:1;min-width:280px;">
-        
+
         <div style="font-size:0.9em;color:#3b6ea8;font-weight:600;margin-bottom:8px;">
           Data Engineer
         </div>
@@ -87,7 +87,7 @@
       </div>
     </div>
 
-    <hr style="margin:32px 0;"/>
+    <hr style="margin:32px 0;" />
 
     <!-- ====== Projects ====== -->
     <h2>Selected Projects</h2>
@@ -111,15 +111,15 @@
       </p>
 
       <p style="color:#6b7280;margin-bottom:0;">
-  <strong>Result:</strong> Enabled reliable analysis of transit service patterns, including peak-hour demand, route-level trip distribution, and trip duration variability, turning raw GTFS data into a usable analytical model.
-  🔗 <a href="https://github.com/bashoori/transit_data_warehouse" style="color:#2563eb;font-weight:500;">View on GitHub</a>
-     </p>
+        <strong>Result:</strong> Enabled reliable analysis of transit service patterns, including peak-hour demand, route-level trip distribution, and trip duration variability, turning raw GTFS data into a usable analytical model.
+        🔗 <a href="https://github.com/bashoori/transit_data_warehouse" style="color:#2563eb;font-weight:500;">View on GitHub</a>
+      </p>
     </div>
 
     <img
       src="https://raw.githubusercontent.com/bashoori/transit_data_warehouse/main/analysis/output/translink_visual.png"
       alt="TransLink GTFS Data Warehouse Analysis"
-      style="width:100%;border-radius:10px;margin-top:14px;margin-bottom:24px;border:1px solid #e5e7eb;box-shadow:0 6px 16px rgba(0,0,0,0.05);">
+      style="width:100%;border-radius:10px;margin-top:14px;margin-bottom:24px;border:1px solid #e5e7eb;box-shadow:0 6px 16px rgba(0,0,0,0.05);" />
 
     <!-- Other Projects -->
     <div style="background:#f9fbff;border:1px solid #e6edf5;border-radius:10px;padding:22px;margin-bottom:16px;">
@@ -161,19 +161,19 @@
       </p>
     </div>
 
-      <!-- ====== Insights ====== -->
+    <!-- ====== Insights ====== -->
     <h2>Insights & Writing</h2>
-    
+
     <p style="color:#6b7280;">
       I write about real data engineering challenges, focusing on things that break in production and how to design around them.
     </p>
-    
+
     <ul style="margin-top:10px;color:#4b5563;">
       <li>Why pipelines fail silently and how to detect it</li>
       <li>Schema drift is not just a bug, it’s a design problem</li>
       <li>When to use Spark vs Pandas in real workflows</li>
     </ul>
-    
+
     <div style="margin-top:8px;">
       <a href="https://www.linkedin.com/in/bitaashoori/recent-activity/all/" style="color:#2563eb;font-weight:500;">
         Read posts on LinkedIn →
@@ -182,18 +182,36 @@
 
     <!-- ====== Learning Course ====== -->
     <h2 style="margin-top:28px;">Learning Course</h2>
-    
+
     <p style="color:#6b7280;">
       Building a <strong>DP-900 Azure Data Fundamentals</strong> course with practice questions,
       detailed explanations, and answer walkthroughs designed for real understanding. (Coming Soon!)
     </p>
-    
+
     <div style="margin-top:8px;">
       <a href="YOUR_UDEMY_LINK_HERE" style="color:#2563eb;font-weight:500;">
         View course on Udemy →
       </a>
     </div>
 
+    <!-- ====== Certifications ====== -->
+    <h2 style="margin-top:28px;">Certifications</h2>
+
+    <div style="background:#f9fbff;border:1px solid #e6edf5;border-radius:10px;padding:18px;margin-top:10px;">
+
+      <p style="margin:0 0 10px;color:#1f2937;">
+        <strong>Microsoft Certified: Azure Data Fundamentals (DP-900)</strong>
+      </p>
+
+      <p style="margin:0 0 10px;color:#1f2937;">
+        <strong>Databricks Lakehouse Fundamentals</strong>
+      </p>
+
+      <p style="margin:0;color:#6b7280;">
+        Currently preparing for <strong>Microsoft Fabric Data Engineer (DP-700)</strong>
+      </p>
+
+    </div>
 
     <!-- ====== Footer ====== -->
     <h2 style="margin-top:32px;">Stay Connected</h2>
@@ -209,7 +227,7 @@
       </div>
 
       <div>
-        <img src="https://visitor-badge.laobi.icu/badge?page_id=bashoori.portfolio">
+        <img src="https://visitor-badge.laobi.icu/badge?page_id=bashoori.portfolio" alt="Visitor badge" />
       </div>
     </div>
 
