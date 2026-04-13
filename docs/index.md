@@ -41,7 +41,7 @@
 
       <div style="flex-shrink:0;">
         <img
-          src="https://raw.githubusercontent.com/bashoori/portfolio/main/docs/images/CEB121B5-6565-43F9-93D6-332034D782E1.png"
+          src="https://raw.githubusercontent.com/bashoori/portfolio/main/docs/images/profile_resized.jpg"
           width="180"
           alt="Bita Ashoori"
           style="border-radius:50%;border:3px solid #f1f1f1;box-shadow:0 6px 14px rgba(0,0,0,0.08);" />
