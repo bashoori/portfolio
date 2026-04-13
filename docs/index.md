@@ -99,9 +99,9 @@
       </p>
 
       <p style="color:#6b7280;margin-bottom:0;">
-        <strong>Result:</strong> Enabled reliable analysis of transit service patterns, including peak-hour demand, route-level trip distribution, and trip duration variability, turning raw GTFS data into a usable analytical model.
-        🔗 https://github.com/bashoori/transit_data_warehouse
-      </p>
+  <strong>Result:</strong> Enabled reliable analysis of transit service patterns, including peak-hour demand, route-level trip distribution, and trip duration variability, turning raw GTFS data into a usable analytical model.
+  🔗 <a href="https://github.com/bashoori/transit_data_warehouse" style="color:#2563eb;font-weight:500;">View on GitHub</a>
+     </p>
     </div>
 
     <img
