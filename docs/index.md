@@ -184,8 +184,8 @@
       </a>
     </div>
 
-    <!-- ====== Learning Product ====== -->
-    <h2 style="margin-top:28px;">Learning Product</h2>
+    <!-- ====== Learning Course ====== -->
+    <h2 style="margin-top:28px;">Learning Course</h2>
 
     <p style="color:#6b7280;">
       Building a <strong>DP-900 Azure Data Fundamentals</strong> course with practice questions,
