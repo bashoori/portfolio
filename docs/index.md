@@ -49,6 +49,12 @@
 
     </div>
 
+    <!-- ====== Current Focus ====== -->
+    <h2 style="margin-top:28px;">Current Focus</h2>
+    <p style="color:#6b7280;">
+      Advancing skills in Microsoft Fabric and lakehouse architecture, with active preparation for DP-700. Open to new data engineering opportunities.
+    </p>
+
     <!-- ====== What I Do ====== -->
     <h2 style="margin-top:32px;">What I Do</h2>
 
@@ -187,12 +193,6 @@
         View course on Udemy →
       </a>
     </div>
-
-    <!-- ====== Current Focus ====== -->
-    <h2 style="margin-top:28px;">Current Focus</h2>
-    <p style="color:#6b7280;">
-      Microsoft Fabric, lakehouse architecture, and DP-700.
-    </p>
 
 
     <!-- ====== Footer ====== -->
