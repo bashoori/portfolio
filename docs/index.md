@@ -79,6 +79,29 @@
 
    <!-- ====== Projects ====== -->
     <h2>Selected Projects</h2>
+
+    <div style="background:#ffffff;border:1.5px solid #d1d5db;border-radius:10px;padding:22px;margin-bottom:16px;">
+      <h3 style="margin-top:0;">TransLink GTFS Data Warehouse</h3>
+    
+      <p style="color:#6b7280;margin-top:6px;">
+        <strong>Problem:</strong> Transit GTFS data appears structured but contains hidden complexities such as non-standard time values (beyond 24:00), loosely  connected tables, and lack of validation, leading to unreliable analysis.
+      </p>
+    
+      <p>
+        Designed and built a medallion-style data warehouse (Bronze, Silver, Gold) to transform raw transit feeds into validated, analysis-ready datasets. 
+        Normalized GTFS time values and introduced a date dimension to enable accurate time-based analysis. 
+        Implemented data quality checks across layers to detect schema issues, null values, and duplicates early, preventing silent data failures.
+      </p>
+    
+      <p>
+        Modeled fact and dimension tables to support analysis of trip behavior, service distribution, and route utilization, and generated visual reports to highlight peak demand patterns and operational insights.
+      </p>
+    
+      <p style="color:#6b7280;margin-bottom:0;">
+        <strong>Result:</strong> Enabled reliable analysis of transit service patterns, including peak-hour demand, route-level trip distribution, and trip duration variability, turning raw GTFS data into a usable analytical model.
+      </p>
+    </div>
+        
     
     <div style="background:#ffffff;border:1.5px solid #d1d5db;border-radius:10px;padding:22px;margin-bottom:16px;">
       <h3 style="margin-top:0;">Azure ADF Retail Pipeline</h3>
