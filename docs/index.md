@@ -173,7 +173,7 @@
     
     <p style="color:#6b7280;">
       Building a <strong>DP-900 Azure Data Fundamentals</strong> course with practice questions,
-      detailed explanations, and answer walkthroughs designed for real understanding. (comming Soon!)
+      detailed explanations, and answer walkthroughs designed for real understanding. (Coming Soon!)
     </p>
     
     <div style="margin-top:8px;">
