@@ -101,6 +101,10 @@
         <strong>Result:</strong> Enabled reliable analysis of transit service patterns, including peak-hour demand, route-level trip distribution, and trip duration variability, turning raw GTFS data into a usable analytical model.
       </p>
     </div>
+
+    <img src="analysis/output/combined_report.png" style="width:100%;border-radius:8px;margin-top:12px;">
+
+    
         
     
     <div style="background:#ffffff;border:1.5px solid #d1d5db;border-radius:10px;padding:22px;margin-bottom:16px;">
