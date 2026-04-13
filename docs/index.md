@@ -106,6 +106,7 @@
       src="analysis/output/combined_report.png"
       alt="TransLink GTFS Data Warehouse Analysis"
       style="width:100%;border-radius:10px;margin-top:14px;margin-bottom:18px;border:1px solid #e5e7eb;box-shadow:0 6px 16px rgba(0,0,0,0.05);">
+      
 
     <div style="background:#f9fbff;border:1px solid #e6edf5;border-radius:10px;padding:22px;margin-bottom:16px;">
       <h3 style="margin-top:0;">Azure ADF Retail Pipeline</h3>
@@ -120,6 +121,12 @@
       </p>
     </div>
 
+     <img
+      src="analysis/output/combined_report.png"
+      alt="TransLink GTFS Data Warehouse Analysis"
+      style="width:100%;border-radius:10px;margin-top:14px;margin-bottom:18px;border:1px solid #e5e7eb;box-shadow:0 6px 16px rgba(0,0,0,0.05);">
+
+
     <div style="background:#f9fbff;border:1px solid #e6edf5;border-radius:10px;padding:20px;margin-bottom:16px;">
       <h3 style="margin-top:0;">Databricks Lakehouse Pipeline</h3>
       <p style="color:#6b7280;margin-top:6px;">
@@ -133,6 +140,12 @@
       </p>
     </div>
 
+     <img
+      src="analysis/output/combined_report.png"
+      alt="TransLink GTFS Data Warehouse Analysis"
+      style="width:100%;border-radius:10px;margin-top:14px;margin-bottom:18px;border:1px solid #e5e7eb;box-shadow:0 6px 16px rgba(0,0,0,0.05);">
+
+
     <div style="background:#f9fbff;border:1px solid #e6edf5;border-radius:10px;padding:20px;margin-bottom:16px;">
       <h3 style="margin-top:0;">Cloud ETL Modernization</h3>
       <p style="color:#6b7280;margin-top:6px;">
@@ -145,6 +158,12 @@
         <strong>Result:</strong> Increased pipeline reliability and made failures easier to detect and troubleshoot.
       </p>
     </div>
+
+     <img
+      src="analysis/output/combined_report.png"
+      alt="TransLink GTFS Data Warehouse Analysis"
+      style="width:100%;border-radius:10px;margin-top:14px;margin-bottom:18px;border:1px solid #e5e7eb;box-shadow:0 6px 16px rgba(0,0,0,0.05);">
+
 
     <div style="margin-top:14px;">
       <a href="https://github.com/bashoori" style="color:#2563eb;font-weight:500;">
