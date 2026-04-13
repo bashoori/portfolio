@@ -212,7 +212,7 @@
       </p>
     
       <p style="margin:0 0 10px;color:#1f2937;">
-        <strong>20778 Analyzing Data with Power BI</strong> — New Horizons (Issued Feb 2018)
+        <strong>20778 Analyzing Data with Power BI</strong> — New Horizons 
       </p>
     
       <p style="margin:0;color:#6b7280;">
