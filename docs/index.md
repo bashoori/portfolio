@@ -80,6 +80,7 @@
     <!-- ====== Projects ====== -->
     <h2>Selected Projects</h2>
 
+    <!-- TransLink Project -->
     <div style="background:#f9fbff;border:1px solid #e6edf5;border-radius:10px;padding:22px;margin-bottom:16px;">
       <h3 style="margin-top:0;">TransLink GTFS Data Warehouse</h3>
 
@@ -96,20 +97,19 @@
       <p>
         Modeled fact and dimension tables to support analysis of trip behavior, service distribution, and route utilization, and generated visual reports to highlight peak demand patterns and operational insights.
       </p>
-       
 
       <p style="color:#6b7280;margin-bottom:0;">
         <strong>Result:</strong> Enabled reliable analysis of transit service patterns, including peak-hour demand, route-level trip distribution, and trip duration variability, turning raw GTFS data into a usable analytical model.
-
         🔗 https://github.com/bashoori/transit_data_warehouse
       </p>
     </div>
+
     <img
       src="analysis/output/combined_report.png"
       alt="TransLink GTFS Data Warehouse Analysis"
-      style="width:100%;border-radius:10px;margin-top:14px;margin-bottom:18px;border:1px solid #e5e7eb;box-shadow:0 6px 16px rgba(0,0,0,0.05);">
-     
-      
+      style="width:100%;border-radius:10px;margin-top:14px;margin-bottom:24px;border:1px solid #e5e7eb;box-shadow:0 6px 16px rgba(0,0,0,0.05);">
+
+    <!-- Other Projects -->
     <div style="background:#f9fbff;border:1px solid #e6edf5;border-radius:10px;padding:22px;margin-bottom:16px;">
       <h3 style="margin-top:0;">Azure ADF Retail Pipeline</h3>
       <p style="color:#6b7280;margin-top:6px;">
@@ -122,10 +122,6 @@
         <strong>Result:</strong> Reduced inconsistencies in reporting datasets and improved day-to-day data reliability.
       </p>
     </div>
-     <img
-      src="analysis/output/combined_report.png"
-      alt="TransLink GTFS Data Warehouse Analysis"
-      style="width:100%;border-radius:10px;margin-top:14px;margin-bottom:18px;border:1px solid #e5e7eb;box-shadow:0 6px 16px rgba(0,0,0,0.05);">
 
     <div style="background:#f9fbff;border:1px solid #e6edf5;border-radius:10px;padding:20px;margin-bottom:16px;">
       <h3 style="margin-top:0;">Databricks Lakehouse Pipeline</h3>
@@ -139,10 +135,6 @@
         <strong>Result:</strong> Improved data quality and created structured layers for reliable downstream reporting.
       </p>
     </div>
-     <img
-      src="analysis/output/combined_report.png"
-      alt="TransLink GTFS Data Warehouse Analysis"
-      style="width:100%;border-radius:10px;margin-top:14px;margin-bottom:18px;border:1px solid #e5e7eb;box-shadow:0 6px 16px rgba(0,0,0,0.05);">
 
     <div style="background:#f9fbff;border:1px solid #e6edf5;border-radius:10px;padding:20px;margin-bottom:16px;">
       <h3 style="margin-top:0;">Cloud ETL Modernization</h3>
@@ -156,75 +148,3 @@
         <strong>Result:</strong> Increased pipeline reliability and made failures easier to detect and troubleshoot.
       </p>
     </div>
-     <img
-      src="analysis/output/combined_report.png"
-      alt="TransLink GTFS Data Warehouse Analysis"
-      style="width:100%;border-radius:10px;margin-top:14px;margin-bottom:18px;border:1px solid #e5e7eb;box-shadow:0 6px 16px rgba(0,0,0,0.05);">
-
-    <div style="margin-top:14px;">
-      <a href="https://github.com/bashoori" style="color:#2563eb;font-weight:500;">
-        View more projects on GitHub →
-      </a>
-    </div>
-
-    <hr style="margin:32px 0;"/>
-
-    <!-- ====== Insights ====== -->
-    <h2>Insights & Writing</h2>
-
-    <p style="color:#6b7280;">
-      I write about real data engineering challenges, focusing on things that break in production and how to design around them.
-    </p>
-
-    <ul style="margin-top:10px;color:#4b5563;">
-      <li>Why pipelines fail silently and how to detect it</li>
-      <li>Schema drift is not just a bug, it’s a design problem</li>
-      <li>When to use Spark vs Pandas in real workflows</li>
-    </ul>
-
-    <div style="margin-top:8px;">
-      <a href="https://www.linkedin.com/in/bitaashoori/recent-activity/all/" style="color:#2563eb;font-weight:500;">
-        Read posts on LinkedIn →
-      </a>
-    </div>
-
-    <!-- ====== Learning Course ====== -->
-    <h2 style="margin-top:28px;">Learning Course</h2>
-
-    <p style="color:#6b7280;">
-      Building a <strong>DP-900 Azure Data Fundamentals</strong> course with practice questions,
-      detailed explanations, and answer walkthroughs designed for real understanding.
-    </p>
-
-    <div style="margin-top:8px;">
-      <a href="YOUR_UDEMY_LINK_HERE" style="color:#2563eb;font-weight:500;">
-        View course on Udemy →
-      </a>
-    </div>
-
-    <!-- ====== Current Focus ====== -->
-    <h2 style="margin-top:28px;">Current Focus</h2>
-    <p style="color:#6b7280;">
-      Microsoft Fabric, lakehouse architecture, and DP-700.
-    </p>
-
-    <!-- ====== Footer ====== -->
-    <h2 style="margin-top:32px;">Stay Connected</h2>
-
-    <div style="display:flex;justify-content:space-between;flex-wrap:wrap;gap:16px;">
-      <div>
-        <a href="https://github.com/bashoori">GitHub</a> ·
-        <a href="https://www.linkedin.com/in/bitaashoori">LinkedIn</a>
-      </div>
-
-      <div style="color:#6b7280;">
-        Open to collaboration and data conversations
-      </div>
-
-      <div>
-        <img src="https://visitor-badge.laobi.icu/badge?page_id=bashoori.portfolio" alt="Visitor badge">
-      </div>
-    </div>
-
-  </div>
-</div>
