@@ -188,11 +188,6 @@
       Microsoft Fabric, lakehouse architecture, and DP-700.
     </p>
 
-    <!-- ====== Experience ====== -->
-    <h2 style="margin-top:28px;">Experience</h2>
-    <p><strong>Data Engineer | O2E Brands</strong></p>
-    <p><strong>ETL Developer | Vancouver Coastal Health</strong></p>
-    <p><strong>BI Developer | Georgia Main Food Group</strong></p>
 
     <!-- ====== Footer ====== -->
     <h2 style="margin-top:32px;">Stay Connected</h2>
