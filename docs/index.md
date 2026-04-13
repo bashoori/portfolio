@@ -208,7 +208,7 @@
       </p>
     
       <p style="margin:0 0 10px;color:#1f2937;">
-        <strong>Academy Accreditation - Generative AI Fundamentals</strong> — Databricks (Issued Sep 2025)
+        <strong>Academy Accreditation - Generative AI Fundamentals</strong> — Databricks 
       </p>
     
       <p style="margin:0 0 10px;color:#1f2937;">
