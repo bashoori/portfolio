@@ -96,10 +96,12 @@
       <p>
         Modeled fact and dimension tables to support analysis of trip behavior, service distribution, and route utilization, and generated visual reports to highlight peak demand patterns and operational insights.
       </p>
-       🔗 https://github.com/bashoori/transit_data_warehouse
+       
 
       <p style="color:#6b7280;margin-bottom:0;">
         <strong>Result:</strong> Enabled reliable analysis of transit service patterns, including peak-hour demand, route-level trip distribution, and trip duration variability, turning raw GTFS data into a usable analytical model.
+
+        🔗 https://github.com/bashoori/transit_data_warehouse
       </p>
     </div>
     <img
