@@ -11,6 +11,14 @@
       <div style="font-size:0.9em;color:#3b6ea8;font-weight:600;margin-bottom:8px;">
         Data Engineer
       </div>
+
+      <p style="margin:14px 0 0;max-width:600px;color:#6b7280;line-height:1.6;">
+      I bring 5 years of experience across data engineering and business intelligence, including 3 years focused on data engineering and 2 years in BI, working in healthcare and e-commerce environments. I have built and maintained data pipelines and analytical datasets using SQL Server, Python, SSIS, Apache Airflow, Azure, and Power BI.
+      </p>
+      
+      <p style="margin:14px 0 0;color:#6b7280;line-height:1.6;">
+        My work focuses on turning fragmented source data into structured, reliable systems by combining pipeline design, data modeling, and quality validation so the data behaves correctly in real use.
+      </p>
   
       <h1 style="margin:0;font-size:2.4em;color:#1f2937;">Bita Ashoori</h1>
   
