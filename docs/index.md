@@ -105,7 +105,7 @@
     </div>
 
     <img
-      src="analysis/output/combined_report.png"
+      src="analysis/output/translink_visual.png"
       alt="TransLink GTFS Data Warehouse Analysis"
       style="width:100%;border-radius:10px;margin-top:14px;margin-bottom:24px;border:1px solid #e5e7eb;box-shadow:0 6px 16px rgba(0,0,0,0.05);">
 
@@ -148,3 +148,69 @@
         <strong>Result:</strong> Increased pipeline reliability and made failures easier to detect and troubleshoot.
       </p>
     </div>
+
+      <!-- ====== Insights ====== -->
+    <h2>Insights & Writing</h2>
+    
+    <p style="color:#6b7280;">
+      I write about real data engineering challenges, focusing on things that break in production and how to design around them.
+    </p>
+    
+    <ul style="margin-top:10px;color:#4b5563;">
+      <li>Why pipelines fail silently and how to detect it</li>
+      <li>Schema drift is not just a bug, it’s a design problem</li>
+      <li>When to use Spark vs Pandas in real workflows</li>
+    </ul>
+    
+    <div style="margin-top:8px;">
+      <a href="https://www.linkedin.com/in/bitaashoori/recent-activity/all/" style="color:#2563eb;font-weight:500;">
+        Read posts on LinkedIn →
+      </a>
+    </div>
+
+    <!-- ====== Learning Product ====== -->
+    <h2 style="margin-top:28px;">Learning Product</h2>
+    
+    <p style="color:#6b7280;">
+      Building a <strong>DP-900 Azure Data Fundamentals</strong> course with practice questions,
+      detailed explanations, and answer walkthroughs designed for real understanding.
+    </p>
+    
+    <div style="margin-top:8px;">
+      <a href="YOUR_UDEMY_LINK_HERE" style="color:#2563eb;font-weight:500;">
+        View course on Udemy →
+      </a>
+    </div>
+
+    <!-- ====== Current Focus ====== -->
+    <h2 style="margin-top:28px;">Current Focus</h2>
+    <p style="color:#6b7280;">
+      Microsoft Fabric, lakehouse architecture, and DP-700.
+    </p>
+
+    <!-- ====== Experience ====== -->
+    <h2 style="margin-top:28px;">Experience</h2>
+    <p><strong>Data Engineer | O2E Brands</strong></p>
+    <p><strong>ETL Developer | Vancouver Coastal Health</strong></p>
+    <p><strong>BI Developer | Georgia Main Food Group</strong></p>
+
+    <!-- ====== Footer ====== -->
+    <h2 style="margin-top:32px;">Stay Connected</h2>
+
+    <div style="display:flex;justify-content:space-between;flex-wrap:wrap;gap:16px;">
+      <div>
+        <a href="https://github.com/bashoori">GitHub</a> ·
+        <a href="https://www.linkedin.com/in/bitaashoori">LinkedIn</a>
+      </div>
+
+      <div style="color:#6b7280;">
+        Open to collaboration and data conversations
+      </div>
+
+      <div>
+        <img src="https://visitor-badge.laobi.icu/badge?page_id=bashoori.portfolio">
+      </div>
+    </div>
+
+  </div>
+</div>
