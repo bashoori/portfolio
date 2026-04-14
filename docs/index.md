@@ -226,8 +226,8 @@
     </div>
     -->
 
-    <!-- ====== Certifications ====== -->
-    <h2 style="margin-top:34px;color:#0f172a;font-size:2em;">Certifications</h2>
+    <!-- ====== Education & Certifications ====== -->
+    <h2 style="margin-top:34px;color:#0f172a;font-size:2em;">Education & Certifications</h2>
 
     <div style="background:#f9fbff;border:1px solid #e3ebf5;border-radius:16px;padding:22px 24px;margin-top:12px;box-shadow:0 6px 18px rgba(15,23,42,0.04);">
       <p style="margin:0 0 12px;color:#111827;"><strong>Microsoft Certified: Azure Data Fundamentals (DP-900)</strong></p>
@@ -239,9 +239,6 @@
       </p>
       <p style="margin:0 0 12px;color:#111827;">
         <strong>Azad University (IAU), Bachelor of Applied Science (BASc), Applied Mathematics in Computer Science</strong><br/>
-        <span style="color:#64748b;">
-          Major in Computer Science and Minor in Mathematics and focused on Mathematical, statistical concepts, and programming languages.
-        </span>
       </p>
       <p style="margin:0;color:#64748b;">
         Currently preparing for <strong style="color:#111827;">Microsoft Fabric Data Engineer (DP-700)</strong>
