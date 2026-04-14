@@ -235,7 +235,13 @@
       <p style="margin:0 0 12px;color:#111827;"><strong>Academy Accreditation - Generative AI Fundamentals</strong> — Databricks</p>
       <p style="margin:0 0 12px;color:#111827;"><strong>20778 Analyzing Data with Power BI</strong> — New Horizons</p>
       <p style="margin:0 0 12px;color:#111827;">
-        <strong>BCIT, Associate Certificate in Applied Database Administration & Design</strong> (2015 – 2017)
+        <strong>BCIT, Associate Certificate in Applied Database Administration & Design</strong> 
+      </p>
+      <p style="margin:0 0 12px;color:#111827;">
+        <strong>Azad University (IAU), Bachelor of Applied Science (BASc), Applied Mathematics in Computer Science</strong><br/>
+        <span style="color:#64748b;">
+          Major in Computer Science and Minor in Mathematics and focused on Mathematical, statistical concepts, and programming languages.
+        </span>
       </p>
       <p style="margin:0;color:#64748b;">
         Currently preparing for <strong style="color:#111827;">Microsoft Fabric Data Engineer (DP-700)</strong>
