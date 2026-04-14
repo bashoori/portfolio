@@ -213,7 +213,7 @@
 
     <div style="background:#f9fbff;border:1px solid #e3ebf5;border-radius:16px;padding:22px 24px;margin-top:12px;box-shadow:0 6px 18px rgba(15,23,42,0.04);">
       <p style="color:#64748b;line-height:1.75;margin:0;">
-        Building a <strong style="color:#111827;">DP-900 Azure Data Fundamentals</strong> course with practice questions,
+        Building a <strong style="color:#111827;">DP-900 Azure Data Fundamentals</strong> Practice Test,
         detailed explanations, and answer walkthroughs designed for real understanding. (Coming Soon!)
       </p>
     </div>
