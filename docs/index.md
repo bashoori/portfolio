@@ -234,6 +234,9 @@
       <p style="margin:0 0 12px;color:#111827;"><strong>Academy Accreditation - Databricks Fundamentals</strong> — Databricks</p>
       <p style="margin:0 0 12px;color:#111827;"><strong>Academy Accreditation - Generative AI Fundamentals</strong> — Databricks</p>
       <p style="margin:0 0 12px;color:#111827;"><strong>20778 Analyzing Data with Power BI</strong> — New Horizons</p>
+      <p style="margin:0 0 12px;color:#111827;">
+        <strong>BCIT, Associate Certificate in Applied Database Administration & Design</strong> (2015 – 2017)
+      </p>
       <p style="margin:0;color:#64748b;">
         Currently preparing for <strong style="color:#111827;">Microsoft Fabric Data Engineer (DP-700)</strong>
       </p>
