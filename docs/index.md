@@ -368,15 +368,7 @@
           </ul>
         </div>
 
-        <div class="project-side-card github-mini-card" style="background:#ffffff;border:1px solid #e3ebf5;border-radius:16px;padding:18px 20px;box-shadow:0 8px 22px rgba(15,23,42,0.05);">
-          <div class="github-mini-row" style="display:flex;justify-content:space-between;align-items:center;gap:12px;">
-            <div style="color:#0f172a;font-weight:700;">GitHub</div>
-            <div class="github-badge-wrap">
-              <img src="https://komarev.com/ghpvc/?username=bashoori&color=0e75b6&label=Views" alt="Views" />
-            </div>
-          </div>
-        </div>
-
+       
       </div>
 
     </div>
