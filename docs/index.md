@@ -111,7 +111,9 @@
 
   @media (max-width: 900px) {
     .project-layout {
-      grid-template-columns: 1fr;
+      display: grid !important;
+      grid-template-columns: 1fr !important;
+      gap: 16px !important;
     }
   }
 
@@ -147,8 +149,9 @@
     }
 
     .project-layout {
-      grid-template-columns: 1fr;
-      gap: 16px;
+      display: grid !important;
+      grid-template-columns: 1fr !important;
+      gap: 16px !important;
     }
 
     .github-mini-row {
@@ -368,7 +371,6 @@
           </ul>
         </div>
 
-       
       </div>
 
     </div>
@@ -421,7 +423,7 @@
       <p style="margin:0 0 12px;color:#111827;"><strong>Academy Accreditation - Generative AI Fundamentals</strong> — Databricks</p>
       <p style="margin:0 0 12px;color:#111827;"><strong>20778 Analyzing Data with Power BI</strong> — New Horizons</p>
       <p style="margin:0 0 12px;color:#111827;">
-        <strong>BCIT, Associate Certificate in Applied Database Administration & Design</strong> 
+        <strong>BCIT, Associate Certificate in Applied Database Administration & Design</strong>
       </p>
       <p style="margin:0 0 12px;color:#111827;">
         <strong>Azad University (IAU), Bachelor of Applied Science (BASc), Applied Mathematics in Computer Science</strong><br/>
