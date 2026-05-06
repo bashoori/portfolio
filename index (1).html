@@ -1,0 +1,573 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bita Ashoori — Data Engineer</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=DM+Mono:wght@400;500&family=Outfit:wght@300;400;500&display=swap" rel="stylesheet">
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    :root {
+      --bg: #faf9f7;
+      --surface: #f3f1ed;
+      --border: #e2dfd8;
+      --text-primary: #1a1816;
+      --text-secondary: #5a5650;
+      --text-muted: #9a9590;
+      --accent: #1D9E75;
+      --accent-light: #e1f5ee;
+      --accent-border: #5DCAA5;
+      --blue: #185FA5;
+      --blue-light: #e6f1fb;
+      --tag-bg: #edeae4;
+      --tag-text: #5a5650;
+    }
+
+    body {
+      font-family: 'Outfit', sans-serif;
+      background: var(--bg);
+      color: var(--text-primary);
+      line-height: 1.6;
+      font-weight: 300;
+    }
+
+    a { color: inherit; text-decoration: none; }
+
+    /* NAV */
+    nav {
+      position: sticky;
+      top: 0;
+      z-index: 100;
+      background: var(--bg);
+      border-bottom: 1px solid var(--border);
+      padding: 0 40px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      height: 56px;
+    }
+    .nav-logo {
+      font-family: 'DM Serif Display', serif;
+      font-size: 17px;
+      letter-spacing: -0.3px;
+      color: var(--text-primary);
+    }
+    .nav-links {
+      display: flex;
+      gap: 28px;
+      list-style: none;
+    }
+    .nav-links a {
+      font-size: 13px;
+      font-weight: 400;
+      color: var(--text-secondary);
+      transition: color 0.2s;
+      font-family: 'DM Mono', monospace;
+      letter-spacing: 0.3px;
+    }
+    .nav-links a:hover { color: var(--text-primary); }
+
+    /* HERO */
+    .hero {
+      max-width: 860px;
+      margin: 0 auto;
+      padding: 80px 40px 60px;
+      display: grid;
+      grid-template-columns: 1fr 120px;
+      gap: 40px;
+      align-items: start;
+      animation: fadeUp 0.6s ease both;
+    }
+    .hero-eyebrow {
+      font-family: 'DM Mono', monospace;
+      font-size: 11px;
+      letter-spacing: 1.5px;
+      color: var(--text-muted);
+      text-transform: uppercase;
+      margin-bottom: 16px;
+    }
+    .hero h1 {
+      font-family: 'DM Serif Display', serif;
+      font-size: 52px;
+      line-height: 1.08;
+      letter-spacing: -1.5px;
+      color: var(--text-primary);
+      margin-bottom: 20px;
+    }
+    .hero h1 em {
+      font-style: italic;
+      color: var(--text-secondary);
+    }
+    .hero-bio {
+      font-size: 16px;
+      color: var(--text-secondary);
+      line-height: 1.75;
+      max-width: 520px;
+      margin-bottom: 24px;
+      font-weight: 300;
+    }
+    .avail-pill {
+      display: inline-flex;
+      align-items: center;
+      gap: 7px;
+      font-size: 12px;
+      font-family: 'DM Mono', monospace;
+      color: var(--accent);
+      background: var(--accent-light);
+      border: 1px solid var(--accent-border);
+      border-radius: 20px;
+      padding: 5px 14px;
+    }
+    .avail-dot {
+      width: 6px; height: 6px;
+      border-radius: 50%;
+      background: var(--accent);
+      animation: pulse 2s infinite;
+    }
+    .avatar {
+      width: 100px; height: 100px;
+      border-radius: 50%;
+      background: linear-gradient(135deg, #B5D4F4 0%, #5DCAA5 100%);
+      display: flex; align-items: center; justify-content: center;
+      font-family: 'DM Serif Display', serif;
+      font-size: 30px;
+      color: #0C447C;
+      border: 2px solid var(--border);
+      flex-shrink: 0;
+      margin-top: 8px;
+    }
+
+    /* MAIN CONTENT */
+    main {
+      max-width: 860px;
+      margin: 0 auto;
+      padding: 0 40px 80px;
+    }
+
+    hr.divider {
+      border: none;
+      border-top: 1px solid var(--border);
+      margin: 48px 0;
+    }
+
+    .section-label {
+      font-family: 'DM Mono', monospace;
+      font-size: 10px;
+      letter-spacing: 2px;
+      color: var(--text-muted);
+      text-transform: uppercase;
+      margin-bottom: 24px;
+    }
+
+    /* NOW */
+    .now-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 10px;
+    }
+    .now-item {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      padding: 14px 16px;
+      display: flex;
+      align-items: flex-start;
+      gap: 10px;
+      animation: fadeUp 0.5s ease both;
+    }
+    .now-dot {
+      width: 6px; height: 6px;
+      border-radius: 50%;
+      background: var(--accent);
+      margin-top: 6px;
+      flex-shrink: 0;
+    }
+    .now-text {
+      font-size: 13px;
+      color: var(--text-secondary);
+      line-height: 1.5;
+    }
+
+    /* PROJECTS */
+    .project {
+      padding: 28px 0;
+      border-bottom: 1px solid var(--border);
+      display: grid;
+      grid-template-columns: 1fr auto;
+      gap: 20px;
+      align-items: start;
+      animation: fadeUp 0.5s ease both;
+      transition: background 0.2s;
+    }
+    .project:first-child { border-top: 1px solid var(--border); }
+    .project-title {
+      font-size: 16px;
+      font-weight: 500;
+      color: var(--text-primary);
+      margin-bottom: 6px;
+    }
+    .project-desc {
+      font-size: 14px;
+      color: var(--text-secondary);
+      line-height: 1.7;
+      margin-bottom: 12px;
+      font-weight: 300;
+    }
+    .tags {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 6px;
+    }
+    .tag {
+      font-family: 'DM Mono', monospace;
+      font-size: 11px;
+      background: var(--tag-bg);
+      color: var(--tag-text);
+      border-radius: 4px;
+      padding: 3px 9px;
+      border: 1px solid var(--border);
+    }
+    .project-link {
+      font-family: 'DM Mono', monospace;
+      font-size: 12px;
+      color: var(--text-muted);
+      display: flex;
+      align-items: center;
+      gap: 4px;
+      white-space: nowrap;
+      padding: 6px 12px;
+      border: 1px solid var(--border);
+      border-radius: 6px;
+      transition: border-color 0.2s, color 0.2s;
+      margin-top: 4px;
+    }
+    .project-link:hover { border-color: var(--text-muted); color: var(--text-primary); }
+    .project-link svg { width: 12px; height: 12px; }
+
+    /* CERTS */
+    .certs { display: flex; flex-direction: column; gap: 8px; }
+    .cert {
+      display: flex;
+      align-items: center;
+      gap: 14px;
+      padding: 14px 18px;
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      animation: fadeUp 0.5s ease both;
+    }
+    .cert-icon {
+      width: 32px; height: 32px;
+      border-radius: 7px;
+      display: flex; align-items: center; justify-content: center;
+      flex-shrink: 0;
+      font-size: 15px;
+    }
+    .cert-icon.done { background: #eaf3de; color: #3B6D11; }
+    .cert-icon.prog { background: var(--blue-light); color: var(--blue); }
+    .cert-name { font-size: 14px; font-weight: 500; color: var(--text-primary); }
+    .cert-status {
+      font-family: 'DM Mono', monospace;
+      font-size: 11px;
+      color: var(--text-muted);
+      margin-top: 2px;
+    }
+    .cert-status.earned { color: var(--accent); }
+
+    /* CONNECT */
+    .connect-links {
+      display: flex;
+      gap: 12px;
+      flex-wrap: wrap;
+    }
+    .connect-link {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      font-size: 13px;
+      font-family: 'DM Mono', monospace;
+      color: var(--text-secondary);
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      padding: 10px 18px;
+      transition: border-color 0.2s, color 0.2s;
+    }
+    .connect-link:hover { border-color: var(--text-secondary); color: var(--text-primary); }
+    .connect-link svg { width: 15px; height: 15px; flex-shrink: 0; }
+
+    /* FOOTER */
+    footer {
+      border-top: 1px solid var(--border);
+      padding: 28px 40px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      max-width: 860px;
+      margin: 0 auto;
+    }
+    .footer-left { font-size: 13px; color: var(--text-muted); }
+    .footer-right {
+      font-family: 'DM Mono', monospace;
+      font-size: 11px;
+      color: var(--text-muted);
+      letter-spacing: 0.5px;
+    }
+
+    /* ANIMATIONS */
+    @keyframes fadeUp {
+      from { opacity: 0; transform: translateY(16px); }
+      to   { opacity: 1; transform: translateY(0); }
+    }
+    @keyframes pulse {
+      0%, 100% { opacity: 1; }
+      50% { opacity: 0.4; }
+    }
+
+    .hero { animation-delay: 0s; }
+    .now-item:nth-child(1) { animation-delay: 0.05s; }
+    .now-item:nth-child(2) { animation-delay: 0.10s; }
+    .now-item:nth-child(3) { animation-delay: 0.15s; }
+    .now-item:nth-child(4) { animation-delay: 0.20s; }
+    .project:nth-child(1) { animation-delay: 0.05s; }
+    .project:nth-child(2) { animation-delay: 0.10s; }
+    .project:nth-child(3) { animation-delay: 0.15s; }
+    .project:nth-child(4) { animation-delay: 0.20s; }
+    .project:nth-child(5) { animation-delay: 0.25s; }
+    .project:nth-child(6) { animation-delay: 0.30s; }
+    .cert:nth-child(1) { animation-delay: 0.05s; }
+    .cert:nth-child(2) { animation-delay: 0.10s; }
+    .cert:nth-child(3) { animation-delay: 0.15s; }
+
+    @media (max-width: 640px) {
+      .hero { grid-template-columns: 1fr; }
+      .avatar { display: none; }
+      .hero h1 { font-size: 36px; }
+      .now-grid { grid-template-columns: 1fr; }
+      nav { padding: 0 20px; }
+      main, footer { padding-left: 20px; padding-right: 20px; }
+      .hero { padding: 48px 20px 40px; }
+      .project { grid-template-columns: 1fr; }
+    }
+  </style>
+</head>
+<body>
+
+<nav>
+  <span class="nav-logo">Bita Ashoori</span>
+  <ul class="nav-links">
+    <li><a href="#work">work</a></li>
+    <li><a href="#now">now</a></li>
+    <li><a href="#certs">certs</a></li>
+    <li><a href="#connect">contact</a></li>
+  </ul>
+</nav>
+
+<div class="hero">
+  <div>
+    <p class="hero-eyebrow">Data Engineer · Vancouver, BC</p>
+    <h1>Building data systems<br><em>that hold up.</em></h1>
+    <p class="hero-bio">I design ETL pipelines and lakehouse architectures for organizations where data reliability is not optional. Focused on public sector and community-impact work.</p>
+    <span class="avail-pill">
+      <span class="avail-dot"></span>
+      Available for contracts &amp; consulting
+    </span>
+  </div>
+  <div class="avatar">BA</div>
+</div>
+
+<main>
+
+  <hr class="divider">
+
+  <section id="now">
+    <p class="section-label">Now</p>
+    <div class="now-grid">
+      <div class="now-item">
+        <span class="now-dot"></span>
+        <span class="now-text">Completing DP-600 Fabric Analytics Engineer cert</span>
+      </div>
+      <div class="now-item">
+        <span class="now-dot"></span>
+        <span class="now-text">Building lakehouse pipelines in Fabric &amp; Databricks</span>
+      </div>
+      <div class="now-item">
+        <span class="now-dot"></span>
+        <span class="now-text">Preparing Databricks Data Engineer Associate</span>
+      </div>
+      <div class="now-item">
+        <span class="now-dot"></span>
+        <span class="now-text">Targeting BC public sector &amp; government data roles</span>
+      </div>
+    </div>
+  </section>
+
+  <hr class="divider">
+
+  <section id="work">
+    <p class="section-label">Selected work</p>
+
+    <div class="project">
+      <div>
+        <p class="project-title">TransLink Transit Data Warehouse</p>
+        <p class="project-desc">End-to-end data warehouse built on real Vancouver GTFS transit data using medallion architecture. Handles domain-specific challenges like time values beyond 24:00, with dimensional models for time-based analysis and embedded data quality checks across all layers.</p>
+        <div class="tags">
+          <span class="tag">Python</span>
+          <span class="tag">SQL</span>
+          <span class="tag">Medallion Architecture</span>
+          <span class="tag">GTFS</span>
+          <span class="tag">Data Quality</span>
+        </div>
+      </div>
+      <a class="project-link" href="https://github.com/bashoori/transit_data_warehouse" target="_blank">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 13v6a2 2 0 01-2 2H5a2 2 0 01-2-2V8a2 2 0 012-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
+        GitHub
+      </a>
+    </div>
+
+    <div class="project">
+      <div>
+        <p class="project-title">Global Retail Lakehouse · Microsoft Fabric</p>
+        <p class="project-desc">Lakehouse platform for a multi-region retail scenario using Bronze → Silver → Gold medallion layers. Unified data models for customers, products, and sales enabling consistent cross-region reporting at scale.</p>
+        <div class="tags">
+          <span class="tag">Microsoft Fabric</span>
+          <span class="tag">PySpark</span>
+          <span class="tag">Delta Lake</span>
+          <span class="tag">Medallion</span>
+        </div>
+      </div>
+      <a class="project-link" href="https://github.com/bashoori/Global-Retail-Lakehouse-on-Microsoft-Fabric" target="_blank">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 13v6a2 2 0 01-2 2H5a2 2 0 01-2-2V8a2 2 0 012-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
+        GitHub
+      </a>
+    </div>
+
+    <div class="project">
+      <div>
+        <p class="project-title">Airflow + Spark + AWS Pipeline</p>
+        <p class="project-desc">Containerized ETL pipeline with orchestration, retries, scheduling, and alerting built around production reliability patterns — not just happy-path flows. Demonstrates operational maturity beyond basic ingestion.</p>
+        <div class="tags">
+          <span class="tag">Apache Airflow</span>
+          <span class="tag">PySpark</span>
+          <span class="tag">AWS S3</span>
+          <span class="tag">Docker</span>
+        </div>
+      </div>
+      <a class="project-link" href="https://github.com/bashoori/airflow-spark-aws-etl-pipeline" target="_blank">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 13v6a2 2 0 01-2 2H5a2 2 0 01-2-2V8a2 2 0 012-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
+        GitHub
+      </a>
+    </div>
+
+    <div class="project">
+      <div>
+        <p class="project-title">Healthcare FHIR Data Pipeline</p>
+        <p class="project-desc">Transforms FHIR-formatted healthcare JSON into structured analytical tables with a Streamlit dashboard for clinical insights. Relevant to health authority reporting and data normalization use cases.</p>
+        <div class="tags">
+          <span class="tag">Python</span>
+          <span class="tag">Pandas</span>
+          <span class="tag">Streamlit</span>
+          <span class="tag">FHIR</span>
+          <span class="tag">SQLite</span>
+        </div>
+      </div>
+      <a class="project-link" href="https://github.com/bashoori/healthcare-FHIR-data-pipeline" target="_blank">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 13v6a2 2 0 01-2 2H5a2 2 0 01-2-2V8a2 2 0 012-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
+        GitHub
+      </a>
+    </div>
+
+    <div class="project">
+      <div>
+        <p class="project-title">Databricks End-to-End Pipeline</p>
+        <p class="project-desc">Medallion-based pipeline using Delta Lake and Unity Catalog. Designed for scalable processing and governed data access with transformations structured for clarity, reuse, and maintainability.</p>
+        <div class="tags">
+          <span class="tag">Databricks</span>
+          <span class="tag">Delta Lake</span>
+          <span class="tag">Unity Catalog</span>
+          <span class="tag">PySpark</span>
+        </div>
+      </div>
+      <a class="project-link" href="https://github.com/bashoori" target="_blank">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 13v6a2 2 0 01-2 2H5a2 2 0 01-2-2V8a2 2 0 012-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
+        GitHub
+      </a>
+    </div>
+
+    <div class="project">
+      <div>
+        <p class="project-title">Customer Insights Pipeline</p>
+        <p class="project-desc">Integrates multiple customer datasets into unified reporting tables. Demonstrates multi-source join logic, transformation design, and analytics-ready output generation using Python and PostgreSQL.</p>
+        <div class="tags">
+          <span class="tag">Python</span>
+          <span class="tag">PostgreSQL</span>
+          <span class="tag">Apache Airflow</span>
+        </div>
+      </div>
+      <a class="project-link" href="https://github.com/bashoori/customer-insights-pipeline" target="_blank">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 13v6a2 2 0 01-2 2H5a2 2 0 01-2-2V8a2 2 0 012-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
+        GitHub
+      </a>
+    </div>
+
+  </section>
+
+  <hr class="divider">
+
+  <section id="certs">
+    <p class="section-label">Certifications</p>
+    <div class="certs">
+      <div class="cert">
+        <div class="cert-icon done">✓</div>
+        <div>
+          <p class="cert-name">Microsoft Azure Data Fundamentals · DP-900</p>
+          <p class="cert-status earned">earned</p>
+        </div>
+      </div>
+      <div class="cert">
+        <div class="cert-icon prog">◷</div>
+        <div>
+          <p class="cert-name">Microsoft Fabric Analytics Engineer · DP-600</p>
+          <p class="cert-status">in progress</p>
+        </div>
+      </div>
+      <div class="cert">
+        <div class="cert-icon prog">◷</div>
+        <div>
+          <p class="cert-name">Databricks Data Engineer Associate</p>
+          <p class="cert-status">in progress</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <hr class="divider">
+
+  <section id="connect">
+    <p class="section-label">Connect</p>
+    <div class="connect-links">
+      <a class="connect-link" href="mailto:ashoori.bita@gmail.com">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="2" y="4" width="20" height="16" rx="2"/><polyline points="2,4 12,13 22,4"/></svg>
+        ashoori.bita@gmail.com
+      </a>
+      <a class="connect-link" href="https://github.com/bashoori" target="_blank">
+        <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2C6.477 2 2 6.484 2 12.017c0 4.425 2.865 8.18 6.839 9.504.5.092.682-.217.682-.483 0-.237-.008-.868-.013-1.703-2.782.605-3.369-1.343-3.369-1.343-.454-1.158-1.11-1.466-1.11-1.466-.908-.62.069-.608.069-.608 1.003.07 1.531 1.032 1.531 1.032.892 1.53 2.341 1.088 2.91.832.092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.113-4.555-4.951 0-1.093.39-1.988 1.029-2.688-.103-.253-.446-1.272.098-2.65 0 0 .84-.27 2.75 1.026A9.564 9.564 0 0112 6.844c.85.004 1.705.115 2.504.337 1.909-1.296 2.747-1.027 2.747-1.027.546 1.379.202 2.398.1 2.651.64.7 1.028 1.595 1.028 2.688 0 3.848-2.339 4.695-4.566 4.943.359.309.678.92.678 1.855 0 1.338-.012 2.419-.012 2.747 0 .268.18.58.688.482A10.019 10.019 0 0022 12.017C22 6.484 17.522 2 12 2z"/></svg>
+        github.com/bashoori
+      </a>
+      <a class="connect-link" href="https://linkedin.com/in/bitaashoori" target="_blank">
+        <svg viewBox="0 0 24 24" fill="currentColor"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 01-2.063-2.065 2.064 2.064 0 112.063 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg>
+        linkedin.com/in/bitaashoori
+      </a>
+    </div>
+  </section>
+
+</main>
+
+<footer>
+  <span class="footer-left">Built by <strong>Bita Ashoori</strong> — Data Engineer, Vancouver BC</span>
+  <span class="footer-right">updated may 2026</span>
+</footer>
+
+</body>
+</html>
