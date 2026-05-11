@@ -209,9 +209,9 @@
     <div class="hero-meta">
       <span>📍 Vancouver, Canada</span>
       <span>·</span>
-      <span>🇨🇦 Open to remote / hybrid / Onsite</span>
+      <span>🇨🇦 Open to remote / hybrid</span>
       <span>·</span>
-      <span>✉️ ashoori.bita@gmail.com</span>
+      <span>✉️ datacoder.ba@gmail.com</span>
     </div>
     <div class="hero-cta">
       <a class="btn btn-primary" href="#projects">View Projects</a>
@@ -321,11 +321,30 @@
 
       <article class="project">
         <div class="tag-row">
+          <span class="tag">Python</span>
+          <span class="tag">Pandas</span>
+          <span class="tag">Medallion</span>
+          <span class="tag">ML-Ready</span>
+        </div>
+        <h3><a href="https://github.com/bashoori/ml-ready-data-pipeline" target="_blank" rel="noopener">ML-Ready Data Pipeline</a></h3>
+        <p>Medallion-architecture pipeline that turns messy, multi-source raw data into validated, observable, ML-ready feature tables.</p>
+        <ul>
+          <li>Bronze → Silver → Gold with embedded data-quality checks</li>
+          <li>Per-run DQ report (JSON + Markdown) for observability</li>
+          <li>ML consumer example showing the DE → ML handoff in scikit-learn</li>
+        </ul>
+        <div class="links">
+          <a href="https://github.com/bashoori/ml-ready-data-pipeline" target="_blank" rel="noopener">View on GitHub →</a>
+        </div>
+      </article>
+
+      <article class="project">
+        <div class="tag-row">
           <span class="tag">Medallion</span>
           <span class="tag">PySpark</span>
           <span class="tag">SQL</span>
         </div>
-        <h3><a href="https://github.com/bashoori/transit_data_warehouse" target="_blank" rel="noopener">TransLink GTFS Data Warehouse</a></h3>
+        <h3><a href="https://github.com/bashoori/transit_data_warehouse" target="_blank" rel="noopener">Transit GTFS Data Warehouse</a></h3>
         <p>End-to-end warehouse on real public-transit GTFS data using a medallion architecture.</p>
         <ul>
           <li>Bronze → Silver → Gold layers with embedded data-quality checks</li>
@@ -339,56 +358,39 @@
 
       <article class="project">
         <div class="tag-row">
-          <span class="tag">Microsoft Fabric</span>
-          <span class="tag">Lakehouse</span>
-          <span class="tag">Power BI</span>
-        </div>
-        <h3><a href="https://github.com/bashoori/Global-Retail-Lakehouse-on-Microsoft-Fabric" target="_blank" rel="noopener">Global Retail Lakehouse — Microsoft Fabric</a></h3>
-        <p>Multi-region retail lakehouse with unified customer, product, and sales models.</p>
-        <ul>
-          <li>Standardized ingestion & transformation across regions</li>
-          <li>Consistent datasets feeding scalable Power BI reporting</li>
-          <li>Medallion-architected on OneLake</li>
-        </ul>
-        <div class="links">
-          <a href="https://github.com/bashoori/Global-Retail-Lakehouse-on-Microsoft-Fabric" target="_blank" rel="noopener">View on GitHub →</a>
-        </div>
-      </article>
-
-      <article class="project">
-        <div class="tag-row">
-          <span class="tag">Databricks</span>
-          <span class="tag">Delta Lake</span>
-          <span class="tag">Unity Catalog</span>
-        </div>
-        <h3><a href="https://github.com/bashoori/data-engineering-portfolio/tree/main/databricks-end-to-end" target="_blank" rel="noopener">Databricks End-to-End Pipeline</a></h3>
-        <p>Medallion-based pipeline using Delta Lake and Unity Catalog for governed access at scale.</p>
-        <ul>
-          <li>Designed for scalable processing and reusable transformations</li>
-          <li>Governed access via Unity Catalog</li>
-          <li>Structured for clarity and long-term maintainability</li>
-        </ul>
-        <div class="links">
-          <a href="https://github.com/bashoori/data-engineering-portfolio/tree/main/databricks-end-to-end" target="_blank" rel="noopener">View on GitHub →</a>
-        </div>
-      </article>
-
-      <article class="project">
-        <div class="tag-row">
           <span class="tag">Airflow</span>
           <span class="tag">Spark</span>
           <span class="tag">AWS</span>
           <span class="tag">Docker</span>
         </div>
-        <h3><a href="https://github.com/bashoori/airflow-spark-aws-etl-pipeline" target="_blank" rel="noopener">Airflow + Spark + AWS Pipeline</a></h3>
-        <p>Containerized ETL pipeline reflecting real production patterns.</p>
+        <h3><a href="https://github.com/bashoori/airflow-spark-aws-etl-pipeline" target="_blank" rel="noopener">Real-Time Analytics on the Cloud</a></h3>
+        <p>Containerized ETL + analytics pipeline reflecting production patterns — orchestration, retries, scheduling, and cloud-native storage.</p>
         <ul>
-          <li>Orchestration with retries and scheduling</li>
-          <li>Spark transformations against S3 storage</li>
-          <li>Focused on operational reliability of pipelines</li>
+          <li>Apache Airflow DAGs with retries and failure handling</li>
+          <li>Spark transformations over AWS S3</li>
+          <li>Built for reliability and operational observability</li>
         </ul>
         <div class="links">
           <a href="https://github.com/bashoori/airflow-spark-aws-etl-pipeline" target="_blank" rel="noopener">View on GitHub →</a>
+        </div>
+      </article>
+
+      <article class="project">
+        <div class="tag-row">
+          <span class="tag">FHIR</span>
+          <span class="tag">Healthcare</span>
+          <span class="tag">Python</span>
+          <span class="tag">SQL</span>
+        </div>
+        <h3><a href="https://github.com/bashoori/healthcare-FHIR-data-pipeline" target="_blank" rel="noopener">Healthcare FHIR Data Pipeline</a></h3>
+        <p>Data pipeline for healthcare interoperability — ingests and transforms HL7 FHIR resources into analytics-ready datasets.</p>
+        <ul>
+          <li>Standardized handling of FHIR resource types (Patient, Encounter, Observation)</li>
+          <li>Schema validation and normalization for downstream analytics</li>
+          <li>Designed with healthcare data governance in mind</li>
+        </ul>
+        <div class="links">
+          <a href="https://github.com/bashoori/healthcare-FHIR-data-pipeline" target="_blank" rel="noopener">View on GitHub →</a>
         </div>
       </article>
 
@@ -441,7 +443,7 @@
       <h3>Let's build something reliable.</h3>
       <p>Open to Data Engineering roles — full-time, contract, or remote.</p>
       <div class="btns">
-        <a class="btn btn-primary" href="mailto:ashoori.bita@gmail.com">Email me</a>
+        <a class="btn btn-primary" href="mailto:datacoder.ba@gmail.com">Email me</a>
         <a class="btn btn-ghost" href="https://www.linkedin.com/in/bitaashoori/" target="_blank" rel="noopener">LinkedIn</a>
         <a class="btn btn-ghost" href="https://github.com/bashoori" target="_blank" rel="noopener">GitHub</a>
       </div>
